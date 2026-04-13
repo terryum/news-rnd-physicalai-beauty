@@ -9,11 +9,24 @@ const priorityColors: Record<string, string> = {
   P2: "bg-gray-500/15 text-gray-600 dark:text-gray-400 border-gray-500/20",
 };
 
+const priorityLabel: Record<string, string> = {
+  P0: "필독",
+  P1: "참고",
+  P2: "관찰",
+};
+
 const tierColors: Record<string, string> = {
   T0: "bg-blue-500/15 text-blue-700 dark:text-blue-400 border-blue-500/20",
   T1: "bg-violet-500/15 text-violet-700 dark:text-violet-400 border-violet-500/20",
   T2: "bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 border-emerald-500/20",
   T3: "bg-slate-500/15 text-slate-600 dark:text-slate-400 border-slate-500/20",
+};
+
+const tierLabel: Record<string, string> = {
+  T0: "피지컬AI",
+  T1: "스마트제조",
+  T2: "ODM경쟁사",
+  T3: "브랜드사",
 };
 
 const statusLabel: Record<string, string> = {
@@ -34,13 +47,15 @@ function formatDate(iso: string) {
 }
 
 export function ItemRow({ item, onToggleRead, onToggleStar }: ItemRowProps) {
+  const canonicalUrl =
+    item.links?.[0]?.url ?? "#";
+
   return (
     <div
       className={`group rounded-lg border px-4 py-3 transition-colors hover:bg-accent/50 ${
         item.read ? "opacity-60" : ""
       }`}
     >
-      {/* Main row */}
       <div className="flex items-start gap-3">
         {/* Read indicator + Star */}
         <div className="flex flex-col items-center gap-1 pt-0.5 shrink-0">
@@ -74,16 +89,23 @@ export function ItemRow({ item, onToggleRead, onToggleStar }: ItemRowProps) {
             <Badge variant="outline" className="text-[10px] px-1.5 py-0 h-5 shrink-0">
               {item.itemType === "gov" ? "공고" : "뉴스"}
             </Badge>
-            <span className="text-sm font-medium truncate">{item.title}</span>
+            <a
+              href={canonicalUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium truncate hover:text-blue-600 dark:hover:text-blue-400 hover:underline underline-offset-2"
+            >
+              {item.title}
+            </a>
           </div>
 
           {/* Meta row */}
           <div className="mt-1.5 flex items-center gap-2 flex-wrap">
             <Badge className={`text-[10px] px-1.5 py-0 h-5 ${priorityColors[item.priority]}`}>
-              {item.priority}
+              {priorityLabel[item.priority] ?? item.priority}
             </Badge>
             <Badge className={`text-[10px] px-1.5 py-0 h-5 ${tierColors[item.tier]}`}>
-              {item.tier}
+              {tierLabel[item.tier] ?? item.tier}
             </Badge>
             <span className="text-xs text-muted-foreground">{item.sourceName}</span>
 
@@ -117,24 +139,6 @@ export function ItemRow({ item, onToggleRead, onToggleStar }: ItemRowProps) {
               </span>
             ))}
           </div>
-
-          {/* Links row */}
-          {item.links.length > 0 && (
-            <div className="mt-1.5 flex items-center gap-2 flex-wrap">
-              <span className="text-xs text-muted-foreground">↳</span>
-              {item.links.map((link, i) => (
-                <a
-                  key={i}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline-offset-2 hover:underline"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          )}
         </div>
       </div>
     </div>

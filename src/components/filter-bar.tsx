@@ -1,9 +1,21 @@
 "use client";
 
 import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import type { Filters, SourceType, Priority, Tier } from "@/data/types";
+
+const priorityLabel: Record<string, string> = {
+  P0: "필독",
+  P1: "참고",
+  P2: "관찰",
+};
+
+const tierLabel: Record<string, string> = {
+  T0: "피지컬AI",
+  T1: "스마트제조",
+  T2: "ODM경쟁사",
+  T3: "브랜드사",
+};
 
 interface FilterBarProps {
   filters: Filters;
@@ -56,7 +68,7 @@ export function FilterBar({ filters, onChange, counts }: FilterBarProps) {
           >
             {(["P0", "P1", "P2"] as Priority[]).map((p) => (
               <ToggleGroupItem key={p} value={p} size="sm" className="text-xs px-2 h-7">
-                {p}
+                {priorityLabel[p]}
               </ToggleGroupItem>
             ))}
           </ToggleGroup>
@@ -73,7 +85,7 @@ export function FilterBar({ filters, onChange, counts }: FilterBarProps) {
           >
             {(["T0", "T1", "T2", "T3"] as Tier[]).map((t) => (
               <ToggleGroupItem key={t} value={t} size="sm" className="text-xs px-2 h-7">
-                {t}
+                {tierLabel[t]}
               </ToggleGroupItem>
             ))}
           </ToggleGroup>

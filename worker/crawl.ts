@@ -123,14 +123,25 @@ export async function crawl(phase: "fast" | "slow" | "all" = "all"): Promise<voi
     // Item 형태로 변환하여 저장
     const outputItems = deduped.map(toOutputItem);
 
-    // 기존 items.json과 병합
+    // fast crawl은 전체 교체 (이전 중복이 다시 들어오는 것 방지)
+    // 단, read/starred 상태는 유지
     const existingItems = loadExistingItems(outputPath);
-    const merged = mergeItems(existingItems, outputItems);
+    const readState = new Map<string, { read: boolean; starred: boolean }>();
+    for (const item of existingItems) {
+      if (item.read || item.starred) {
+        readState.set(item.id, { read: item.read, starred: item.starred });
+      }
+    }
+    const final = outputItems.map((item) => {
+      const state = readState.get(item.id);
+      if (state) return { ...item, ...state };
+      return item;
+    });
 
     // 저장
     fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-    fs.writeFileSync(outputPath, JSON.stringify(merged, null, 2), "utf-8");
-    console.log(`✓ ${outputPath} 에 ${merged.length}건 저장\n`);
+    fs.writeFileSync(outputPath, JSON.stringify(final, null, 2), "utf-8");
+    console.log(`✓ ${outputPath} 에 ${final.length}건 저장\n`);
   }
 
   // ── Phase 2: slow (그룹 E — Playwright 필요) ──

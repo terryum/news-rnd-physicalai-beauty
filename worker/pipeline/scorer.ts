@@ -8,8 +8,10 @@ import {
   GOV_SUPPORT,
   COSMETICS_MANUFACTURING,
   GYEONGGI_REGION,
+  NON_RELEVANT_REGION,
   CONSUMER_AI_MARKETING,
   STOCK_IR,
+  POLITICS_NOISE,
   T0_KEYWORDS,
   T1_KEYWORDS,
 } from "./keywords";
@@ -80,6 +82,18 @@ export function scoreItem(item: RawItem): ScoredItem {
     matchedKeywords.push("주가IR(감점)");
   }
 
+  // -30: 비관련 지역 (대구, 경북, 부산 등)
+  if (matchesAny(text, NON_RELEVANT_REGION) && !matchesAny(text, GYEONGGI_REGION)) {
+    score -= 30;
+    matchedKeywords.push("비관련지역(감점)");
+  }
+
+  // -25: 정치/정책 뉴스 (피지컬AI 언급하지만 실질적 제조 내용 아님)
+  if (matchesAny(text, POLITICS_NOISE) && !matchesAny(text, COSMETICS_MANUFACTURING)) {
+    score -= 25;
+    matchedKeywords.push("정치노이즈(감점)");
+  }
+
   const tier = determineTier(text, score);
   const priority = determinePriority(tier, score);
 
@@ -109,15 +123,18 @@ function determineTier(text: string, score: number): Tier {
   return "T3";
 }
 
-/** Priority 분류 */
+/** Priority 분류 — 엄격 기준 (하루 최대 30개 내외 목표) */
 function determinePriority(tier: Tier, score: number): Priority {
-  // P0: T0 또는 T1이면서 score >= 30
-  if (tier === "T0" || (tier === "T1" && score >= 30)) return "P0";
+  // P0 (필독): 화장품·제조 직결 + 높은 점수만
+  // T0(피지컬AI)이면서 score >= 40, 또는 화장품 키워드 포함하며 score >= 35
+  if (tier === "T0" && score >= 40) return "P0";
+  if (tier === "T1" && score >= 45) return "P0";
 
-  // P1: T1 또는 T2이면서 score >= 10
-  if ((tier === "T1" || tier === "T2") && score >= 10) return "P1";
+  // P1 (참고): 관련성 있는 것들
+  if ((tier === "T0" || tier === "T1") && score >= 20) return "P1";
+  if (tier === "T2" && score >= 30) return "P1";
 
-  // P2: 나머지
+  // P2 (관찰): 나머지
   return "P2";
 }
 

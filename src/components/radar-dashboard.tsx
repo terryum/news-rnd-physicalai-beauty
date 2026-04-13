@@ -3,9 +3,13 @@
 import { useState, useMemo } from "react";
 import { FilterBar } from "./filter-bar";
 import { ItemRow } from "./item-row";
+import { Button } from "@/components/ui/button";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 import type { Filters, Item } from "@/data/types";
 import { DEFAULT_FILTERS } from "@/data/types";
+
+const PAGE_SIZE = 10;
+const MAX_DISPLAY = 30;
 
 function daysBetween(a: Date, b: Date) {
   return Math.abs(a.getTime() - b.getTime()) / (1000 * 60 * 60 * 24);
@@ -34,6 +38,7 @@ export function RadarDashboard({
   lastUpdated,
 }: RadarDashboardProps) {
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [readIds, setReadIds, readHydrated] = useLocalStorage<string[]>(
     "radar-read",
     []
@@ -55,7 +60,7 @@ export function RadarDashboard({
 
   const filteredItems = useMemo(() => {
     const now = new Date();
-    return items
+    const filtered = items
       .filter((item) => {
         if (filters.itemType !== "all" && item.itemType !== filters.itemType)
           return false;
@@ -101,7 +106,19 @@ export function RadarDashboard({
           new Date(a.publishedAt).getTime()
         );
       });
+
+    // 최대 30개까지만 큐레이션
+    return filtered.slice(0, MAX_DISPLAY);
   }, [items, filters]);
+
+  // 필터 변경 시 표시 개수 리셋
+  const handleFilterChange = (newFilters: Filters) => {
+    setFilters(newFilters);
+    setVisibleCount(PAGE_SIZE);
+  };
+
+  const visibleItems = filteredItems.slice(0, visibleCount);
+  const hasMore = visibleCount < filteredItems.length;
 
   const counts = useMemo(
     () => ({
@@ -134,11 +151,11 @@ export function RadarDashboard({
 
   return (
     <div className="space-y-4">
-      <FilterBar filters={filters} onChange={setFilters} counts={counts} />
+      <FilterBar filters={filters} onChange={handleFilterChange} counts={counts} />
 
       <div className="flex items-center justify-between px-1">
         <p className="text-sm text-muted-foreground">
-          {filteredItems.length}건 표시 / 전체 {items.length}건
+          {visibleItems.length}건 표시 / 큐레이션 {filteredItems.length}건
         </p>
         <p className="text-xs text-muted-foreground">
           {formatLastUpdated(lastUpdated, dataSource)}
@@ -146,19 +163,36 @@ export function RadarDashboard({
       </div>
 
       <div className="space-y-2">
-        {filteredItems.length === 0 ? (
+        {visibleItems.length === 0 ? (
           <div className="py-12 text-center text-muted-foreground">
             필터 조건에 맞는 항목이 없습니다.
           </div>
         ) : (
-          filteredItems.map((item) => (
-            <ItemRow
-              key={item.id}
-              item={item}
-              onToggleRead={toggleRead}
-              onToggleStar={toggleStar}
-            />
-          ))
+          <>
+            {visibleItems.map((item) => (
+              <ItemRow
+                key={item.id}
+                item={item}
+                onToggleRead={toggleRead}
+                onToggleStar={toggleStar}
+              />
+            ))}
+            {hasMore && (
+              <div className="flex justify-center pt-2">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() =>
+                    setVisibleCount((prev) =>
+                      Math.min(prev + PAGE_SIZE, MAX_DISPLAY)
+                    )
+                  }
+                >
+                  더보기 ({filteredItems.length - visibleCount}건 남음)
+                </Button>
+              </div>
+            )}
+          </>
         )}
       </div>
     </div>
