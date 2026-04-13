@@ -8,6 +8,7 @@ import { naverNewsAdapter } from "./adapters/naver-news";
 import { googleRssAdapter } from "./adapters/google-rss";
 import { namuCmsAdapter } from "./adapters/namu-cms";
 import { htmlGovAdapter } from "./adapters/html-gov";
+import { bizinfoAdapter } from "./adapters/bizinfo";
 import { scoreItems, ScoredItem } from "./pipeline/scorer";
 import { dedup } from "./pipeline/dedup";
 import { normalizeUrl, parseDate } from "./pipeline/normalize";
@@ -26,8 +27,12 @@ const adapterByGroup: Record<string, CrawlerAdapter> = {
   D: htmlGovAdapter,
 };
 
-// 그룹 A에서 naver_news만 현재 어댑터가 있음. bizinfo/ntis는 별도 API 키 필요.
-const SUPPORTED_A_SOURCES = new Set(["naver_news"]);
+// 그룹 A 소스별 어댑터 매핑
+const groupAAdapters: Record<string, CrawlerAdapter> = {
+  naver_news: naverNewsAdapter,
+  bizinfo: bizinfoAdapter,
+};
+const SUPPORTED_A_SOURCES = new Set(Object.keys(groupAAdapters));
 
 /**
  * 메인 크롤 오케스트레이터
@@ -73,7 +78,7 @@ export async function crawl(phase: "fast" | "slow" | "all" = "all"): Promise<voi
     // 병렬 실행
     const results = await Promise.allSettled(
       runnableFast.map(async (source) => {
-        const adapter = adapterByGroup[source.group];
+        const adapter = source.group === "A" ? groupAAdapters[source.id] : adapterByGroup[source.group];
         try {
           const items = await adapter.fetchItems(source);
           return { sourceId: source.id, items };

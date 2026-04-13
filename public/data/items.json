@@ -577,6 +577,81 @@
     "starred": false
   },
   {
+    "id": "bizinfo-x967q8",
+    "itemType": "gov",
+    "title": "2026년 대ㆍ중소상생형 스마트공장 구축지원 사업 삼성형 도입기업 모집 공고",
+    "publishedAt": "2026-04-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P0",
+    "score": 65,
+    "matchedKeywords": [
+      "로봇+제조",
+      "기업+생산",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120597",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x969yd",
+    "itemType": "gov",
+    "title": "2026년 초격차 스타트업 프로젝트 모두의 챌린지 AX - LLM 분야 참여기업 모집 공고",
+    "publishedAt": "2026-04-01T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 65,
+    "matchedKeywords": [
+      "로봇+제조",
+      "기업+생산",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120295",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96a56",
+    "itemType": "gov",
+    "title": "2026년 대ㆍ중소상생형(AI 트랙) 스마트공장 구축지원 사업 삼성형 도입기업 모집 공고",
+    "publishedAt": "2026-03-31T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P0",
+    "score": 65,
+    "matchedKeywords": [
+      "로봇+제조",
+      "기업+생산",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120218",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "naver_news-c0471f",
     "itemType": "news",
     "title": "코스메카코리아, 정부 로봇 지원사업 선정…“다품종 포장·물류 지능화...",
@@ -895,6 +970,31 @@
       {
         "label": "원문",
         "url": "https://www.irobotnews.com/news/articleView.html?idxno=45689",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k78l",
+    "itemType": "gov",
+    "title": "2026년 기계ㆍ로봇산업(기계분야) 발전유공 포상 신청 공고",
+    "publishedAt": "2026-03-23T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 60,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원",
+      "화장품제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119888",
         "kind": "canonical"
       }
     ],
@@ -1661,6 +1761,202 @@
       {
         "label": "원문",
         "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202603060334&t=NNv",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x967ul",
+    "itemType": "gov",
+    "title": "[경기] 안산시 2026년 안산스마트허브 기술혁신 지원사업 공고",
+    "publishedAt": "2026-04-07T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 55,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원",
+      "경기도"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120545",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x967ve",
+    "itemType": "gov",
+    "title": "[경북] 뿌리산업 제조공정 자율제조 전환지원 사업 시행계획 공고",
+    "publishedAt": "2026-04-07T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 55,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원",
+      "경기도"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120537",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x968n0",
+    "itemType": "gov",
+    "title": "[경기] 2026년 섬유 제조공정 자동화 구축 수혜기업 모집 공고",
+    "publishedAt": "2026-04-05T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 55,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원",
+      "경기도"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120425",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k6jo",
+    "itemType": "gov",
+    "title": "[경기] 2026년 섬유 제조 활성화 및 역량강화 사업 참여기업 모집 공고",
+    "publishedAt": "2026-03-25T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 55,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원",
+      "경기도"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119966",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9mabn",
+    "itemType": "gov",
+    "title": "공급기업 역량진단(2026년 스마트 제조혁신 지원사업 통합 공고)",
+    "publishedAt": "2025-10-30T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T0",
+    "priority": "P0",
+    "score": 55,
+    "matchedKeywords": [
+      "피지컬AI직접",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116007",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9mqf5",
+    "itemType": "gov",
+    "title": "스마트공장 구축_제조AI특화 스마트공장 (자율형공장 AI트랙)(2026년 스마트 제조혁신 지원사업 통합 공고)",
+    "publishedAt": "2025-10-30T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T0",
+    "priority": "P0",
+    "score": 55,
+    "matchedKeywords": [
+      "피지컬AI직접",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000115998",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96awp",
+    "itemType": "gov",
+    "title": "2026년 제조AI특화 스마트공장 구축지원사업 공고",
+    "publishedAt": "2026-03-29T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T0",
+    "priority": "P0",
+    "score": 55,
+    "matchedKeywords": [
+      "피지컬AI직접",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120109",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "naver_news-lbgwbm",
+    "itemType": "news",
+    "title": "서울대학교 AI연구원-(주)메가데이타코리아 업무협약식 개최",
+    "publishedAt": "2026-04-13T02:30:00.000Z",
+    "sourceName": "naver_news",
+    "tier": "T0",
+    "priority": "P0",
+    "score": 55,
+    "matchedKeywords": [
+      "피지컬AI직접",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://edu.donga.com/news/articleView.html?idxno=106182",
         "kind": "canonical"
       }
     ],
@@ -3588,6 +3884,78 @@
     "starred": false
   },
   {
+    "id": "naver_news-bbe3wz",
+    "itemType": "news",
+    "title": "정의선 “미국 사업은 장기적 회복력의 핵심…로봇·수소로 미래 전환 ...",
+    "publishedAt": "2026-04-13T02:31:00.000Z",
+    "sourceName": "naver_news",
+    "tier": "T0",
+    "priority": "P0",
+    "score": 50,
+    "matchedKeywords": [
+      "피지컬AI직접",
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.mydaily.co.kr/page/view/2026041311294770885",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-2ql1yj",
+    "itemType": "news",
+    "title": "LG전자, 엔비디아 손잡고 `피지컬AI` 혁신 가속…스마트팩토리·AI데이터센터 협력 [인더AI] - 디지털데일리",
+    "publishedAt": "2025-10-31T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T0",
+    "priority": "P0",
+    "score": 50,
+    "matchedKeywords": [
+      "피지컬AI직접",
+      "기업+생산"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GTldKcm8wYUtHb2FfRzFDX2hsM0JqRV93a3cyZnB5eXZjV0JnNG9pVlNGYjFkZ0RpZC0xdWpia3ZSVXZEZ0xjZ3dEdHd2cko0UTYwek5FSXVEZXVUMWJncHV3?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-9uja7s",
+    "itemType": "news",
+    "title": "Vol.223 제조AI로 지능을 더한 스마트팩토리, 과연 어떤 모습일까요? - LG전자 뉴스룸",
+    "publishedAt": "2025-06-24T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T0",
+    "priority": "P0",
+    "score": 50,
+    "matchedKeywords": [
+      "피지컬AI직접",
+      "기업+생산"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xVlNpUGxPWE9QcnZHaW1HY3JIcHhIX2UwMzBXYUoyZGl0OFZBT1BncnpPb3VRbTgwd3daX0RYWERLNVZwNmVCR2p3NkpVNVIyNW4xTzFtTQ?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_manufacturing-54vs2m",
     "itemType": "news",
     "title": "에이딘로보틱스, 59억 규모 산업부 제조 자동화 R&D 공동선정 - 유니콘팩토리",
@@ -3615,7 +3983,7 @@
     "id": "irobotnews-fxje4v",
     "itemType": "news",
     "title": "엠디에스코리아, ‘로봇활용 제조혁신 지원사업’ 선정",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.517Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P1",
@@ -3639,7 +4007,7 @@
     "id": "irobotnews-fxiuwh",
     "itemType": "news",
     "title": "[특집] 한국생산기술연구원 '2025년 첨단제조로봇 실증사업 (수출지원형) 도입 사례",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.517Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P1",
@@ -3855,6 +4223,318 @@
     "starred": false
   },
   {
+    "id": "bizinfo-x9674t",
+    "itemType": "gov",
+    "title": "2026년 서비스로봇 AX(S-M.AX) 실증사업 지원 과제 모집 공고",
+    "publishedAt": "2026-04-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120633",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x967r5",
+    "itemType": "gov",
+    "title": "[강원] 2026년 대중소상생형 스마트공장 구축지원 사업 국민건강보험공단 도입기업 모집 공고",
+    "publishedAt": "2026-04-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P0",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120585",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9673w",
+    "itemType": "gov",
+    "title": "2026년 생활지원 서비스로봇 제품 상용화 지원사업 기업 모집 및 지원 계획 통합 공고",
+    "publishedAt": "2026-04-09T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120645",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x968n2",
+    "itemType": "gov",
+    "title": "2026년 로봇 재제조산업 기업지원사업(기술 자문) 공고",
+    "publishedAt": "2026-04-05T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120423",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96awq",
+    "itemType": "gov",
+    "title": "[경북] 경주시 2026년 e-모빌리티부품 산업 생태계 고도화를 위한 기술지원 사업 모집 공고(시군구연고산업육성사업)",
+    "publishedAt": "2026-03-29T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120108",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k6n4",
+    "itemType": "gov",
+    "title": "2026년 첨단제조로봇 실증사업지원 과제 모집 공고",
+    "publishedAt": "2026-03-24T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119926",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k8rv",
+    "itemType": "gov",
+    "title": "2026년 신산업 분야 오픈소스 사업화 지원사업 신규과제 모집 공고",
+    "publishedAt": "2026-03-17T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119662",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9ktno",
+    "itemType": "gov",
+    "title": "2026년 지스타 경북의 저력 딥테크 부스터 프로그램 참여기업 모집 공고",
+    "publishedAt": "2026-02-25T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118910",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k7c5",
+    "itemType": "gov",
+    "title": "[서울] 2026년 뿌리기업 공정개선 컨설팅 지원 참여기업 모집 공고",
+    "publishedAt": "2026-03-23T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119844",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k8v4",
+    "itemType": "gov",
+    "title": "[서울] 2026년 뿌리기업 자동화 지원사업 참여 기업 모집 공고",
+    "publishedAt": "2026-03-17T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119629",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9mqf6",
+    "itemType": "gov",
+    "title": "스마트공장 구축_도약(Jump-Up) 프로그램 연계 스마트공장(2026년 스마트 제조혁신 지원사업 통합 공고)",
+    "publishedAt": "2025-10-30T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P0",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000115997",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9mqf9",
+    "itemType": "gov",
+    "title": "2026년 스마트 제조혁신 지원사업 통합 공고",
+    "publishedAt": "2025-10-30T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P0",
+    "score": 45,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000115994",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96arl",
+    "itemType": "gov",
+    "title": "[서울] 2026년 웨스트버지니아(WV) 거점 북미 진출 패스트트랙 참여기업 모집 공고",
+    "publishedAt": "2026-03-30T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P0",
+    "score": 45,
+    "matchedKeywords": [
+      "기업+생산",
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120167",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-kab154",
     "itemType": "news",
     "title": "로봇이 차 만들고 로봇개가 품질검사…현대차그룹 '제조혁신' 가속 - 지디넷코리아",
@@ -3930,7 +4610,7 @@
     "id": "irobotnews-fxiuzv",
     "itemType": "news",
     "title": "유일로보틱스, HD현대일렉 美 공장 초고압 변압기용 설비 수주",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.517Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P1",
@@ -4400,6 +5080,54 @@
       {
         "label": "원문",
         "url": "https://www.economytalk.kr/news/articleView.html?idxno=419349",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k78o",
+    "itemType": "gov",
+    "title": "2026년 기계ㆍ로봇산업(로봇분야) 발전유공 포상 신청 공고",
+    "publishedAt": "2026-03-23T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 40,
+    "matchedKeywords": [
+      "정부지원",
+      "화장품제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119885",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-3fsr9h",
+    "itemType": "news",
+    "title": "美 CNN이 주목한 현대차 스마트팩토리… AI·로봇 자동화 설비 ‘미래형 공장 모델’로 제시 - 동아비즈니스리뷰 | DBR",
+    "publishedAt": "2025-08-19T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P0",
+    "score": 40,
+    "matchedKeywords": [
+      "로봇+제조",
+      "기업+생산"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zVW9WdVdnSVA2UjIwa1VucEFXcXhITGJ3azI0eTQ3Yk9pTkxMNGtRU1lxemlVTXF5R1lDSXBndWhOMk9wakUwWXpqNmJIRlpqWDBkMW9LSWhpa2xH?oc=5",
         "kind": "canonical"
       }
     ],
@@ -6183,6 +6911,126 @@
     "starred": false
   },
   {
+    "id": "bizinfo-x966zp",
+    "itemType": "gov",
+    "title": "[경기] 부천시 2026년 AI 활용 글로벌 진출 지원사업 참가기업 모집 공고",
+    "publishedAt": "2026-04-09T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 35,
+    "matchedKeywords": [
+      "정부지원",
+      "경기도"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120691",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9674q",
+    "itemType": "gov",
+    "title": "[경기] 화성시 2026년 AI-대중소 동반성장 프로그램 참여기업 모집 공고",
+    "publishedAt": "2026-04-09T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 35,
+    "matchedKeywords": [
+      "정부지원",
+      "경기도"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120636",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x968l8",
+    "itemType": "gov",
+    "title": "[경기] 안산시 2026년 ITㆍSW기업 성장지원사업 상용화 지원 참여기업 모집 공고",
+    "publishedAt": "2026-04-05T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 35,
+    "matchedKeywords": [
+      "정부지원",
+      "경기도"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120447",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x968h2",
+    "itemType": "gov",
+    "title": "[경기] 안산시 2026년 피지컬 로봇 실증 지원사업 사업 공고",
+    "publishedAt": "2026-04-06T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 35,
+    "matchedKeywords": [
+      "정부지원",
+      "경기도"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120492",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9675i",
+    "itemType": "gov",
+    "title": "[경기] 2026년 제조DX멘토단 활용지원(사후관리) 도입기업 모집 연장 공고",
+    "publishedAt": "2026-04-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P0",
+    "score": 35,
+    "matchedKeywords": [
+      "정부지원",
+      "경기도"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120629",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-si25u2",
     "itemType": "news",
     "title": "[기획] 피지컬 AI 시대 스마트 팩토리, 에지 AI의 재발견 - 디일렉",
@@ -6370,7 +7218,7 @@
     "id": "irobotnews-fxjh1t",
     "itemType": "news",
     "title": "“피지컬 AI 기기 누적 출하량, 2035년까지 1억4500만대 달할 것”",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.517Z",
     "sourceName": "irobotnews",
     "tier": "T0",
     "priority": "P0",
@@ -6393,7 +7241,7 @@
     "id": "irobotnews-fxjget",
     "itemType": "news",
     "title": "서울대 로보틱스연구소, MDS테크와 ‘피지컬 AI’ 로봇 인재 양성 MOU",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.517Z",
     "sourceName": "irobotnews",
     "tier": "T0",
     "priority": "P0",
@@ -6783,7 +7631,7 @@
   {
     "id": "naver_news-ms4vew",
     "itemType": "news",
-    "title": "아니, 이 맛은…유명 셰프 손맛 완벽 재현?  요리봇 경쟁서 韓 살아남...",
+    "title": "미국·중국 손 뻗기 전 '틈새 장악' 서둘러야…한국 요리봇 승부처는 'K...",
     "publishedAt": "2026-04-12T23:49:00.000Z",
     "sourceName": "naver_news",
     "tier": "T0",
@@ -7220,6 +8068,29 @@
     "starred": false
   },
   {
+    "id": "naver_news-cbvwvm",
+    "itemType": "news",
+    "title": "AI 반도체 딥엑스, 日 피지컬 AI 시장 공략",
+    "publishedAt": "2026-04-13T02:32:00.000Z",
+    "sourceName": "naver_news",
+    "tier": "T0",
+    "priority": "P0",
+    "score": 30,
+    "matchedKeywords": [
+      "피지컬AI직접"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.news1.kr/it-science/general-it/6134372",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "smtech-kbkgwi",
     "itemType": "gov",
     "title": "2026년도 투·융자 연계 기술개발사업 지원계획 공고",
@@ -7246,7 +8117,7 @@
     "id": "smtech-70wpde",
     "itemType": "gov",
     "title": "2026년도 중소기업기술혁신개발사업 중소기업유망기술개발(국가전략기술_도메인특화AI모델개발) 시행계획 공고",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "smtech",
     "tier": "T3",
     "priority": "P2",
@@ -7536,6 +8407,1344 @@
       {
         "label": "원문",
         "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=IvQTaL9NeLUwfnnES4Qaiflfj2iygc64UFN51FeTJ795xMpKtzkEJEffCH1sVETq.smwas3_servlet_engine2?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=3&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9671b",
+    "itemType": "gov",
+    "title": "2026년 중소기업 클라우드 서비스 보급ㆍ확산 사업(클라우드 바우처) 모집 수정 공고",
+    "publishedAt": "2026-04-09T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120675",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9671e",
+    "itemType": "gov",
+    "title": "[충북] 제천시 2026년 1차 미래 모빌리티 소재ㆍ부품ㆍ전장부품ㆍ공정혁신 R&D 연구개발 연장 공고",
+    "publishedAt": "2026-04-09T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120672",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9671f",
+    "itemType": "gov",
+    "title": "[인천] 2026년 인공지능(AI) 사업화 지원사업 참여기업 모집 공고(AI Playground 인천 조성사업)",
+    "publishedAt": "2026-04-09T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120671",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96730",
+    "itemType": "gov",
+    "title": "[경남] 2026년 산업 인공지능(AI) 전환 및 확산기반조성 사업 AX 미니프로젝트 실증 수요기업 모집 공고",
+    "publishedAt": "2026-04-09T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120656",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96740",
+    "itemType": "gov",
+    "title": "2026년 전남 AIㆍ데이터 스타트업 성장 지원사업 공고",
+    "publishedAt": "2026-04-09T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120641",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9675l",
+    "itemType": "gov",
+    "title": "[인천] 2026년 인공지능 전환(AX) 및 실증 지원사업 참여기업 모집 공고(AI Playground 인천 조성사업)",
+    "publishedAt": "2026-04-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120626",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9675n",
+    "itemType": "gov",
+    "title": "[인천] 2026년 인공지능(AI) 기술개발 지원사업 참여기업  모집 공고(AI Playground 인천 조성사업)",
+    "publishedAt": "2026-04-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120624",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9676f",
+    "itemType": "gov",
+    "title": "제6회 경북 공공데이터 활용 창업경진대회 참가자 모집 공고",
+    "publishedAt": "2026-04-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120617",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9677b",
+    "itemType": "gov",
+    "title": "2026년 절삭공구ㆍ가공 빅데이터를 활용한 첨단제조 플랫폼 기반구축 및 실증사업 기술지도 수요기업 모집 공고(산업혁신 기반구축사업)",
+    "publishedAt": "2026-04-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120606",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x967t0",
+    "itemType": "gov",
+    "title": "제14회 충남 공공데이터ㆍAI활용 창업경진대회 모집 공고",
+    "publishedAt": "2026-04-07T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120560",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x967vf",
+    "itemType": "gov",
+    "title": "2026년 스마트해운물류 창업Flame(창업오디션ㆍ유니콘테스트ㆍ오픈이노베이션) 모집 공고",
+    "publishedAt": "2026-04-07T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120536",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x968hr",
+    "itemType": "gov",
+    "title": "2026년 싱가포르 빅데이터 및 AI 전시회 (Tech Week Singapore 2026) 한국관 참가기업 모집 공고",
+    "publishedAt": "2026-04-06T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120488",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x968iu",
+    "itemType": "gov",
+    "title": "2026년 1차 마케팅 구매상담회 참여기업 모집 공고",
+    "publishedAt": "2026-04-06T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120470",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x968jm",
+    "itemType": "gov",
+    "title": "2026년 스타트업 AI 기술인력 양성(이어드림스쿨) 교육생 모집 공고",
+    "publishedAt": "2026-04-06T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120463",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9697p",
+    "itemType": "gov",
+    "title": "2026년 차세대 특화망 융합서비스 확산 사업 수정 공고",
+    "publishedAt": "2026-04-05T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120394",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9697r",
+    "itemType": "gov",
+    "title": "[울산] 2026년 지역주도형 AI 대전환 AI솔루션 보급ㆍ확산사업 지원기업 공고",
+    "publishedAt": "2026-04-05T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120392",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9697t",
+    "itemType": "gov",
+    "title": "2026년 국내ㆍ외 인바운드 관광활성화 사업(철원군 특화자원) 참가기업 모집 공고",
+    "publishedAt": "2026-04-05T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120390",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9698m",
+    "itemType": "gov",
+    "title": "2026년 고성능 컴퓨팅 지원 사용자 모집 공고",
+    "publishedAt": "2026-04-02T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120382",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9699a",
+    "itemType": "gov",
+    "title": "2026년 온디바이스 AI 서비스 실증ㆍ확산 사업 공고",
+    "publishedAt": "2026-04-02T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120379",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9699f",
+    "itemType": "gov",
+    "title": "2026년 과학기술정보통신부 GovTech 창업기업  AI 실증ㆍ사업화 지원사업 모집 공고",
+    "publishedAt": "2026-04-02T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120374",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9699g",
+    "itemType": "gov",
+    "title": "2026년 SaaS 개발ㆍ사업화 지원 사업 공고",
+    "publishedAt": "2026-04-02T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120373",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9699j",
+    "itemType": "gov",
+    "title": "2026년 해외진출형 방송콘텐츠 기획개발 지원 사업 공고",
+    "publishedAt": "2026-04-02T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120370",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x969a6",
+    "itemType": "gov",
+    "title": "AI 응용제품 신속 상용화(보건분야ㆍ디지털 의료기기) 지원사업 참여기업 모집 공고",
+    "publishedAt": "2026-04-02T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120368",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9674o",
+    "itemType": "gov",
+    "title": "[경북] 2026년 4차산업 기술실증 벤처ㆍ스타트업 육성지원 사업 지원과제 모집 공고",
+    "publishedAt": "2026-04-09T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120638",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x967xy",
+    "itemType": "gov",
+    "title": "[대구] 2026년 1차 지역주력산업육성(지역특화 프로젝트 레전드 50+) 지원 모집 공고(로봇)",
+    "publishedAt": "2026-04-06T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120508",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9699i",
+    "itemType": "gov",
+    "title": "2026년 로봇분야 해외인증 획득비용 지원사업 모집 공고",
+    "publishedAt": "2026-04-02T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120371",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x969y9",
+    "itemType": "gov",
+    "title": "[경북] 2026년 첨단 스마트센서 기술고도화 지원사업 공고",
+    "publishedAt": "2026-04-01T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120299",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96a4i",
+    "itemType": "gov",
+    "title": "2026년 국가첨단전략산업 기술혁신 융자사업 지원대상 기업모집 수정 공고",
+    "publishedAt": "2026-03-31T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120221",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96bhg",
+    "itemType": "gov",
+    "title": "[대전] 2026년 대전시-KOTRA AIㆍ디지털 마케팅 지원사업 공고",
+    "publishedAt": "2026-03-26T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "로봇+제조",
+      "정부지원",
+      "소비자AI(감점)"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120076",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96bj5",
+    "itemType": "gov",
+    "title": "2026년 규제혁신 로봇 실증사업 지원 과제 모집 공고",
+    "publishedAt": "2026-03-26T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120057",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96bj9",
+    "itemType": "gov",
+    "title": "2026년 대규모 융합 로봇 실증사업 지원 과제 모집 공고",
+    "publishedAt": "2026-03-26T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120053",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96bja",
+    "itemType": "gov",
+    "title": "2026년 서비스로봇 실증사업 지원 과제 모집 공고",
+    "publishedAt": "2026-03-26T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120052",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k6m9",
+    "itemType": "gov",
+    "title": "2026년 로봇 스타트업 지원사업 모집 공고",
+    "publishedAt": "2026-03-24T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119936",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k9ik",
+    "itemType": "gov",
+    "title": "2026년 마곡 오픈이노베이션 참여 스타트업 모집 공고",
+    "publishedAt": "2026-03-16T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원",
+      "화장품제조",
+      "주가IR(감점)"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119562",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9lk91",
+    "itemType": "gov",
+    "title": "2026년 디지털혁신기술국제공동연구사업 신규지원 대상과제 공고",
+    "publishedAt": "2026-01-14T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117457",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9maas",
+    "itemType": "gov",
+    "title": "중소기업 스마트서비스 지원(2026년 스마트 제조혁신 지원사업 통합 공고)",
+    "publishedAt": "2025-11-02T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116017",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9mabm",
+    "itemType": "gov",
+    "title": "제조 DX멘토단 활용지원(2026년 스마트 제조혁신 지원사업 통합 공고)",
+    "publishedAt": "2025-10-30T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116008",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9mabq",
+    "itemType": "gov",
+    "title": "스마트 공장 수준 확인(2026년 스마트 제조혁신 지원사업 통합 공고)",
+    "publishedAt": "2025-10-30T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116004",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9maa2",
+    "itemType": "gov",
+    "title": "스마트공장 구축_대중소 상생형(AI트랙) 스마트공장(2026년 스마트 제조혁신 지원사업 통합 공고)",
+    "publishedAt": "2025-10-30T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116022",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9mabu",
+    "itemType": "gov",
+    "title": "스마트공장 구축_대중소 상생형 스마트공장(2026년 스마트 제조혁신 지원사업 통합 공고)",
+    "publishedAt": "2025-10-30T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116000",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9674s",
+    "itemType": "gov",
+    "title": "[경북] 2026년 푸드테크 스마트 제조 기반 구축 사업 재공고",
+    "publishedAt": "2026-04-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120634",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9677f",
+    "itemType": "gov",
+    "title": "[경북] 2026년 제조DX멘토단 활용지원(사후관리) 도입기업 모집 연장 공고",
+    "publishedAt": "2026-04-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120602",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96aqu",
+    "itemType": "gov",
+    "title": "2026년 도약(Jump-Up) 프로그램 연계 스마트공장 구축 지원사업 공고",
+    "publishedAt": "2026-03-30T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120173",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96bmj",
+    "itemType": "gov",
+    "title": "[경북] 포항시 2026년 경북형(포항) 스마트공장(기초단계) 구축지원사업 모집 공고",
+    "publishedAt": "2026-03-25T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120019",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9l0cm",
+    "itemType": "gov",
+    "title": "2026년 스마트공장 수준확인 사업 공고",
+    "publishedAt": "2026-01-28T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118006",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9lnai",
+    "itemType": "gov",
+    "title": "2026년 대중소 상생형 스마트공장 주관기관 (대기업 등) 모집 공고",
+    "publishedAt": "2025-12-29T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117023",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9lnb7",
+    "itemType": "gov",
+    "title": "2026년 제조DX멘토단 활용지원사업 통합 공고",
+    "publishedAt": "2025-12-29T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117019",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9ma92",
+    "itemType": "gov",
+    "title": "[부산] 2025년 스마트공장 기초단계 컨설팅 수요기업 모집 공고",
+    "publishedAt": "2025-11-02T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000116037",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k811",
+    "itemType": "gov",
+    "title": "2026년 중기부-과기정통부-산업부 주요 AX 사업 통합 공고",
+    "publishedAt": "2026-03-19T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119767",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96a59",
+    "itemType": "gov",
+    "title": "2026년 산업ㆍ일자리전환 컨설팅 참여기업 모집 공고",
+    "publishedAt": "2026-03-31T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120215",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x96atc",
+    "itemType": "gov",
+    "title": "[경남] 창원시 2026년 국가산단 제조기업 대상 제조 디지털전환(DX) 솔루션 구축 지원사업 공고",
+    "publishedAt": "2026-03-29T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120146",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9k6le",
+    "itemType": "gov",
+    "title": "[울산] 2026년 지역관광기업 컨설팅 운영 사업 컨설팅 프로그램 운영  참여기업 모집 공고",
+    "publishedAt": "2026-03-24T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119946",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9kbrf",
+    "itemType": "gov",
+    "title": "[전남] 2026년 소상공인 디지털 전환 지원사업 신청ㆍ접수 공고",
+    "publishedAt": "2026-03-08T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119255",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9kuf2",
+    "itemType": "gov",
+    "title": "[경남] 사천시ㆍ진주시 2026년 디지털전환(DX) 컨설팅 및 인력양성 지원 사업 수요기업 모집 공고",
+    "publishedAt": "2026-02-23T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118806",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9kvvk",
+    "itemType": "gov",
+    "title": "[충북] 지능형첨단부품산업의 디지털전환 거점 구축 사업 오픈랩 AI 개발플랫폼 활용 지원 수혜기업 모집 공고",
+    "publishedAt": "2026-02-18T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118617",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9kwiu",
+    "itemType": "gov",
+    "title": "2026년 디지털커머스 전문기관(소담스퀘어 in 광주) 모집 공고",
+    "publishedAt": "2026-02-12T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118556",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "smtech-a6jy9y",
+    "itemType": "gov",
+    "title": "2026년도 투·융자 연계 기술개발사업 지원계획 공고",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
+    "sourceName": "smtech",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=kPgDxByun5VOT0EuOkcm7w9EMLoHEvbnUaZ7sl1eKR4wlUoitf7yuf1ZaDcekN90.smwas3_servlet_engine4?buclYy=&ancmId=S02853&buclCd=S9C01&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "smtech-4m5ewf",
+    "itemType": "gov",
+    "title": "2026년 중소기업 연구인력지원사업(파견) 4월 공고",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
+    "sourceName": "smtech",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=kPgDxByun5VOT0EuOkcm7w9EMLoHEvbnUaZ7sl1eKR4wlUoitf7yuf1ZaDcekN90.smwas3_servlet_engine4?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=3&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
         "kind": "canonical"
       }
     ],
@@ -8926,7 +11135,7 @@
     "id": "irobotnews-fxjey4",
     "itemType": "news",
     "title": "파워오토로보틱스, SSPA 2026서 ‘AI 자율 제조공장’ 모델 공개",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P1",
@@ -8949,7 +11158,7 @@
     "id": "irobotnews-fxjex9",
     "itemType": "news",
     "title": "폴라리스쓰리디, 국제물류산업대전서 제조물류로봇 ‘SMAR-M3’ 공개",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P1",
@@ -8972,7 +11181,7 @@
     "id": "irobotnews-fxjclo",
     "itemType": "news",
     "title": "LS티라유텍, 현대차그룹과 모베드 기반 제조 자동화 사업 본격화",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P1",
@@ -8995,7 +11204,7 @@
     "id": "irobotnews-fxjcln",
     "itemType": "news",
     "title": "[AW 2026] 제조혁신 전시회를 빛낸 로봇기업들",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P1",
@@ -10459,6 +12668,98 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OekRrLU1UYm1SbUZyMWFEeWxsNjhWQnA4amZfMmpQbl9sbENCcXNqRlNIYzRNVEZXX1phY01QSjZEWU5LS2pDQUR6NzJ1TFJPdlZUMHgtVXRucUhVUEVDU1NEekJMYjNm?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-cut8zf",
+    "itemType": "news",
+    "title": "현대오토에버, 스마트팩토리 넘어 자율제조로 간다 - 산업일보",
+    "publishedAt": "2025-07-13T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 20,
+    "matchedKeywords": [
+      "기업+생산"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBYdE93QnVzNkJXa3ZSQzNISHlHY0IyM2YyaGxJb1pGNDVBdUo5c0pyanN0TDBwRDc0QmY3WXNDVlItbEVL?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-miex4o",
+    "itemType": "news",
+    "title": "HD건설기계, HD현대로보틱스와 스마트 팩토리 구축 협력 - 이투데이",
+    "publishedAt": "2026-01-13T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIWExWaV9FQ2lkMC11TlFrRU5ZSW1vemNfallkNXBad0hWX2JGSTBma0d3SlByQlNFb21SRTh2VkYtTEhUWTRONTBtcDh2aFNpV1hCNw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-c7tcas",
+    "itemType": "news",
+    "title": "“스마트팩토리 경험 무기 삼아…SI 기업, 로봇 수혜株 가능성” - 마켓인",
+    "publishedAt": "2025-09-01T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Pa3RqSUhMazVUUHI0VFlKRUFsMG9EOU5HMkNZZlUtR0xpMFhtekZLbW50czUxY2NicjhzeEx5bE1OeHVMNXB4eEJfQTBXazRzSFB4WHJGaWc2SExvenphY3RVQUF5UWM0U0M1TVVmUXlSdmM?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-ano2h9",
+    "itemType": "news",
+    "title": "LS티라유텍, 현대차 '모베드'와 제조 자동화 협력 - 뉴스핌",
+    "publishedAt": "2026-03-05T08:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95Z280NC1WcnloWXBEN1gxb3ZfdTk2OERjUTRacThreC02ajZVUS1za09fVmZ4WWpjVC1JclduZ2I1SGNQcmhmU2xlTklseTBSanhaOEFIdE5fcTRZ?oc=5",
         "kind": "canonical"
       }
     ],
@@ -12449,7 +14750,7 @@
     "id": "irobotnews-fxjh1x",
     "itemType": "news",
     "title": "경기 AI 혁신클러스터 6개 거점 하나로 잇는다…협의회 공식 출범",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -12486,6 +14787,150 @@
       {
         "label": "원문",
         "url": "https://it.chosun.com/news/articleView.html?idxno=2023092160151",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9kcgj",
+    "itemType": "gov",
+    "title": "2026년 강원창조경제혁신센터 창업-BuS 프로그램 강원브릿지 화요IR 참여기업 모집 공고",
+    "publishedAt": "2026-03-04T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 10,
+    "matchedKeywords": [
+      "정부지원",
+      "주가IR(감점)"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119170",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9kd8x",
+    "itemType": "gov",
+    "title": "2026년 Startup:D 창업 BuS 참가자 사전 모집 공고(대전창조경제혁신센터)",
+    "publishedAt": "2026-03-02T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 10,
+    "matchedKeywords": [
+      "정부지원",
+      "주가IR(감점)"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000119051",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9kuap",
+    "itemType": "gov",
+    "title": "2026년 경남 수도권 투자유치 거점센터 데모데이ㆍ멘토링 데이 참기기업 모집 공고",
+    "publishedAt": "2026-02-24T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 10,
+    "matchedKeywords": [
+      "정부지원",
+      "주가IR(감점)"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118858",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x9kv3y",
+    "itemType": "gov",
+    "title": "2026년 창업-BuS at 경북 참여기업 모집 공고",
+    "publishedAt": "2026-02-22T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P1",
+    "score": 10,
+    "matchedKeywords": [
+      "정부지원",
+      "주가IR(감점)"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118729",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x967wa",
+    "itemType": "gov",
+    "title": "[대구] 2026년 대구콘텐츠기업지원센터 콘텐츠기업 맞춤형 패키지 지원 사업 공고",
+    "publishedAt": "2026-04-07T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 5,
+    "matchedKeywords": [
+      "정부지원",
+      "소비자AI(감점)"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120526",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "bizinfo-x968kf",
+    "itemType": "gov",
+    "title": "[울산] 울주군 2026년 1차 소상공인 경영환경개선 및 디지털기기 지원 사업 공고",
+    "publishedAt": "2026-04-05T15:00:00.000Z",
+    "sourceName": "bizinfo",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 5,
+    "matchedKeywords": [
+      "정부지원",
+      "소비자AI(감점)"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000120455",
         "kind": "canonical"
       }
     ],
@@ -14932,7 +17377,7 @@
     "id": "irobotnews-fxjh2t",
     "itemType": "news",
     "title": "美 자코비-ABB 로보틱스, 혼합 박스 적재 자동화 협력",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -14953,7 +17398,7 @@
     "id": "irobotnews-fxjh2r",
     "itemType": "news",
     "title": "GSMA, 'MWC 2026 상하이'서 '휴머노이드 축구 승부차기 챌린지' 개최",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -14974,7 +17419,7 @@
     "id": "irobotnews-fxjh2q",
     "itemType": "news",
     "title": "美 엑솔, RaaS 기반 풀필먼트 모델 가동",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -14995,7 +17440,7 @@
     "id": "irobotnews-fxjh2p",
     "itemType": "news",
     "title": "美 피크 테크놀로지스, AI 기반 '피크 오토메이션 인텔리전스' 발표",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15016,7 +17461,7 @@
     "id": "irobotnews-fxjh20",
     "itemType": "news",
     "title": "中 시티유나이트, 질화갈륨 기반 로봇 관절용 칩 개발",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15037,7 +17482,7 @@
     "id": "irobotnews-fxjh1z",
     "itemType": "news",
     "title": "“휴머노이드 로봇 훈련 위한 '긱 이코노미' 전 세계 확산일로”",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15079,7 +17524,7 @@
     "id": "irobotnews-fxjgj1",
     "itemType": "news",
     "title": "美 IHMC, 차세대 휴머노이드 로봇 '알렉스' 공개",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15100,7 +17545,7 @@
     "id": "irobotnews-fxjgi8",
     "itemType": "news",
     "title": "KAIST, 지형 인식하고 스스로 판단해 움직이는 로봇개 개발",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15121,7 +17566,7 @@
     "id": "irobotnews-fxjgiv",
     "itemType": "news",
     "title": "보스턴 다이나믹스 휴머노이드 '아틀라스', 2028년 양산…美에 전용 법인 설립",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15142,7 +17587,7 @@
     "id": "irobotnews-fxjgi9",
     "itemType": "news",
     "title": "KAIST, AI·휴머노이드·로버 총출동…“과학축제서 미래 기술 체험을”",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15163,7 +17608,7 @@
     "id": "irobotnews-fxjgi5",
     "itemType": "news",
     "title": "쿠카 \"유럽 AI 도입 너무 느려…미국·아시아로 투자 방향 튼다\"",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15184,7 +17629,7 @@
     "id": "irobotnews-fxjgi4",
     "itemType": "news",
     "title": "“2026년 휴머노이드 '상업적 임계점' 진입…한국의 골든타임은 5년”",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15205,7 +17650,7 @@
     "id": "irobotnews-fxjgi2",
     "itemType": "news",
     "title": "GIST, 사람처럼 물체 다루는 AI 양팔 로봇 집기 기술 개발",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15226,7 +17671,7 @@
     "id": "irobotnews-fxjghd",
     "itemType": "news",
     "title": "中 디로보틱스, 2200억원 규모 투자 유치...중동 자본 참여",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15247,7 +17692,7 @@
     "id": "irobotnews-fxjghc",
     "itemType": "news",
     "title": "뉴로메카, SIMTOS 2026서 '초밀착형' 솔루션 공개",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15268,7 +17713,7 @@
     "id": "irobotnews-fxjghb",
     "itemType": "news",
     "title": "아이엘, 차세대 휴머노이드 ‘아이엘봇 H2’ 공개…공중 기동 구현",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15289,7 +17734,7 @@
     "id": "irobotnews-fxjgh8",
     "itemType": "news",
     "title": "KNAPP, ‘모덱스 2026’서 자율 창고로봇·AI 통합 플랫폼 공개",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15310,7 +17755,7 @@
     "id": "irobotnews-fxjfma",
     "itemType": "news",
     "title": "글로벌 주요 로봇 핸드 52종 살펴보니…한국 6종으로 中·美 이어 3위",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15331,7 +17776,7 @@
     "id": "irobotnews-fxjfqk",
     "itemType": "news",
     "title": "2025년 국내 로봇 상장사 실적 ‘급랭’…적자 구조 전면 확대",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15352,7 +17797,7 @@
     "id": "irobotnews-fxjgb7",
     "itemType": "news",
     "title": "클로봇, 글로벌 확장 위한 유상증자 단행",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15373,7 +17818,7 @@
     "id": "irobotnews-fxjggj",
     "itemType": "news",
     "title": "한국AI·로봇산업협회, 제6회 ‘로봇부품기업협의회’ 성료",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15394,7 +17839,7 @@
     "id": "irobotnews-fxjgeq",
     "itemType": "news",
     "title": "티엑스알로보틱스, 한국기계연구원 패밀리기업 협약",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15415,7 +17860,7 @@
     "id": "irobotnews-fxjger",
     "itemType": "news",
     "title": "브릴스, 美 미시간주에 현지법인 설립…북미 사업 영토 넓힌다",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15436,7 +17881,7 @@
     "id": "irobotnews-fxjh2w",
     "itemType": "news",
     "title": "금주의 로봇 캘린더(2026. 4. 13 ~ 4. 19)",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15457,7 +17902,7 @@
     "id": "irobotnews-fxjh2v",
     "itemType": "news",
     "title": "[Books] 로봇 의식 연구",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15478,7 +17923,7 @@
     "id": "irobotnews-fxjh2u",
     "itemType": "news",
     "title": "인도 'SS이노베이션스', 원격 수술지원 드론 '비마나 프로젝트' 공개",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15499,7 +17944,7 @@
     "id": "irobotnews-fxjh2s",
     "itemType": "news",
     "title": "中 시어 로보틱스, 모덱스서 멀티 로봇 플랫폼 소개",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15520,7 +17965,7 @@
     "id": "irobotnews-fxjh22",
     "itemType": "news",
     "title": "中 역대 최대 규모 휴머노이드 관절 생산공장 건립",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15541,7 +17986,7 @@
     "id": "irobotnews-fxjh1v",
     "itemType": "news",
     "title": "로보블럭시스템, 국내 기술 기반 사람 탑승형 UAM 개발 나서",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15562,7 +18007,7 @@
     "id": "irobotnews-fxjgj4",
     "itemType": "news",
     "title": "한국피아이엠, 휴머노이드 로봇에 최적 ‘8mm 감속기’ 개발",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15583,7 +18028,7 @@
     "id": "irobotnews-fxjgha",
     "itemType": "news",
     "title": "한국, ‘로봇 밀도 1220대’로 세계 1위 자리 지켜",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15604,7 +18049,7 @@
     "id": "irobotnews-fxjgh9",
     "itemType": "news",
     "title": "英 오카도, 모덱스에서 AI 기반 ‘오카도 IQ’ SW 공개",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15625,7 +18070,7 @@
     "id": "irobotnews-fxjgh7",
     "itemType": "news",
     "title": "加 로보틱, 美 마틴 레이 와이너리 와인상자 적재 자동화",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15646,7 +18091,7 @@
     "id": "irobotnews-fxjgh6",
     "itemType": "news",
     "title": "대동, 국내 최초 AI트랙터 출시…농업 ‘필드로봇’ 시대 연다",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15667,7 +18112,7 @@
     "id": "irobotnews-fxjggg",
     "itemType": "news",
     "title": "2000억원 투자 받은 中 라이트휠AI \"로봇 전용 훈련센터 구축\"",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15688,7 +18133,7 @@
     "id": "irobotnews-fxjggf",
     "itemType": "news",
     "title": "美 로크웰, 모덱스서 엔드투 엔드 자율운영 플랫폼 시연",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15709,7 +18154,7 @@
     "id": "irobotnews-fxjggb",
     "itemType": "news",
     "title": "오픈AI, ‘로봇세·공공 부(富) 기금’ 제안…“초지능 시대, 사회 계약 재설계 해야”",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15730,7 +18175,7 @@
     "id": "irobotnews-fxjgi7",
     "itemType": "news",
     "title": "브이픽스메디칼, 로봇수술용 디지털 생검 플랫폼 美 510k 승인",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15751,7 +18196,7 @@
     "id": "irobotnews-fxjggi",
     "itemType": "news",
     "title": "中 유비테크, 日 혼다 손잡고 제조·물류에 휴머노이드 적용",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15772,7 +18217,7 @@
     "id": "irobotnews-fxjggd",
     "itemType": "news",
     "title": "로보와이드, ‘SIMTOS 2026’ 참가…웨어러블 로봇으로 산업현장 혁신 제시",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15793,7 +18238,7 @@
     "id": "irobotnews-fxjgfk",
     "itemType": "news",
     "title": "LG전자, 로봇 사업 본격화…밸류에이션 재평가 기대감 높아",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15814,7 +18259,7 @@
     "id": "irobotnews-fxjfo3",
     "itemType": "news",
     "title": "‘2026 스마트 SMT&PCB 어셈블리’ 전시회 1일 개막…부스 살펴보니",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15835,7 +18280,7 @@
     "id": "irobotnews-fxje6q",
     "itemType": "news",
     "title": "현대오토에버, \"현대차그룹-엔비디아 협력 수혜\"",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15856,7 +18301,7 @@
     "id": "irobotnews-fxjdk4",
     "itemType": "news",
     "title": "티로보틱스, 일본 화낙과 로봇 자동화 기술 협력",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15877,7 +18322,7 @@
     "id": "irobotnews-fxjc13",
     "itemType": "news",
     "title": "티로보틱스, 자체 개발 휴머노이드 ‘TR-WORKS’ 첫 공개",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15898,7 +18343,7 @@
     "id": "irobotnews-fxjbvy",
     "itemType": "news",
     "title": "AI 혁신 시대, 생존을 가르는 것은 ‘기술’ 아닌 ‘기업가 정신’",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15919,7 +18364,7 @@
     "id": "irobotnews-fxjbb8",
     "itemType": "news",
     "title": "티로보틱스, 자체 개발 휴머노이드 내달 공개한다",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15940,7 +18385,7 @@
     "id": "irobotnews-fxiu42",
     "itemType": "news",
     "title": "[2026 새해 새 설계] 티엑스알로보틱스 엄인섭 대표",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15961,7 +18406,7 @@
     "id": "irobotnews-fxiu2c",
     "itemType": "news",
     "title": "[KRoC 2026] 기조강연 2 - “Agentic AI, 디지털을 넘어 물리 세계로” … LG AI연구원, EXAONE·K-EXAONE 기반 에이전트 로드맵 제시",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -15982,7 +18427,7 @@
     "id": "irobotnews-fxith0",
     "itemType": "news",
     "title": "대동기어, 올해 EV 부품 양산 돌입…로봇 新사업도 '시동'",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -16003,7 +18448,7 @@
     "id": "irobotnews-fxithn",
     "itemType": "news",
     "title": "“로봇 도입 초기 투자 부담 낮추자”…폴라리스쓰리디-한국렌탈 ‘의기투합’",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -16024,7 +18469,7 @@
     "id": "irobotnews-fxissv",
     "itemType": "news",
     "title": "나우로보틱스, 한양로보틱스 경영권 인수 이후 통합 운영 본격 개시",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -16045,7 +18490,7 @@
     "id": "irobotnews-fxisod",
     "itemType": "news",
     "title": "서진시스템, TPC 메카트로닉스와 로봇 파운드리 사업 업무협약 체결",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -16066,7 +18511,7 @@
     "id": "jangup-c23k6g",
     "itemType": "news",
     "title": "처음처음",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16087,7 +18532,7 @@
     "id": "jangup-9tyzif",
     "itemType": "news",
     "title": "2",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16108,7 +18553,7 @@
     "id": "jangup-7lueue",
     "itemType": "news",
     "title": "3",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16129,7 +18574,7 @@
     "id": "jangup-5dpu6d",
     "itemType": "news",
     "title": "4",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16150,7 +18595,7 @@
     "id": "jangup-35l9ic",
     "itemType": "news",
     "title": "5",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16171,7 +18616,7 @@
     "id": "jangup-xgoub",
     "itemType": "news",
     "title": "6",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16192,7 +18637,7 @@
     "id": "jangup-1anvtq",
     "itemType": "news",
     "title": "7",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16213,7 +18658,7 @@
     "id": "jangup-3isghr",
     "itemType": "news",
     "title": "8",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16234,7 +18679,7 @@
     "id": "jangup-5qx15s",
     "itemType": "news",
     "title": "9",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16255,7 +18700,7 @@
     "id": "jangup-7h2m08",
     "itemType": "news",
     "title": "10",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16276,7 +18721,7 @@
     "id": "jangup-58y1c7",
     "itemType": "news",
     "title": "다음",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16297,7 +18742,7 @@
     "id": "jangup-sh7d7s",
     "itemType": "news",
     "title": "끝끝",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -16339,7 +18784,7 @@
     "id": "tipa-5h5suy",
     "itemType": "gov",
     "title": "중소벤처기업부 기술개발사업종합관리시스템",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "tipa",
     "tier": "T3",
     "priority": "P2",
@@ -16360,7 +18805,7 @@
     "id": "tipa-kzw4qe",
     "itemType": "gov",
     "title": "기술혁신센터 홈페이지",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "tipa",
     "tier": "T3",
     "priority": "P2",
@@ -16381,7 +18826,7 @@
     "id": "tipa-k89o6y",
     "itemType": "gov",
     "title": "스마트공장 사업관리시스템",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "tipa",
     "tier": "T1",
     "priority": "P2",
@@ -16402,7 +18847,7 @@
     "id": "tipa-yui1p8",
     "itemType": "gov",
     "title": "K-바이오랩허브 사업추진단",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "tipa",
     "tier": "T3",
     "priority": "P2",
@@ -18802,6 +21247,300 @@
     "starred": false
   },
   {
+    "id": "naver_news-vqsm30",
+    "itemType": "news",
+    "title": "스웨덴, 국가 AI 전략과 원전 활성화 정책 발표... 두 마리 토끼 잡나",
+    "publishedAt": "2026-04-13T02:24:00.000Z",
+    "sourceName": "naver_news",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=80&CONTENTS_NO=2&bbsGbn=242&bbsSn=242&pNttSn=239917",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-mq0x75",
+    "itemType": "news",
+    "title": "제조 특화 AI, 스마트팩토리 혁신 가속화한다…KETI ‘AI 팩토리 해커톤 2025’ 에서.. - 테크데일리",
+    "publishedAt": "2025-12-17T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mOHdpRFJHQVhfSHFwc3FlbFA3UEJzb0k4QU4wYUVpZjRWMDlqSmtLbjdjbk15UkpId2xlOXV1ME5KbER0emJ3SWFxYmFXX3Y4RjNlUXFwSTdpR080STdQRG5XTkZvRnQzT09mOEpB0gFyQVVfeXFMTkRqcnZFcHlzWklsVUt3elhKR21IdDJvcjR2X0dYNDR6VS1MVWNhUHhoU2FOMWpxTmMtV2NPT3RhbkdCdklKMV9pZzJaeGJNSVZvbjFYY2k0TTJFT1B3b3NTWDNad25pa0l5REpMc25wYWp3?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-ms72ty",
+    "itemType": "news",
+    "title": "LG CNS, AI 활용 곤충 스마트팩토리팜 사업 진출 - v.daum.net",
+    "publishedAt": "2025-07-16T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VeVQ5dXRhN2NiM29Yb2pLQUdtUjNjRDV1aEo4MWkwaWNvMnRzemNRYnE1MVhCNGdQNV9WbVlrdFFqbFJZZUgtb2pCRHdaYjA?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-xk6ity",
+    "itemType": "news",
+    "title": "고영, 독일서 AI 스마트팩토리 플랫폼 선봬 - DealSite경제TV",
+    "publishedAt": "2025-11-17T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83VVhjNnRpTnFHTzJPZjZaVGFvb0VkMGxfbFlfMVp6eWVUOGF1ZGFIQjZaZkJfZFZiRVo0aDFhMThCY25HOWtsdi1BWkpSNHpqZkZmcS1B?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-1ybl1o",
+    "itemType": "news",
+    "title": "[글로벌 산업 트렌드] 제조업, AI·스마트팩토리·설비 투자로 구조 재편 - 산업종합저널",
+    "publishedAt": "2025-10-21T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WQlJuQU5hQkg5c2tBdVV5X1A4NHM0Z1ZMWnVDSVBHNDl1Zkd6Z0pIVEFRbFhuaTN3czZ6NlNJb0RheFRrdlVkZGZaN0owc2UxVDQ4?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-i0ieax",
+    "itemType": "news",
+    "title": "'제약바이오산업 제조혁신'...스마트팩토리 고도화·CDMO 생태계 육성 '특명' - 약업신문",
+    "publishedAt": "2025-12-12T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwaU1HRVltQ3FodkQ2ajcyYWFEd1VaYnk1TnVPTXJCTUxRbDl2NWNMVDJRTEc3OEFjcEhZelNDeEp3UkpmSk1BaHhyaHVlVE1rRFdvZmpfSnYxeTFta2NhOVlsTnhDUQ?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-ss5k1u",
+    "itemType": "news",
+    "title": "엘앤에프, AI·빅데이터 기반 스마트팩토리 확산 나선다 - v.daum.net",
+    "publishedAt": "2026-03-06T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ONk1ITllHbEJoVXppWTl2RnRXalh4d1R0MzZwemk4SXFGcktiUnhLdFN5N2JiOG1ITnRUZXZHa2F5c1BBR0QyRE1wc1VwWDg?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-1gi36s",
+    "itemType": "news",
+    "title": "[단독] LG, 스마트팩토리 키워 370조 시장 선점 - 서울경제",
+    "publishedAt": "2025-12-02T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zNHl3cjhSZGZZNW1DQ00tWnpmSFlSd0p2ZWV6U3JkZWcybXVmTG5lVktWMHZmUlU0R0ZmLUs2YVBGX09Kd19zcjhra25IZmN3a1HSAVNBVV95cUxOWG1aNHlxVEY3OTJUVi0tZjdCYmxWYXhVT2VxbFVMeWt5UlJjUVBMU20tcVNHWnd0MV9HZ2hpWGc4VVZ0ZEItX3dmMWhyVUhwZGNuVQ?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-vbra80",
+    "itemType": "news",
+    "title": "스마트팩토리 제조 공정 변해도 알아서 불량 잡는 AI 나왔다 - 인공지능신문",
+    "publishedAt": "2025-08-26T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FNHBHT1NZVDJOYklfMTRxNkY3RU5aU2pBamFaREVMVGZNMG1OT2w1cXhiZHpOd1ZuZDRwVy1INnJwLTZQLUxQblJ1MXN1N3hKa0FsVWdPNXAwZmpBNGlqbF9nQWNnRGM?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-n0ld2d",
+    "itemType": "news",
+    "title": "종근당, 인공지능(AI) 기반 ‘스마트팩토리’ 공개 - 데일리메디",
+    "publishedAt": "2025-07-30T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3MC1vMXl3RVRRak0zME1tUGZGT3pSMnlrTER0R0p0RHhqMUJhbXhzTkxHb09sUWRkYnhDOEEyREdBVjJBbngzcEl6eEtRUlVSYlA0eFprNFdLQ29xZWM5S3ROZ1k1RUJQ?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-t76g9t",
+    "itemType": "news",
+    "title": "장인화 회장의 AI 승부수···스마트팩토리에서 휴머노이드까지 - 뉴스웨이",
+    "publishedAt": "2026-02-10T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rSTlEQjBTX014X21MLUFkaHpTRjg4ME4tRzBBLXllXzVYOTNweEtXbDgtNXVBMThyMk1BeDVxS3VIR19OZGZqUjg2VUZxZUR2SmZoUkNNaXFvdWlicmJyZlRkOXhBT3ZBNGc?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-xe4tfl",
+    "itemType": "news",
+    "title": "10화 40대, 스마트 팩토리 국비 교육 1주차 - 브런치",
+    "publishedAt": "2025-10-26T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ETmpPa3JqYUFZVUtYLTAzRXN5OE56cnBHSkpUT1RhMmdYSzhJT0VyU0pWMy1UTUFDaWNSWW5FOUtBYTR4LWhhblBzcw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-4zfsay",
+    "itemType": "news",
+    "title": "\"곤충산업에 AI 접목\"…LG CNS, 밀웜 스마트팩토리 연말 완공 - 디일렉",
+    "publishedAt": "2025-07-16T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9fbGRMd3NKNy1QWUNRZC1YUHhreWxybGR1YWw1VV9POUF2bUtOeENPWVZCdVF2LTZheTk2WHpzRTh1MC0xWU1hbGZtSTA2eUg3TzAzSXA5MXVySlduTDVLMU9kY1dxdw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-3k4xld",
+    "itemType": "news",
+    "title": "엔비디아-다쏘시스템, 버추얼 트윈 기반 산업용 AI 플랫폼 구축 제휴 - 디지털경제뉴스",
+    "publishedAt": "2026-02-05T08:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRcENteHZ1TEt2M0dyc0Y4RS1XVUZUbXNCXzk5dU1OUlR6UTR5TVJWNEtKUnZVRnJYSjZKZlItRmNTVWdaY0xlWjhfN0FxYlJqOE5lQlFZYTk3LUZLYjVEckQzX08zamFGUmc?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "naver_news-e40hke",
     "itemType": "news",
     "title": "화장품 ODM의 변신은 무죄... 조연에서 주연으로",
@@ -18829,7 +21568,7 @@
     "id": "irobotnews-fxjgj3",
     "itemType": "news",
     "title": "주간 로봇 기업 주가 동향(04/06~04/10)",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -18852,7 +21591,7 @@
     "id": "irobotnews-fxjgj2",
     "itemType": "news",
     "title": "오늘의 로봇 기업 주식 시세(2026-04-10)",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -19036,7 +21775,7 @@
     "id": "irobotnews-fxjges",
     "itemType": "news",
     "title": "“미래농업 세상 선도”…대동, ‘AI to the Field’ 비전 광고 공개",
-    "publishedAt": "2026-04-13T02:25:33.725Z",
+    "publishedAt": "2026-04-13T02:36:21.518Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
