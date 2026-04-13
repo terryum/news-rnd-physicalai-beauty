@@ -31,6 +31,9 @@ export interface Item {
 
 export type SortBy = "latest" | "deadline";
 
+export const COMPANY_FILTERS = ["코스맥스", "콜마", "아모레퍼시픽", "LG생건"] as const;
+export type CompanyFilter = (typeof COMPANY_FILTERS)[number];
+
 export interface Filters {
   itemType: SourceType;
   priorities: Priority[];
@@ -38,6 +41,7 @@ export interface Filters {
   dateRange: "today" | "7d" | "30d" | "all";
   search: string;
   sortBy: SortBy;
+  companies: CompanyFilter[];
 }
 
 export const DEFAULT_FILTERS: Filters = {
@@ -47,4 +51,5 @@ export const DEFAULT_FILTERS: Filters = {
   dateRange: "30d",
   search: "",
   sortBy: "latest",
+  companies: [],
 };

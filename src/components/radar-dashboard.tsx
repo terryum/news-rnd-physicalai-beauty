@@ -81,6 +81,22 @@ export function RadarDashboard({
                 : 30;
           if (daysBetween(now, pub) > days) return false;
         }
+        // Company filter (뉴스 전용)
+        if (filters.companies.length > 0) {
+          const titleLower = item.title.toLowerCase();
+          const companyAliases: Record<string, string[]> = {
+            "코스맥스": ["코스맥스", "cosmax"],
+            "콜마": ["콜마", "kolmar"],
+            "아모레퍼시픽": ["아모레", "amore"],
+            "LG생건": ["lg생활건강", "lg생건", "lg h&h"],
+          };
+          const matched = filters.companies.some((c) => {
+            const aliases = companyAliases[c] ?? [c];
+            return aliases.some((a) => titleLower.includes(a.toLowerCase()));
+          });
+          if (!matched) return false;
+        }
+
         if (filters.search) {
           const q = filters.search.toLowerCase();
           const searchable = [

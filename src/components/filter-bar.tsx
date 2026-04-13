@@ -1,7 +1,8 @@
 "use client";
 
 import { Input } from "@/components/ui/input";
-import type { Filters, SourceType, Priority, Tier, SortBy } from "@/data/types";
+import type { Filters, SourceType, Priority, Tier, SortBy, CompanyFilter } from "@/data/types";
+import { COMPANY_FILTERS } from "@/data/types";
 
 const priorityLabel: Record<string, string> = {
   P0: "필독",
@@ -59,6 +60,13 @@ export function FilterBar({ filters, onChange, counts }: FilterBarProps) {
       ? filters.tiers.filter((x) => x !== t)
       : [...filters.tiers, t];
     onChange({ ...filters, tiers: next });
+  };
+
+  const toggleCompany = (c: CompanyFilter) => {
+    const next = filters.companies.includes(c)
+      ? filters.companies.filter((x) => x !== c)
+      : [...filters.companies, c];
+    onChange({ ...filters, companies: next });
   };
 
   return (
@@ -147,6 +155,22 @@ export function FilterBar({ filters, onChange, counts }: FilterBarProps) {
           </Chip>
         ))}
       </div>
+
+      {/* Row 3: Company filter (뉴스일 때만) */}
+      {filters.itemType === "news" && (
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs text-muted-foreground shrink-0">기업</span>
+          {COMPANY_FILTERS.map((c) => (
+            <Chip
+              key={c}
+              selected={filters.companies.includes(c)}
+              onClick={() => toggleCompany(c)}
+            >
+              {c}
+            </Chip>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
