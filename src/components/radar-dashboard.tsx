@@ -3,7 +3,6 @@
 import { useState, useMemo } from "react";
 import { FilterBar } from "./filter-bar";
 import { ItemRow } from "./item-row";
-import { seedItems } from "@/data/seed-items";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 import type { Filters, Item } from "@/data/types";
 import { DEFAULT_FILTERS } from "@/data/types";
@@ -12,7 +11,28 @@ function daysBetween(a: Date, b: Date) {
   return Math.abs(a.getTime() - b.getTime()) / (1000 * 60 * 60 * 24);
 }
 
-export function RadarDashboard() {
+function formatLastUpdated(iso: string | null, source: string) {
+  if (source === "seed") return "시드 데이터 (크롤링 대기 중)";
+  if (!iso) return "알 수 없음";
+  const d = new Date(iso);
+  const month = d.getMonth() + 1;
+  const day = d.getDate();
+  const hours = String(d.getHours()).padStart(2, "0");
+  const mins = String(d.getMinutes()).padStart(2, "0");
+  return `${month}/${day} ${hours}:${mins} 크롤링`;
+}
+
+interface RadarDashboardProps {
+  initialItems: Item[];
+  dataSource: "crawled" | "seed";
+  lastUpdated: string | null;
+}
+
+export function RadarDashboard({
+  initialItems,
+  dataSource,
+  lastUpdated,
+}: RadarDashboardProps) {
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
   const [readIds, setReadIds, readHydrated] = useLocalStorage<string[]>(
     "radar-read",
@@ -25,34 +45,27 @@ export function RadarDashboard() {
 
   const items: Item[] = useMemo(
     () =>
-      seedItems.map((item) => ({
+      initialItems.map((item) => ({
         ...item,
         read: readIds.includes(item.id),
         starred: starredIds.includes(item.id),
       })),
-    [readIds, starredIds]
+    [initialItems, readIds, starredIds]
   );
 
   const filteredItems = useMemo(() => {
     const now = new Date();
     return items
       .filter((item) => {
-        // Type filter
         if (filters.itemType !== "all" && item.itemType !== filters.itemType)
           return false;
-
-        // Priority filter
         if (
           filters.priorities.length > 0 &&
           !filters.priorities.includes(item.priority)
         )
           return false;
-
-        // Tier filter
         if (filters.tiers.length > 0 && !filters.tiers.includes(item.tier))
           return false;
-
-        // Date range filter
         if (filters.dateRange !== "all") {
           const pub = new Date(item.publishedAt);
           const days =
@@ -63,8 +76,6 @@ export function RadarDashboard() {
                 : 30;
           if (daysBetween(now, pub) > days) return false;
         }
-
-        // Search filter
         if (filters.search) {
           const q = filters.search.toLowerCase();
           const searchable = [
@@ -78,11 +89,9 @@ export function RadarDashboard() {
             .toLowerCase();
           if (!searchable.includes(q)) return false;
         }
-
         return true;
       })
       .sort((a, b) => {
-        // Sort: starred first, then by priority, then by date
         if (a.starred !== b.starred) return a.starred ? -1 : 1;
         const pOrder = { P0: 0, P1: 1, P2: 2 };
         if (pOrder[a.priority] !== pOrder[b.priority])
@@ -132,7 +141,7 @@ export function RadarDashboard() {
           {filteredItems.length}건 표시 / 전체 {items.length}건
         </p>
         <p className="text-xs text-muted-foreground">
-          마지막 업데이트: 시드 데이터
+          {formatLastUpdated(lastUpdated, dataSource)}
         </p>
       </div>
 

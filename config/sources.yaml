@@ -1,0 +1,368 @@
+# Physical AI Radar — Source Registry
+# 모든 소스의 단일 진입점. 어댑터 추가/수정 시 이 파일만 편집.
+#
+# group: A(API), B(RSS), C(namu-cms), D(html), E(playwright)
+# authority: canonical(원문 권위) | discovery(발견용 보조)
+# phase: fast(A~D, 먼저 실행) | slow(E, 나중 실행)
+
+# ── 그룹 A: API ──
+- id: bizinfo
+  name: 기업마당
+  type: gov
+  group: A
+  authority: discovery
+  phase: fast
+  url: https://www.bizinfo.go.kr
+  api_endpoint: https://apis.data.go.kr/B552735/k_startup_bizinfo_dataAPI
+  schedule: "0 */4 * * *"
+  keywords: ["제조", "AI", "로봇", "스마트팩토리", "자동화"]
+  enabled: true
+  notes: "공공데이터포털 API. 가장 넓은 커버리지."
+
+- id: ntis
+  name: NTIS
+  type: gov
+  group: A
+  authority: discovery
+  phase: fast
+  url: https://www.ntis.go.kr
+  api_endpoint: https://www.ntis.go.kr/rndopen
+  schedule: "0 */6 * * *"
+  keywords: ["제조AI", "피지컬AI", "스마트팩토리"]
+  enabled: true
+  notes: "국가과학기술지식정보 Open API."
+
+- id: naver_news
+  name: 네이버 뉴스 API
+  type: news
+  group: A
+  authority: discovery
+  phase: fast
+  url: https://openapi.naver.com/v1/search/news.json
+  schedule: "0 */2 * * *"
+  keywords: ["제조 피지컬AI", "스마트팩토리 로봇", "화장품 제조 자동화", "제조AI 에이전트", "코스맥스 AI", "한국콜마 자동화"]
+  enabled: true
+  notes: "Client-ID/Secret 필요. 일 25,000건."
+
+# ── 그룹 B: RSS ──
+- id: google_news_physicalai
+  name: 구글뉴스 (피지컬AI)
+  type: news
+  group: B
+  authority: discovery
+  phase: fast
+  url: https://news.google.com/rss/search?q=%22%EC%A0%9C%EC%A1%B0+%ED%94%BC%EC%A7%80%EC%BB%ACAI%22+OR+%22%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8C%A9%ED%86%A0%EB%A6%AC%22+OR+%22%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C+%ED%99%94%EC%9E%A5%ED%92%88%22&hl=ko&gl=KR&ceid=KR:ko
+  schedule: "0 */2 * * *"
+  enabled: true
+  notes: "URL의 q= 파라미터에 키워드 조합. 리다이렉트 URL에서 실제 링크 추출 필요."
+
+- id: google_news_manufacturing
+  name: 구글뉴스 (제조자동화)
+  type: news
+  group: B
+  authority: discovery
+  phase: fast
+  url: https://news.google.com/rss/search?q=%22%EC%A0%9C%EC%A1%B0+%EC%9E%90%EB%8F%99%ED%99%94%22+OR+%22%ED%98%91%EB%8F%99%EB%A1%9C%EB%B4%87+%EC%A0%9C%EC%A1%B0%22+OR+%22%EC%82%B0%EC%97%85%EC%9A%A9+AI%22&hl=ko&gl=KR&ceid=KR:ko
+  schedule: "0 */2 * * *"
+  enabled: true
+
+# ── 그룹 C: 나무엔미디어 CMS (공통 어댑터) ──
+- id: irobotnews
+  name: 로봇신문
+  type: news
+  group: C
+  authority: canonical
+  phase: fast
+  url: https://www.irobotnews.com
+  search_path: /news/articleList.html
+  rss_path: /rss/allArticle.xml
+  schedule: "0 */3 * * *"
+  keywords: ["AI", "로봇", "자동화", "제조", "스마트팩토리"]
+  enabled: true
+
+- id: cosinkorea
+  name: 코스인코리아
+  type: news
+  group: C
+  authority: canonical
+  phase: fast
+  url: https://www.cosinkorea.com
+  search_path: /news/articleList.html
+  rss_path: /rss/allArticle.xml
+  schedule: "0 */4 * * *"
+  keywords: ["AI", "로봇", "자동화", "스마트", "디지털"]
+  enabled: true
+
+- id: cmn
+  name: CMN
+  type: news
+  group: C
+  authority: canonical
+  phase: fast
+  url: https://www.cmn.co.kr
+  search_path: /news/articleList.html
+  rss_path: /rss/allArticle.xml
+  schedule: "0 */4 * * *"
+  keywords: ["AI", "로봇", "자동화", "스마트", "디지털"]
+  enabled: true
+
+- id: cosmorning
+  name: 코스모닝
+  type: news
+  group: C
+  authority: canonical
+  phase: fast
+  url: https://www.cosmorning.com
+  search_path: /news/articleList.html
+  rss_path: /rss/allArticle.xml
+  schedule: "0 */4 * * *"
+  keywords: ["AI", "로봇", "자동화", "스마트", "디지털"]
+  enabled: true
+
+- id: beautynuri
+  name: 뷰티누리
+  type: news
+  group: C
+  authority: canonical
+  phase: fast
+  url: https://www.beautynuri.com
+  search_path: /news/articleList.html
+  rss_path: /rss/allArticle.xml
+  schedule: "0 */4 * * *"
+  keywords: ["AI", "로봇", "자동화", "스마트", "디지털"]
+  enabled: true
+
+- id: jangup
+  name: 장업신문
+  type: news
+  group: C
+  authority: canonical
+  phase: fast
+  url: https://www.jangup.com
+  search_path: /news/articleList.html
+  rss_path: /rss/allArticle.xml
+  schedule: "0 */4 * * *"
+  keywords: ["AI", "로봇", "자동화", "스마트", "디지털"]
+  enabled: true
+
+# ── 그룹 D: 정적 HTML 파싱 (사이트별 개별 파서) ──
+- id: etnews
+  name: 전자신문
+  type: news
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.etnews.com
+  search_url: https://www.etnews.com/news/search.html
+  schedule: "0 */3 * * *"
+  keywords: ["제조AI", "스마트팩토리", "로봇 제조", "피지컬AI"]
+  enabled: true
+
+- id: hellot
+  name: 헬로티
+  type: news
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.hellot.net
+  search_url: https://www.hellot.net/news/search
+  schedule: "0 */3 * * *"
+  keywords: ["제조AI", "스마트팩토리", "로봇", "자동화"]
+  enabled: true
+
+- id: hankyung
+  name: 한국경제
+  type: news
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.hankyung.com
+  search_url: https://search.hankyung.com/search/news
+  schedule: "0 */4 * * *"
+  keywords: ["제조AI", "스마트팩토리", "피지컬AI"]
+  enabled: true
+  notes: "검색 서브도메인 분리. 네이버 API 보조로 커버 가능."
+
+- id: msit
+  name: 과기정통부
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.msit.go.kr
+  list_url: https://www.msit.go.kr/bbs/list.do?sCode=user&mId=113&mPid=112
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "사전예고가 IRIS보다 1~3일 선행."
+
+- id: motie
+  name: 산업부
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.motie.go.kr
+  list_url: https://www.motie.go.kr/motie/ms/nt/gosi/bbs/bbsList.do?bbs_cd_n=6
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "스마트제조·로봇·소부장 R&D 원천."
+
+- id: mss
+  name: 중기부
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.mss.go.kr
+  list_url: https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=86
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "스마트공장 보급, 중소기업 R&D 원천."
+
+- id: keit
+  name: KEIT
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.keit.re.kr
+  list_url: https://www.keit.re.kr/boardView.es?mid=a10305010000&bid=0031
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "산업부 R&D RFP 원천."
+
+- id: kiat
+  name: KIAT
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.kiat.or.kr
+  list_url: https://www.kiat.or.kr/front/board/boardContentsListPage.do?board_id=010900000000
+  schedule: "0 */6 * * *"
+  enabled: true
+
+- id: nipa
+  name: NIPA
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.nipa.kr
+  list_url: https://www.nipa.kr/main/selectBbsList.do?bbsId=BBS01
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "AI바우처, SW융합 사업."
+
+- id: kiria
+  name: KIRIA
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.kiria.org
+  list_url: https://www.kiria.org/portal/busi/busiAnnouncementList.do
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "로봇 실증·보급 사업 원천. 필수."
+
+- id: smtech
+  name: SMTECH
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.smtech.go.kr
+  list_url: https://www.smtech.go.kr/front/ifg/no/notice02_list.do
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "중기부 R&D 접수 시스템."
+
+- id: tipa
+  name: TIPA
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.tipa.or.kr
+  schedule: "0 */6 * * *"
+  enabled: true
+
+- id: nia
+  name: NIA
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.nia.or.kr
+  list_url: https://www.nia.or.kr/site/nia_kor/ex/bbs/List.do?cbIdx=39485
+  schedule: "0 */6 * * *"
+  enabled: true
+
+- id: gbsa
+  name: GBSA (경기도)
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.gbsa.or.kr
+  list_url: https://www.gbsa.or.kr/biz/announcement.do
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "경기도 자체사업. 코스맥스 소재지."
+
+- id: rndia
+  name: RNDIA (연구산업협회)
+  type: gov
+  group: D
+  authority: canonical
+  phase: fast
+  url: https://www.rndia.or.kr
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "국가 R&D 과제, 연구산업."
+
+# ── 그룹 E: Playwright 필수 (느린 소스) ──
+- id: iris
+  name: IRIS
+  type: gov
+  group: E
+  authority: discovery
+  phase: slow
+  url: https://www.iris.go.kr
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "POST AJAX + 세션. 범부처 R&D 통합. 최중요 Discovery."
+
+- id: srome
+  name: SROME (KEIT 과제관리)
+  type: gov
+  group: E
+  authority: canonical
+  phase: slow
+  url: https://srome.keit.re.kr
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "완전 동적. 과제공고 목록."
+
+- id: smart_factory
+  name: 스마트공장 사업관리
+  type: gov
+  group: E
+  authority: canonical
+  phase: slow
+  url: https://www.smart-factory.kr
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "AJAX 기반. 스마트공장 보급 사업 원천."
+
+- id: iitp
+  name: IITP
+  type: gov
+  group: E
+  authority: canonical
+  phase: slow
+  url: https://www.iitp.kr
+  schedule: "0 */6 * * *"
+  enabled: true
+  notes: "과기정통부 ICT R&D. RFP 원문은 여기만."
