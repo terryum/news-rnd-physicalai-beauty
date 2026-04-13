@@ -1,0 +1,142 @@
+"use client";
+
+import { Badge } from "@/components/ui/badge";
+import type { Item } from "@/data/types";
+
+const priorityColors: Record<string, string> = {
+  P0: "bg-red-500/15 text-red-700 dark:text-red-400 border-red-500/20",
+  P1: "bg-amber-500/15 text-amber-700 dark:text-amber-400 border-amber-500/20",
+  P2: "bg-gray-500/15 text-gray-600 dark:text-gray-400 border-gray-500/20",
+};
+
+const tierColors: Record<string, string> = {
+  T0: "bg-blue-500/15 text-blue-700 dark:text-blue-400 border-blue-500/20",
+  T1: "bg-violet-500/15 text-violet-700 dark:text-violet-400 border-violet-500/20",
+  T2: "bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 border-emerald-500/20",
+  T3: "bg-slate-500/15 text-slate-600 dark:text-slate-400 border-slate-500/20",
+};
+
+const statusLabel: Record<string, string> = {
+  open: "접수중",
+  upcoming: "예정",
+  closed: "마감",
+};
+
+interface ItemRowProps {
+  item: Item;
+  onToggleRead: (id: string) => void;
+  onToggleStar: (id: string) => void;
+}
+
+function formatDate(iso: string) {
+  const d = new Date(iso);
+  return `${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+}
+
+export function ItemRow({ item, onToggleRead, onToggleStar }: ItemRowProps) {
+  return (
+    <div
+      className={`group rounded-lg border px-4 py-3 transition-colors hover:bg-accent/50 ${
+        item.read ? "opacity-60" : ""
+      }`}
+    >
+      {/* Main row */}
+      <div className="flex items-start gap-3">
+        {/* Read indicator + Star */}
+        <div className="flex flex-col items-center gap-1 pt-0.5 shrink-0">
+          <button
+            onClick={() => onToggleRead(item.id)}
+            className="h-2.5 w-2.5 rounded-full border-2 transition-colors"
+            style={{
+              backgroundColor: item.read ? "transparent" : "currentColor",
+              borderColor: "currentColor",
+              color: item.read
+                ? "var(--color-muted-foreground)"
+                : "var(--color-primary)",
+            }}
+            title={item.read ? "읽음" : "안읽음"}
+          />
+          <button
+            onClick={() => onToggleStar(item.id)}
+            className="text-sm leading-none transition-colors"
+            title={item.starred ? "별표 해제" : "별표"}
+          >
+            {item.starred ? "★" : "☆"}
+          </button>
+        </div>
+
+        {/* Content */}
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="text-xs text-muted-foreground shrink-0">
+              {formatDate(item.publishedAt)}
+            </span>
+            <Badge variant="outline" className="text-[10px] px-1.5 py-0 h-5 shrink-0">
+              {item.itemType === "gov" ? "공고" : "뉴스"}
+            </Badge>
+            <span className="text-sm font-medium truncate">{item.title}</span>
+          </div>
+
+          {/* Meta row */}
+          <div className="mt-1.5 flex items-center gap-2 flex-wrap">
+            <Badge className={`text-[10px] px-1.5 py-0 h-5 ${priorityColors[item.priority]}`}>
+              {item.priority}
+            </Badge>
+            <Badge className={`text-[10px] px-1.5 py-0 h-5 ${tierColors[item.tier]}`}>
+              {item.tier}
+            </Badge>
+            <span className="text-xs text-muted-foreground">{item.sourceName}</span>
+
+            {item.deadlineAt && (
+              <span className="text-xs text-muted-foreground">
+                마감 {formatDate(item.deadlineAt)}
+              </span>
+            )}
+            {item.budgetKrwOk && (
+              <span className="text-xs text-muted-foreground">
+                {item.budgetKrwOk}억원
+              </span>
+            )}
+            {item.status && (
+              <Badge
+                variant="outline"
+                className={`text-[10px] px-1.5 py-0 h-5 ${
+                  item.status === "open"
+                    ? "border-green-500/40 text-green-700 dark:text-green-400"
+                    : item.status === "closed"
+                      ? "border-red-500/40 text-red-600 dark:text-red-400"
+                      : ""
+                }`}
+              >
+                {statusLabel[item.status]}
+              </Badge>
+            )}
+            {item.matchedCompanies.map((c) => (
+              <span key={c} className="text-xs text-blue-600 dark:text-blue-400">
+                #{c}
+              </span>
+            ))}
+          </div>
+
+          {/* Links row */}
+          {item.links.length > 0 && (
+            <div className="mt-1.5 flex items-center gap-2 flex-wrap">
+              <span className="text-xs text-muted-foreground">↳</span>
+              {item.links.map((link, i) => (
+                <a
+                  key={i}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline-offset-2 hover:underline"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
