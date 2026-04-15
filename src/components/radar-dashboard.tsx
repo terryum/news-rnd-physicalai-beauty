@@ -30,14 +30,19 @@ interface RadarDashboardProps {
   initialItems: Item[];
   dataSource: "crawled" | "seed";
   lastUpdated: string | null;
+  defaultItemType?: "gov" | "news";
 }
 
 export function RadarDashboard({
   initialItems,
   dataSource,
   lastUpdated,
+  defaultItemType,
 }: RadarDashboardProps) {
-  const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
+  const [filters, setFilters] = useState<Filters>({
+    ...DEFAULT_FILTERS,
+    ...(defaultItemType ? { itemType: defaultItemType } : {}),
+  });
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [readIds, setReadIds, readHydrated] = useLocalStorage<string[]>(
     "radar-read",

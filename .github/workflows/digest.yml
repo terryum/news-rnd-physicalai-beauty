@@ -1,0 +1,38 @@
+name: Daily Digest Email
+
+on:
+  schedule:
+    - cron: '0 4 * * *'  # UTC 04:00 = KST 13:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: Send daily digest email
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DIGEST_RECIPIENT: ${{ secrets.DIGEST_RECIPIENT }}
+        run: npx tsx scripts/send-digest.ts
+      - name: Save sent history for dedup
+        run: |
+          if git diff --quiet public/data/digest-sent.json 2>/dev/null; then
+            echo "No changes to digest-sent.json"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add public/data/digest-sent.json
+            git commit -m "data: update digest sent history"
+            git push
+          fi
