@@ -9,6 +9,12 @@ export interface ItemLink {
   kind: LinkKind;
 }
 
+export interface RelatedArticle {
+  title: string;
+  url: string;
+  sourceName: string;
+}
+
 export interface Item {
   id: string;
   itemType: SourceType;
@@ -25,6 +31,7 @@ export interface Item {
   region?: string;
   status?: "open" | "upcoming" | "closed";
   links: ItemLink[];
+  relatedArticles?: RelatedArticle[];
   read: boolean;
   starred: boolean;
 }

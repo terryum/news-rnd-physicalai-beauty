@@ -169,6 +169,28 @@ export function ItemRow({ item, onToggleRead, onToggleStar }: ItemRowProps) {
               </span>
             ))}
           </div>
+
+          {/* Related articles */}
+          {item.relatedArticles && item.relatedArticles.length > 0 && (
+            <div className="mt-1.5 pl-2 border-l-2 border-muted-foreground/20 space-y-0.5">
+              {item.relatedArticles.map((ra, idx) => (
+                <div key={idx} className="flex items-baseline gap-1.5">
+                  <span className="text-[10px] text-muted-foreground shrink-0">{"\u2514"}</span>
+                  <a
+                    href={ra.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-muted-foreground hover:text-blue-600 dark:hover:text-blue-400 hover:underline underline-offset-2 truncate"
+                  >
+                    {ra.title}
+                  </a>
+                  <span className="text-[10px] text-muted-foreground shrink-0">
+                    {ra.sourceName}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>

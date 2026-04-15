@@ -175,6 +175,23 @@ function NewsRow({ item, idx }: { item: Item; idx: number }) {
       <div className="mt-0.5 text-xs text-muted-foreground pl-7">
         {item.sourceName}
       </div>
+      {item.relatedArticles && item.relatedArticles.length > 0 && (
+        <div className="mt-0.5 pl-7 space-y-0.5">
+          {item.relatedArticles.map((ra, i) => (
+            <div key={i} className="flex items-baseline gap-1">
+              <span className="text-[10px] text-muted-foreground">{"\u2514"}</span>
+              <a
+                href={ra.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-muted-foreground hover:text-blue-600 dark:hover:text-blue-400 hover:underline underline-offset-2 truncate"
+              >
+                {ra.title}
+              </a>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

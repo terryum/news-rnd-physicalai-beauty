@@ -32,12 +32,20 @@ export function dedup(items: ScoredItem[]): ScoredItem[] {
   // 같은 주체(인물/회사) + 같은 토픽의 기사들을 하나로 묶음
   const afterSimilar = groupSimilarArticles(afterExact);
 
-  // 3단계: URL 중복 제거
+  // 3단계: URL 중복 제거 (relatedArticles 보존)
   const urlMap = new Map<string, ScoredItem>();
   for (const item of afterSimilar) {
     const nUrl = normalizeUrl(item.url);
     const existing = urlMap.get(nUrl);
     if (!existing || item.score > existing.score) {
+      if (existing && item.score > existing.score && existing.relatedArticles?.length) {
+        item.relatedArticles = item.relatedArticles ?? [];
+        for (const ra of existing.relatedArticles) {
+          if (item.relatedArticles.length < 2) {
+            item.relatedArticles.push(ra);
+          }
+        }
+      }
       urlMap.set(nUrl, item);
     }
   }
@@ -103,12 +111,13 @@ function groupSimilarArticles(items: ScoredItem[]): ScoredItem[] {
   return result;
 }
 
-/** 같은 그룹의 아이템을 하나로 병합 (점수 최고 기준) */
+/** 같은 그룹의 아이템을 하나로 병합 (점수 최고 기준, 관련기사 최대 2개 보존) */
 function mergeGroup(group: ScoredItem[]): ScoredItem {
   if (group.length === 1) return group[0];
 
   group.sort((a, b) => b.score - a.score);
   const parent = { ...group[0] };
+  const related: { title: string; url: string; sourceId: string }[] = [];
 
   for (let i = 1; i < group.length; i++) {
     const child = group[i];
@@ -121,6 +130,14 @@ function mergeGroup(group: ScoredItem[]): ScoredItem {
     for (const kw of childKeywords) {
       if (!parent.matchedKeywords.includes(kw)) parent.matchedKeywords.push(kw);
     }
+    // 관련 기사로 보존 (URL이 다른 것만, 최대 2개)
+    if (related.length < 2 && child.url !== parent.url) {
+      related.push({ title: child.title, url: child.url, sourceId: child.sourceId });
+    }
+  }
+
+  if (related.length > 0) {
+    parent.relatedArticles = related;
   }
 
   return parent;

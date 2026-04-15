@@ -75,11 +75,22 @@ function renderNewsItem(item: Item): string {
   const title = escapeHtml(item.title);
   const source = escapeHtml(item.sourceName);
 
+  let relatedHtml = "";
+  if (item.relatedArticles && item.relatedArticles.length > 0) {
+    relatedHtml = item.relatedArticles
+      .map((ra) => {
+        const raTitle = escapeHtml(ra.title);
+        return `<div style="margin-top:2px;padding-left:12px;"><span style="color:#9ca3af;font-size:11px;">\u2514 </span><a href="${ra.url}" target="_blank" style="color:#6b7280;text-decoration:none;font-size:12px;">${raTitle}</a></div>`;
+      })
+      .join("");
+  }
+
   return `
     <tr>
       <td style="padding:8px 12px;border-bottom:1px solid #f3f4f6;">
         <a href="${url}" target="_blank" style="color:#1d4ed8;text-decoration:none;font-size:14px;font-weight:500;">${title}</a>
         <div style="margin-top:2px;font-size:12px;color:#9ca3af;">${source}</div>
+        ${relatedHtml}
       </td>
     </tr>`;
 }

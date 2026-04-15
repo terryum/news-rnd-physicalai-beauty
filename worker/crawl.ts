@@ -181,6 +181,11 @@ function toOutputItem(item: ScoredItem): OutputItem {
     matchedCompanies: [],
     region: item.region,
     links: [{ label: "원문", url: item.url, kind: "canonical" as const }],
+    relatedArticles: item.relatedArticles?.map((ra) => ({
+      title: ra.title,
+      url: ra.url,
+      sourceName: ra.sourceId,
+    })),
     read: false,
     starred: false,
   };
@@ -201,6 +206,7 @@ interface OutputItem {
   matchedCompanies: string[];
   region?: string;
   links: Array<{ label: string; url: string; kind: string }>;
+  relatedArticles?: Array<{ title: string; url: string; sourceName: string }>;
   read: boolean;
   starred: boolean;
 }

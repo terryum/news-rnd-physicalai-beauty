@@ -24,6 +24,7 @@ export interface ScoredItem extends RawItem {
   tier: Tier;
   priority: Priority;
   matchedKeywords: string[];
+  relatedArticles?: { title: string; url: string; sourceId: string }[];
 }
 
 /**
