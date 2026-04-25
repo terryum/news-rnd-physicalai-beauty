@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Item } from "@/data/types";
 import { SubstackSubscribe } from "@/components/substack-subscribe";
@@ -25,10 +26,15 @@ function filterNewGov(items: Item[], now: Date): Item[] {
   const nowMs = now.getTime();
   return items
     .filter(
-      (i) =>
-        i.itemType === "gov" &&
-        nowMs - new Date(i.publishedAt).getTime() < HOURS_72 &&
-        isCosmaxRelated(i),
+      (i) => {
+        const pubMs = new Date(i.publishedAt).getTime();
+        return (
+          i.itemType === "gov" &&
+          pubMs <= nowMs &&
+          nowMs - pubMs < HOURS_72 &&
+          isCosmaxRelated(i)
+        );
+      },
     )
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, 5);
@@ -50,10 +56,15 @@ function filterNews(items: Item[], now: Date): Item[] {
   const nowMs = now.getTime();
   return items
     .filter(
-      (i) =>
-        i.itemType === "news" &&
-        i.priority === "P0" &&
-        nowMs - new Date(i.publishedAt).getTime() < HOURS_48,
+      (i) => {
+        const pubMs = new Date(i.publishedAt).getTime();
+        return (
+          i.itemType === "news" &&
+          i.priority === "P0" &&
+          pubMs <= nowMs &&
+          nowMs - pubMs < HOURS_48
+        );
+      },
     )
     .sort((a, b) => b.score - a.score)
     .slice(0, 20);
@@ -75,9 +86,14 @@ function filterTrending(items: Item[], now: Date): Item[] {
   const nowMs = now.getTime();
   const candidates = items
     .filter(
-      (i) =>
-        i.itemType === "trending" &&
-        nowMs - new Date(i.publishedAt).getTime() < HOURS_72_TRENDING,
+      (i) => {
+        const pubMs = new Date(i.publishedAt).getTime();
+        return (
+          i.itemType === "trending" &&
+          pubMs <= nowMs &&
+          nowMs - pubMs < HOURS_72_TRENDING
+        );
+      },
     )
     .sort((a, b) => (b.points ?? 0) - (a.points ?? 0));
 
@@ -312,62 +328,125 @@ interface DigestHomeProps {
   lastUpdated: string | null;
 }
 
-export function DigestHome({ items, lastUpdated }: DigestHomeProps) {
-  const now = new Date();
-  const dateStr = `${now.getFullYear()}.${String(now.getMonth() + 1).padStart(2, "0")}.${String(now.getDate()).padStart(2, "0")}`;
-  const dayOfWeek = DAYS_KO[now.getDay()];
+function startOfDay(d: Date): Date {
+  const r = new Date(d);
+  r.setHours(0, 0, 0, 0);
+  return r;
+}
 
-  const sections: DigestSection[] = [
-    {
-      title: "새로 등록된 코스맥스 관련 사업공고",
-      color: "#2563eb",
-      items: filterNewGov(items, now),
-      linkHref: "/gov",
-      linkLabel: "전체 공고 보기",
-    },
-    {
-      title: "마감 임박 코스맥스 관련 사업공고",
-      color: "#dc2626",
-      items: filterDeadline(items, now),
-      linkHref: "/gov",
-      linkLabel: "전체 공고 보기",
-    },
-    {
-      title: "오늘의 주요 뉴스",
-      color: "#16a34a",
-      items: filterNews(items, now),
-      linkHref: "/news",
-      linkLabel: "전체 뉴스 보기",
-    },
-    {
-      title: "🌍 해외 트렌딩",
-      color: "#7c3aed",
-      items: filterTrending(items, now),
-      linkHref: "/trending",
-      linkLabel: "전체 트렌딩 보기",
-    },
-  ];
+function endOfDay(d: Date): Date {
+  const r = new Date(d);
+  r.setHours(23, 59, 59, 999);
+  return r;
+}
+
+function addDays(d: Date, n: number): Date {
+  const r = new Date(d);
+  r.setDate(r.getDate() + n);
+  return r;
+}
+
+function isSameDay(a: Date, b: Date): boolean {
+  return (
+    a.getFullYear() === b.getFullYear() &&
+    a.getMonth() === b.getMonth() &&
+    a.getDate() === b.getDate()
+  );
+}
+
+export function DigestHome({ items, lastUpdated }: DigestHomeProps) {
+  const today = startOfDay(new Date());
+  const [selectedDate, setSelectedDate] = useState<Date>(today);
+  const isToday = isSameDay(selectedDate, today);
+
+  // 필터에 전달할 "now"는 선택된 날짜의 23:59 — 그 날 발행된 모든 항목 포함
+  const filterNow = useMemo(() => endOfDay(selectedDate), [selectedDate]);
+
+  const dateStr = `${selectedDate.getFullYear()}.${String(selectedDate.getMonth() + 1).padStart(2, "0")}.${String(selectedDate.getDate()).padStart(2, "0")}`;
+  const dayOfWeek = DAYS_KO[selectedDate.getDay()];
+  const headerLabel = isToday ? "오늘의 클리핑" : "일일 클리핑";
+
+  const sections: DigestSection[] = useMemo(
+    () => [
+      {
+        title: "새로 등록된 코스맥스 관련 사업공고",
+        color: "#2563eb",
+        items: filterNewGov(items, filterNow),
+        linkHref: "/gov",
+        linkLabel: "전체 공고 보기",
+      },
+      {
+        title: "마감 임박 코스맥스 관련 사업공고",
+        color: "#dc2626",
+        items: filterDeadline(items, filterNow),
+        linkHref: "/gov",
+        linkLabel: "전체 공고 보기",
+      },
+      {
+        title: "오늘의 주요 뉴스",
+        color: "#16a34a",
+        items: filterNews(items, filterNow),
+        linkHref: "/news",
+        linkLabel: "전체 뉴스 보기",
+      },
+      {
+        title: "🌍 해외 트렌딩",
+        color: "#7c3aed",
+        items: filterTrending(items, filterNow),
+        linkHref: "/trending",
+        linkLabel: "전체 트렌딩 보기",
+      },
+    ],
+    [items, filterNow],
+  );
 
   const allEmpty = sections.every((s) => s.items.length === 0);
 
   return (
     <div className="space-y-5">
-      {/* Date header */}
-      <div className="flex items-center justify-between">
-        <div>
+      {/* Date navigation header */}
+      <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center gap-2 flex-wrap">
+          <button
+            type="button"
+            onClick={() => setSelectedDate((d) => addDays(d, -1))}
+            className="inline-flex h-7 w-7 items-center justify-center rounded-md border bg-card text-sm hover:bg-accent transition-colors cursor-pointer"
+            aria-label="하루 전"
+          >
+            ‹
+          </button>
           <p className="text-lg font-semibold">
-            {dateStr} ({dayOfWeek}) 일일 클리핑
+            {dateStr} ({dayOfWeek}) {headerLabel}
           </p>
-          <p className="text-xs text-muted-foreground mt-0.5">
-            매일 오전 8시 Substack으로 발행되는 뉴스레터와 동일한 내용입니다
-          </p>
+          <button
+            type="button"
+            onClick={() => setSelectedDate((d) => addDays(d, 1))}
+            disabled={isToday}
+            className="inline-flex h-7 w-7 items-center justify-center rounded-md border bg-card text-sm hover:bg-accent transition-colors cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed"
+            aria-label="하루 후"
+          >
+            ›
+          </button>
+          {!isToday && (
+            <button
+              type="button"
+              onClick={() => setSelectedDate(today)}
+              className="ml-1 inline-flex h-7 items-center rounded-md border bg-card px-2 text-xs hover:bg-accent transition-colors cursor-pointer"
+            >
+              오늘로
+            </button>
+          )}
         </div>
         {lastUpdated && (
-          <p className="text-xs text-muted-foreground">
+          <p className="text-xs text-muted-foreground shrink-0">
             {formatLastUpdated(lastUpdated)}
           </p>
         )}
       </div>
+
+      <p className="text-xs text-muted-foreground -mt-3">
+        매일 오전 8시 Substack으로 발행되는 뉴스레터와 동일한 내용입니다
+      </p>
 
       {/* Substack subscribe */}
       <SubstackSubscribe />
@@ -375,11 +454,11 @@ export function DigestHome({ items, lastUpdated }: DigestHomeProps) {
       {/* Sections */}
       {allEmpty ? (
         <div className="rounded-lg border bg-card py-16 text-center text-muted-foreground">
-          오늘은 주요 항목이 없습니다.
+          {isToday ? "오늘은 주요 항목이 없습니다." : "이 날짜에는 항목이 없습니다."}
         </div>
       ) : (
         sections.map((section) => (
-          <DigestSectionCard key={section.title} section={section} now={now} />
+          <DigestSectionCard key={section.title} section={section} now={filterNow} />
         ))
       )}
     </div>
