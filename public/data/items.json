@@ -261,31 +261,6 @@
     "starred": false
   },
   {
-    "id": "google_news_physicalai-5e6hmc",
-    "itemType": "news",
-    "title": "현대차그룹 엔비디아 자율주행·로봇·스마트팩토리 기술동맹, 피지컬AI 클러스터에 4.3조 투자 - 비즈니스포스트",
-    "publishedAt": "2025-10-31T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T0",
-    "priority": "P0",
-    "score": 70,
-    "matchedKeywords": [
-      "피지컬AI직접",
-      "로봇+제조",
-      "기업+생산"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15Q0dZRXVoVGNfQVRmc0ctR2JwQnNjSFE5MWxVYmVBeWI5WklqZF9tWTgyRi1BLWp3QV9xSlhtM3RTcWhLOGpUQWVnRkNMV0JiSHByS2taQkVRcnJrbHI2WkJNTl9JdVlaZk9ZdTBINmkyRlU?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
     "id": "bizinfo-x967q8",
     "itemType": "gov",
     "title": "2026년 대ㆍ중소상생형 스마트공장 구축지원 사업 삼성형 도입기업 모집 공고",
@@ -2408,30 +2383,6 @@
     "starred": false
   },
   {
-    "id": "google_news_physicalai-wbduzi",
-    "itemType": "news",
-    "title": "제조AI로 다시 뛰는 LG전자, 스마트팩토리의 새로운 시대 - LG전자 뉴스룸",
-    "publishedAt": "2025-06-23T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T0",
-    "priority": "P0",
-    "score": 50,
-    "matchedKeywords": [
-      "피지컬AI직접",
-      "기업+생산"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5hNVlHeGJNS1RmbEJtbzJrb3hza3c2WEFhWE5SX2VPZVNPSjNMeno2SElVbE0tYVlwdE56czl5SWp5TXFzMjFmczh4MG1keTNkWDh4VGJhSQ?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
     "id": "bizinfo-x95nqa",
     "itemType": "gov",
     "title": "2026년 제조암묵지기반AI모델개발사업 신규지원 대상과제 수정 공고",
@@ -2859,7 +2810,7 @@
     "id": "irobotnews-fxje4v",
     "itemType": "news",
     "title": "엠디에스코리아, ‘로봇활용 제조혁신 지원사업’ 선정",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P1",
@@ -2883,7 +2834,7 @@
     "id": "irobotnews-fxiuwh",
     "itemType": "news",
     "title": "[특집] 한국생산기술연구원 '2025년 첨단제조로봇 실증사업 (수출지원형) 도입 사례",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P1",
@@ -2904,7 +2855,7 @@
     "starred": false
   },
   {
-    "id": "kiria-yylovh",
+    "id": "kiria-tcqodu",
     "itemType": "gov",
     "title": "(추경) 2026년도 AI로봇 실증사업(제조분야) 지원과제 모집 공고",
     "publishedAt": "2026-04-22T00:00:00.000Z",
@@ -2921,7 +2872,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://www.kiria.org/",
+        "url": "https://www.kiria.org/portal/info/portalInfoBusinessDetail.do?busiSeq=IBUS_000000000001244",
         "kind": "canonical"
       }
     ],
@@ -3782,7 +3733,7 @@
     "id": "hf_daily_papers-mtkag7",
     "itemType": "trending",
     "title": "3D-VCD: Hallucination Mitigation in 3D-LLM Embodied Agents through Visual Contrastive Decoding",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "hf_daily_papers",
     "tier": "T0",
     "priority": "P1",
@@ -4161,7 +4112,7 @@
     "id": "irobotnews-fxiuzv",
     "itemType": "news",
     "title": "유일로보틱스, HD현대일렉 美 공장 초고압 변압기용 설비 수주",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P1",
@@ -4295,61 +4246,6 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FQVdmS1Z2Y25MM2tFUFRsRkw1M1p3V0xZUE9sZm1mdmJNSjU5aUJ2Tm53Zmw1S1l2VDFCT3JoZk1wTy1TaHRmVVQtMkxnQ3pPajNyTnRR?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-4zrshp",
-    "itemType": "news",
-    "title": "LG전자, 엔비디아와 전방위 협력…“AI 로봇·스마트팩토리·데이터센터 총공세” - 전자신문",
-    "publishedAt": "2025-10-31T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P1",
-    "score": 40,
-    "matchedKeywords": [
-      "로봇+제조",
-      "기업+생산"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85bExIdy1la3lqNy1xREJHQTdoQ19GNUUzNnpNV2ZISWFhbmpBMHcxeEptMUxMbnZzVmpaOGNaaEdyOEZTbGVpRjdpMklSQQ?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "relatedArticles": [
-      {
-        "title": "네이버, 엔비디아 손 잡고 ‘산업용 AI’ 확대 나선다 - 한겨레",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0ZlNMS0FYSjAzQndvdkxwSmNKSEFRS2Y4NmVuY0VfMEdCYWJlaWtvbVlqTFpaV3VhY1JQN25JczdITXl5WldaeDhRNDBSU1FmenctTnJ3UW16T0pVbnNpTw?oc=5",
-        "sourceName": "google_news_manufacturing"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-3fsr9h",
-    "itemType": "news",
-    "title": "美 CNN이 주목한 현대차 스마트팩토리… AI·로봇 자동화 설비 ‘미래형 공장 모델’로 제시 - 동아비즈니스리뷰 | DBR",
-    "publishedAt": "2025-08-19T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P1",
-    "score": 40,
-    "matchedKeywords": [
-      "로봇+제조",
-      "기업+생산"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zVW9WdVdnSVA2UjIwa1VucEFXcXhITGJ3azI0eTQ3Yk9pTkxMNGtRU1lxemlVTXF5R1lDSXBndWhOMk9wakUwWXpqNmJIRlpqWDBkMW9LSWhpa2xH?oc=5",
         "kind": "canonical"
       }
     ],
@@ -6389,6 +6285,121 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-wd8prx",
+    "itemType": "news",
+    "title": "DH오토웨어, 피지컬AI 기반 스마트팩토리 고도화…\"제조 경쟁력 강화\" - 마켓인",
+    "publishedAt": "2026-01-08T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T0",
+    "priority": "P1",
+    "score": 30,
+    "matchedKeywords": [
+      "피지컬AI직접"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VMVJWNGJCajFuNWJMNXk4SEgwQTlWb2ZwTjZEalhEVXA4TlpHYzlsc3dqX1pRcllrN3BGVGZsdkdNa01QYXljMXBFZGhfMWZsd1RFNTNSUDNkMFAzOGlfdnQzNnFnQjk0cTh4UUFVRUNYTmM?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-ly4bzq",
+    "itemType": "news",
+    "title": "AI로 달라진 산업 현장, 스마트팩토리부터 피지컬AI까지 … 고객사 고민 덜어준다 - 뉴데일리 경제",
+    "publishedAt": "2026-03-04T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T0",
+    "priority": "P1",
+    "score": 30,
+    "matchedKeywords": [
+      "피지컬AI직접"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ONDZjTDhXZDFUS2FJd2c1UU5tbThMQUYtRE16YTFSeUhuNnVsLTNjY3hyNXpKSEFzNHowVktkbE5qc0tDRGVuRHFGTkFwMXRqdDl3X1FMeWdIal9mckhzTDVHU3JucDNFdWN6SUxQQlpjYmtKZmU2UnhDVQ?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-mk1inf",
+    "itemType": "news",
+    "title": "삼표그룹, 카이스트 제조 피지컬 AI 연구소와 MOU - fetv.co.kr",
+    "publishedAt": "2026-02-12T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T0",
+    "priority": "P1",
+    "score": 30,
+    "matchedKeywords": [
+      "피지컬AI직접"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZUFoyaXM3TDQ5N3c4WEdDai1YSWlzd1FNVTRtQWV4UG9WOXp4ZGhZR2hySFAtbW5ZM0pObUk0YXpZUnlrVTJkdG4yQ2YzZ2V2bXE3bkdOTlNqUQ?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-j5s8va",
+    "itemType": "news",
+    "title": "스마트팩토리·제조 AI, 왜 현장에서는 느릴까 - 브런치",
+    "publishedAt": "2026-02-12T11:14:32.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T0",
+    "priority": "P1",
+    "score": 30,
+    "matchedKeywords": [
+      "피지컬AI직접"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84SUYxcThqbTVfSDB5UDExV0NCLUVRSkhMVnlXeV9IcFFnSjdGRThjVVNvMnFVQVNFZFNkaUlDY2k5cG8wREVfZGFtamVRckk?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-t9epgy",
+    "itemType": "news",
+    "title": "LG도 \"제조AI 효과 있다\"… ‘1000兆’ 스마트 팩토리 생태계 속도 - dt.co.kr",
+    "publishedAt": "2026-02-24T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T0",
+    "priority": "P1",
+    "score": 30,
+    "matchedKeywords": [
+      "피지컬AI직접"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DZFl1Y184dFB0cklzajFiNUxzQjg1NVZrR1lEbU81TkpvQnpSRW5UYjZlbEpMSDk0T0dTRkNLdnRjYnRoVktFZE1jNXlWZw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-1xvu1j",
     "itemType": "news",
     "title": "인공지능 전환에 방점 찍은 정부...피지컬 AI, 스마트팩토리 키운다 - 한국일보",
@@ -6405,29 +6416,6 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fM1ZqOHRkMmlQR2swLXZob0UwOFIwOGpLanpqa0c4N3EweThpXzgyeU5vNXRTYmZpYlREZTExNFhMQUppR3ZwR0J3cUhKOVh5THVaMjRTenZRaE81UV9YMEZrZm9waF9PZWVXWjV30gFzQVVfeXFMTXQ4Q2tWN1FycWpWa1U4NzVkZUhkRGxVVjhYOXYzemRYTU92Wk1NakVhcURJVkpfaHRrbDJCaGhLSUJmOTU3bl9qN3pha2ZaOEFkdkdKeHNGS3gzLTFQSDRsWkhFTlVCaVlOZ0pYTUkxbThsNA?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-sw3vif",
-    "itemType": "news",
-    "title": "엠투아이, 스마트팩토리 HMI 1위...산업용 피지컬 AI 핵심 부품 개발 착수 - 이투데이",
-    "publishedAt": "2025-11-19T08:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T0",
-    "priority": "P1",
-    "score": 30,
-    "matchedKeywords": [
-      "피지컬AI직접"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaY3Z4cTZUQjVFUngzdmF1N2w0WUFmSThKWWY2NTdzOERxNm45WXlxY3lSXzUxUkNoUDV3Nmp6blJKV0l1Y0JWMjk3TjlJd25GeWp3TQ?oc=5",
         "kind": "canonical"
       }
     ],
@@ -6458,29 +6446,6 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-3hzeza",
-    "itemType": "news",
-    "title": "올해 GTC에서 주목할 키워드는 ‘반도체’·‘피지컬AI’·’산업용AI’ - IT비즈뉴스",
-    "publishedAt": "2026-03-23T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T0",
-    "priority": "P1",
-    "score": 30,
-    "matchedKeywords": [
-      "피지컬AI직접"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfZ0dzNFRKSEJCYkVxMk85d1YzWjlyMmZuRTNMWUtOMnVyQTdaSHRIM0VXTWs5ZTFYQTBGaFN5ZS1QODFwV3JBaWNQWFU3SWZwbnVLSHlDaGZ4V05TREgyeTRrNUozcGt2S1hBMA?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
     "id": "google_news_manufacturing-32sjbt",
     "itemType": "news",
     "title": "삼정KPMG, 'GTC 2026' 트렌드로 '반도체∙피지컬 AI∙산업용 AI' 제시 - 조세일보",
@@ -6504,10 +6469,56 @@
     "starred": false
   },
   {
+    "id": "google_news_manufacturing-3hzeza",
+    "itemType": "news",
+    "title": "올해 GTC에서 주목할 키워드는 ‘반도체’·‘피지컬AI’·’산업용AI’ - IT비즈뉴스",
+    "publishedAt": "2026-03-23T07:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T0",
+    "priority": "P1",
+    "score": 30,
+    "matchedKeywords": [
+      "피지컬AI직접"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfZ0dzNFRKSEJCYkVxMk85d1YzWjlyMmZuRTNMWUtOMnVyQTdaSHRIM0VXTWs5ZTFYQTBGaFN5ZS1QODFwV3JBaWNQWFU3SWZwbnVLSHlDaGZ4V05TREgyeTRrNUozcGt2S1hBMA?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-w705fz",
+    "itemType": "news",
+    "title": "GTC 2026 핵심 트렌드 ‘반도체·피지컬 AI·산업용 AI’ ··· AI 풀스택 전환 본격화 - 데이터넷",
+    "publishedAt": "2026-03-20T05:56:28.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T0",
+    "priority": "P1",
+    "score": 30,
+    "matchedKeywords": [
+      "피지컬AI직접"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIU2ZtbE5fM2dYcml2QUloUnN0UEhTdXpVWUlyLVdlbVVCZEFib2pBSnhRN1g3TU50a0E4cTBBWG1tdzhCZkRyd1ViSzFSdlp4c2FNZ210WTJFbVlMVFNnOFhoZUN5WjFRZ01wdw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "irobotnews-fxjy6g",
     "itemType": "news",
     "title": "세미나허브, 피지컬 AI 산업 전망 컨퍼런스 5월 19일 개최​",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "irobotnews",
     "tier": "T0",
     "priority": "P1",
@@ -6530,7 +6541,7 @@
     "id": "irobotnews-fxjy4o",
     "itemType": "news",
     "title": "페르소나AI, 피지컬 AI 휴머노이드 로봇 OS 공개",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "irobotnews",
     "tier": "T0",
     "priority": "P1",
@@ -6625,7 +6636,7 @@
     "id": "hf_daily_papers-mszu5i",
     "itemType": "trending",
     "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "hf_daily_papers",
     "tier": "T0",
     "priority": "P1",
@@ -6672,7 +6683,7 @@
     "id": "irobotnews-fxjhyp",
     "itemType": "news",
     "title": "SKAI인텔리전스, ‘인포컴 차이나’서 피지컬 AI 인프라 구축사례 발표",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "irobotnews",
     "tier": "T0",
     "priority": "P1",
@@ -6704,8 +6715,8 @@
       "robotics/llm(en)"
     ],
     "matchedCompanies": [],
-    "points": 140,
-    "commentCount": 65,
+    "points": 142,
+    "commentCount": 66,
     "lang": "en",
     "links": [
       {
@@ -6911,7 +6922,7 @@
     "relatedArticles": [
       {
         "title": "2026년 로봇 플래그쉽 지역거점 구축사업 지원과제 모집 공고",
-        "url": "https://www.kiria.org/",
+        "url": "https://www.kiria.org/portal/info/portalInfoBusinessDetail.do?busiSeq=IBUS_000000000001242",
         "sourceName": "kiria"
       }
     ],
@@ -7360,7 +7371,7 @@
     "id": "irobotnews-fxjy5j",
     "itemType": "news",
     "title": "브릴스, R&D·인프라 대규모 확충…제조 현장 RX·AX 선도",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P2",
@@ -7383,7 +7394,7 @@
     "id": "irobotnews-fxjy7h",
     "itemType": "news",
     "title": "우주항공청, 드론-자율이동로봇 연계 문 앞 배송 실증 나섰다",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P2",
@@ -7406,7 +7417,7 @@
     "id": "irobotnews-fxjhx2",
     "itemType": "news",
     "title": "대동, AI트랙터 보급 확산 위한 고객 프로모션 실시",
-    "publishedAt": "2026-04-25T14:40:10.694Z",
+    "publishedAt": "2026-04-25T14:42:29.575Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -7426,7 +7437,7 @@
     "starred": false
   },
   {
-    "id": "kiat-i2sz6c",
+    "id": "kiat-6240j5",
     "itemType": "gov",
     "title": "2026년도 산업통상협력개발지원사업(ODA) 공고",
     "publishedAt": "2026-04-22T00:00:00.000Z",
@@ -7442,7 +7453,487 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://www.kiat.or.kr/",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=8c7933269b124902b1f33dd0e6858212",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-czh50j",
+    "itemType": "gov",
+    "title": "2026년도 관세피해업종 이차보전지원 사업공고",
+    "publishedAt": "2026-04-22T00:00:00.000Z",
+    "deadlineAt": "2026-05-21",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=3cbd2781d9934277808b44a73910c59e",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-v22zej",
+    "itemType": "gov",
+    "title": "2026년도 소재부품장비-뿌리 산업 발전 유공 포상계획 연장공고",
+    "publishedAt": "2026-04-22T00:00:00.000Z",
+    "deadlineAt": "2026-05-21",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=ba1c3443edfd4beaa1e1e8deaf367ed6",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-tp2jmf",
+    "itemType": "gov",
+    "title": "2026년 첨단분야 인턴십 지원사업 2차 공고",
+    "publishedAt": "2026-04-20T00:00:00.000Z",
+    "deadlineAt": "2026-05-27",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=198feedb1c4d4bc7bb1166a9860e536a",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-o2mcoh",
+    "itemType": "gov",
+    "title": "2026년도 기업수요기반 1% MVP 프로젝트 사업 공동연구기관 선정 공고(연장공고)",
+    "publishedAt": "2026-04-13T00:00:00.000Z",
+    "deadlineAt": "2026-04-28",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=ef9c0d06b0524effa9d6a5de88e8055c",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-h0sp1a",
+    "itemType": "gov",
+    "title": "2026년도 2차 산업혁신기반구축사업 시행계획 공고",
+    "publishedAt": "2026-04-13T00:00:00.000Z",
+    "deadlineAt": "2026-05-12",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=93c94f0c299d480d922a7d268a4e7628",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-7dl0mw",
+    "itemType": "gov",
+    "title": "2026년도 한국형Manufacturing-X플랫폼표준모델개발및실증(R&D) 신규지원 대상과제 공고",
+    "publishedAt": "2026-04-10T00:00:00.000Z",
+    "deadlineAt": "2026-05-11",
+    "sourceName": "kiat",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=bce3ba3a628c4cda97ce0d96edad9b0b",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-nmdqmr",
+    "itemType": "gov",
+    "title": "2026년도 중견중소기업상생형혁신도약사업(탐색연구) 신규지원 2차 공고",
+    "publishedAt": "2026-04-08T00:00:00.000Z",
+    "deadlineAt": "2026-05-08",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=d452b24f23574fdab7eda006b7066047",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-dcn3zw",
+    "itemType": "gov",
+    "title": "2026년 산업혁신인재성장지원(해외연계) - 최고급 해외인재유치 지원사업 시행계획 공고(수정)",
+    "publishedAt": "2026-04-07T00:00:00.000Z",
+    "deadlineAt": "2026-04-27",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=21ce3c08e30c491bb6b9abb7e4176e48",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-b4l3lb",
+    "itemType": "gov",
+    "title": "2026년도 「신뢰성기반활용지원사업」 수시형(1차) 참여기업 모집 안내",
+    "publishedAt": "2026-04-07T00:00:00.000Z",
+    "deadlineAt": "2026-05-07",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=abc75730c12949c3bcb149bd887fd33d",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-ub8srp",
+    "itemType": "gov",
+    "title": "2026「혁신 프리미어 1000」 산업통상부 선정계획 공고",
+    "publishedAt": "2026-04-06T00:00:00.000Z",
+    "deadlineAt": "2026-04-24",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=f39574ad2ad24a4e8d849ed063ff8584",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-lho0fb",
+    "itemType": "gov",
+    "title": "2027년도 소부장 미래혁신기반구축사업 신규 수요조사 공고",
+    "publishedAt": "2026-04-03T00:00:00.000Z",
+    "deadlineAt": "2026-04-24",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=403a3c9b1c624016ad252b0da47f6ccf",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-bm2hm1",
+    "itemType": "gov",
+    "title": "2022년 6월 최초지정 산업부 혁신제품 지정기간 연장(2차 연장) 공고",
+    "publishedAt": "2026-04-02T00:00:00.000Z",
+    "deadlineAt": "2026-04-24",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=466a9d470cb64bbea788df96d8d87dde",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiria-tcqodw",
+    "itemType": "gov",
+    "title": "(추경) 2026년 휴머노이드로봇 실증 지원사업 모집 공고",
+    "publishedAt": "2026-04-22T00:00:00.000Z",
+    "deadlineAt": "2026-05-11",
+    "sourceName": "kiria",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiria.org/portal/info/portalInfoBusinessDetail.do?busiSeq=IBUS_000000000001246",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiria-tcqodv",
+    "itemType": "gov",
+    "title": "(추경) 2026년 AI로봇 실증사업(서비스분야) 지원과제 모집 공고",
+    "publishedAt": "2026-04-22T00:00:00.000Z",
+    "deadlineAt": "2026-05-11",
+    "sourceName": "kiria",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiria.org/portal/info/portalInfoBusinessDetail.do?busiSeq=IBUS_000000000001245",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiria-tcqodt",
+    "itemType": "gov",
+    "title": "(추경) 2026년 휴머노이드용 부품 실증사업 모집 공고",
+    "publishedAt": "2026-04-22T00:00:00.000Z",
+    "deadlineAt": "2026-05-11",
+    "sourceName": "kiria",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiria.org/portal/info/portalInfoBusinessDetail.do?busiSeq=IBUS_000000000001243",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiria-tcqodr",
+    "itemType": "gov",
+    "title": "(지원사업 취소공고) 2026년「서비스로봇 AX(S-M.AX) 실증사업」 모집 공고",
+    "publishedAt": "2026-04-10T00:00:00.000Z",
+    "deadlineAt": "2026-04-10",
+    "sourceName": "kiria",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiria.org/portal/info/portalInfoBusinessDetail.do?busiSeq=IBUS_000000000001241",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiria-tcqodq",
+    "itemType": "gov",
+    "title": "2026년도「신뢰성기반활용지원사업」 수시형 1차 참여기업 모집",
+    "publishedAt": "2026-04-07T00:00:00.000Z",
+    "deadlineAt": "2026-05-07",
+    "sourceName": "kiria",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiria.org/portal/info/portalInfoBusinessDetail.do?busiSeq=IBUS_000000000001240",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiria-tcqod4",
+    "itemType": "gov",
+    "title": "2026년 「서비스로봇 AX(S-M.AX) 실증사업」모집 공고",
+    "publishedAt": "2026-04-02T00:00:00.000Z",
+    "deadlineAt": "2026-04-10",
+    "sourceName": "kiria",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiria.org/portal/info/portalInfoBusinessDetail.do?busiSeq=IBUS_000000000001239",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiria-tcqod3",
+    "itemType": "gov",
+    "title": "「2026년 지능형로봇 보급 및 확산 추경사업」 통합 수요조사",
+    "publishedAt": "2026-03-27T00:00:00.000Z",
+    "deadlineAt": "2026-03-30",
+    "sourceName": "kiria",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiria.org/portal/info/portalInfoBusinessDetail.do?busiSeq=IBUS_000000000001238",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiria-tcqod2",
+    "itemType": "gov",
+    "title": "「2026년 로봇 분야 민간 표준 활성화 지원사업」 수행기관 모집 공고",
+    "publishedAt": "2026-03-25T00:00:00.000Z",
+    "deadlineAt": "2026-04-08",
+    "sourceName": "kiria",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 25,
+    "matchedKeywords": [
+      "정부지원"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiria.org/portal/info/portalInfoBusinessDetail.do?busiSeq=IBUS_000000000001237",
         "kind": "canonical"
       }
     ],
@@ -7473,7 +7964,7 @@
     "starred": false
   },
   {
-    "id": "smtech-fea1j5",
+    "id": "smtech-yoe1oo",
     "itemType": "gov",
     "title": "2026년도 투·융자 연계 기술개발사업 지원계획 공고",
     "publishedAt": "2026-02-27T00:00:00.000Z",
@@ -7488,7 +7979,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=ceAzXo5PlW2NJPhn2M60xujK5gjGT99TWyBYsqFoRmdHLgWAtIhZw7wiXafdbT7c.smwas3_servlet_engine4?buclYy=&ancmId=S02853&buclCd=S9C01&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+        "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=Kah91f1ObKYdk74i2Rtx2OQJ1L7UTI9VW7V8Gx1Db6ZkxboUtrY96ZCawVQ7FZ1V.smwas3_servlet_engine4?buclYy=&ancmId=S02853&buclCd=S9C01&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
         "kind": "canonical"
       }
     ],
@@ -7496,7 +7987,7 @@
     "starred": false
   },
   {
-    "id": "smtech-o4wlpe",
+    "id": "smtech-36gmy3",
     "itemType": "gov",
     "title": "2026년 제2차 중소기업 R&D 전담은행 투자지원 신청기업(AI(AX 및 DX)분야) 모집 공고",
     "publishedAt": "2026-04-15T00:00:00.000Z",
@@ -7511,7 +8002,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=ceAzXo5PlW2NJPhn2M60xujK5gjGT99TWyBYsqFoRmdHLgWAtIhZw7wiXafdbT7c.smwas3_servlet_engine4?buclYy=&ancmId=S02857&buclCd=S9171&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+        "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=Kah91f1ObKYdk74i2Rtx2OQJ1L7UTI9VW7V8Gx1Db6ZkxboUtrY96ZCawVQ7FZ1V.smwas3_servlet_engine4?buclYy=&ancmId=S02857&buclCd=S9171&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
         "kind": "canonical"
       }
     ],
@@ -7519,7 +8010,7 @@
     "starred": false
   },
   {
-    "id": "smtech-kyokwo",
+    "id": "smtech-t3zib5",
     "itemType": "gov",
     "title": "2026년 중소기업 연구인력지원사업(파견) 4월 공고",
     "publishedAt": "2026-02-04T00:00:00.000Z",
@@ -7534,7 +8025,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=ceAzXo5PlW2NJPhn2M60xujK5gjGT99TWyBYsqFoRmdHLgWAtIhZw7wiXafdbT7c.smwas3_servlet_engine4?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=3&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+        "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=Kah91f1ObKYdk74i2Rtx2OQJ1L7UTI9VW7V8Gx1Db6ZkxboUtrY96ZCawVQ7FZ1V.smwas3_servlet_engine4?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=3&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
         "kind": "canonical"
       }
     ],
@@ -9446,6 +9937,29 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-3h6imt",
+    "itemType": "news",
+    "title": "스마트팩토리 관련주, AI 도입을 통해 세 마리 토끼 잡는다~ : 네이버 블로그 - Naver Blog",
+    "publishedAt": "2026-03-05T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 20,
+    "matchedKeywords": [
+      "기업+생산"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlZWZiYzdjNVRFTi1lTmhCYW5pa0VvQW1aamJib1A3eER5Q1Y1SktlVy0wNzR1ekc4eGw0MWwxUlRoT1ZmcHJPaUpZNkpOdWwwRm5Ba19mZjVvZXJKT0h5bVVJNjRCTTg?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-5ye9gw",
     "itemType": "news",
     "title": "HD건설기계-HD현대로보틱스, 스마트 팩토리 구축 MOU - 로봇신문",
@@ -9469,6 +9983,29 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-dpcm2u",
+    "itemType": "news",
+    "title": "[AW 2026] 백호프오토메이션, 확장형 이송 시스템 통해 스마트팩토리 이송 자동화 기술 제시 - 헬로티",
+    "publishedAt": "2026-03-05T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EZmpZVlJvRmpWb3ZTUC1veXlVQXcxUGJxQ1BpSVd2Uk1lSks1VVpzeU9KYkQzNnpFZVdjekJ3bGVseWIteXNfQVhIcEJvS2RwOG5MLUhoT0UzeTA5NW1n?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-18s5uq",
     "itemType": "news",
     "title": "[클릭 e종목]\"티로보틱스, AMR과 휴머노이드 사업 육성…스마트팩토리로 확장\" - 아시아경제",
@@ -9485,6 +10022,29 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtVV81ZUJmT1VlRHBIX1NiRzFDX2t0cjRwaFh1RUpVSkY3cVF4dW1kMUNIbTRQQVgxekZZbktvcWQ3blM4TldxQmFRejFMZlM4RVdZeDA4bU5PY09EWnJRS09n?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-r4ze2",
+    "itemType": "news",
+    "title": "로보스타, 산업용 로봇 넘어 반도체·스마트팩토리로 확장 - 전자신문",
+    "publishedAt": "2025-12-11T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Hd2F4cWptWlFjVXgxRE5YUFdHdVhaSVFka0pCRGVacXFpU19HTk9uTDJDY2RjNGxHaWt4UHY2VlM0enNqekRWRUI1cVdOZw?oc=5",
         "kind": "canonical"
       }
     ],
@@ -9653,6 +10213,29 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-v3hzsf",
+    "itemType": "news",
+    "title": "로봇·2차전지·스마트팩토리 삼각편대… 에이피시스템스 재조명 - 핀포인트뉴스",
+    "publishedAt": "2025-12-24T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P1",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ReGlOcXJPcGRYM19hZ2RKY3V5MjN4QTE1N0d6VUtZd1doZUVyeHRKeVR3SC1HcEt4cC1rdHY2T0dtMzZsREF4b3dhempCbUdMalk3bW04X2FhSDkxUGtqaDhRUG54SlhmSkxTMXJJcXdfOGvSAXdBVV95cUxPclJuVGRtN09qSXRzQkxjeHNXYWVzbi1YaC1hOC1LQ1dncUg5TUxqZjdSS1pMVEJiVnVJMEY0RWZlT0E5VGxsR0t6d0piSUNhMXV0Nldoc1ZQZ1pyd3hfTkZRYXlOYmU0UE5ESjZocGlNbWNnRGlXUQ?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-1xou9u",
     "itemType": "news",
     "title": "스맥, 스마트팩토리·지능형 로봇 기술로 글로벌 시장 공략 - 핀포인트뉴스",
@@ -9669,75 +10252,6 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qNk81V0dIZk1iT0l1MTRGZ1pybnhzS2cyckxZWXVCX2pvNGMzZHk5S1dUSUZJUXF5blBidGI0OFJtMzZhSEU0R3FUQ3F2eHNUWEM2SGo3LTZUOTBxenBZLUxxOGItOGlGMmJCRUxwU1Q4R2_SAXdBVV95cUxOS0NJVjFMbThqVTJjLWFLWXhIejZaZkJwQUFUWkY2bzZqemJzZF90U05pVXluRzdNd0V3a2Y1a0hIYUo0R0p4ZmNkLVBYUjlnMEQwdFc2RFFQbjFNVUZJUkxuZ0tjS0RCczVBMUNLOG1UMjBVYUx1SQ?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-pr5pv1",
-    "itemType": "news",
-    "title": "유진로봇·미라콤아이앤씨·스토브리, 스마트팩토리 물류 자동화 전략 공개 - 헬로티",
-    "publishedAt": "2025-10-31T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P1",
-    "score": 20,
-    "matchedKeywords": [
-      "로봇+제조"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96NmpoRVZVbDUyVTA4bm4zNmFYN1NtZFVfSnBMM3J4cnhWN2hocDJhVVJoWUpXbjhycHV3OV83ZlhwcXpBVE51bnBOcWw5eERjS2pkdXVOZ3BqTVdDN19r?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-w0chru",
-    "itemType": "news",
-    "title": "스마트 팩토리와 휴머노이드 생태계 구축...뉴로메카, 로봇 산업 혁신 주도 - 핀포인트뉴스",
-    "publishedAt": "2025-10-31T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T2",
-    "priority": "P2",
-    "score": 20,
-    "matchedKeywords": [
-      "로봇+제조"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAwU0otMWtheElDYnNyOUV2MmNDSndTUTJiQzFGb1BNbzNJX0YzYWJoeUMtM3VyNGRBdS0yenkxU1RUVldoSW8xdlN3RDdQM2RQQ0w3U0w5RUNsd21kRDNHZWd4eTlKM0dXZ1ZDYTVCdFRHYXPSAXdBVV95cUxPZFZzOTBBbS0tVHR1ZnNFVjdDLUxld1p1clJmTVhSWl9fOFh5R183M3I5TGFmWTlETmtNSzRKSlZpTVhLU1dNNXBWaHZMZ2R5X1FNV1QxUFpBOXlJbmlpWnlZbVFfdFkxdGNmMGZEbmxrQzllZHJrVQ?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-57pvoc",
-    "itemType": "news",
-    "title": "[기업 최전선을 가다-로보스타] ‘로봇 기반 스마트팩토리’ 글로벌 넘버 1을 꿈꾼다 - 로봇신문",
-    "publishedAt": "2025-09-07T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P1",
-    "score": 20,
-    "matchedKeywords": [
-      "로봇+제조"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iOTliS2l1ZlhGR3ZYQVQzcmp1TzVCRmVhYUdsNkowbWRkSDFIbUctZHBKUGJjX1dJSHZ4OV9PRm5Sd2F3Q242aFRsVVFCdUNYZGxtenktSDZ0SHk2R25UVGRMT0Y3UkhwcUE1VQ?oc=5",
         "kind": "canonical"
       }
     ],
@@ -9952,29 +10466,6 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-7sh31z",
-    "itemType": "news",
-    "title": "마인드 로보틱스, 5억달러 투자 유치…산업용 AI 로봇 본격화 - 디지털투데이",
-    "publishedAt": "2026-03-12T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T2",
-    "priority": "P2",
-    "score": 20,
-    "matchedKeywords": [
-      "로봇+제조"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zVndycHR0R2ZTRFhaeFVUUlJQZzFwNkRLelVpY016T3lMeHE5bjl1bEl4cFBkb0xKaHJLd0x2ODN4Nm9yN3dIa1NOVmRRWnU0d0hIVFZFWEFmOXRlOENuU25YaW5RcENMZlVLSVFPLU0zblk?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
     "id": "google_news_manufacturing-my9tik",
     "itemType": "news",
     "title": "리비안 CEO가 만든 산업용 AI 로봇 ‘마인드 로보틱스’, 5억 달러 투자유치 - 와우테일",
@@ -10021,10 +10512,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-m92761",
+    "id": "google_news_manufacturing-7sh31z",
     "itemType": "news",
-    "title": "\"韓 매출 2배 늘었다\"…물류로봇 강자 긱플러스, 제조 자동화 승부수 - 지디넷코리아",
-    "publishedAt": "2026-01-28T08:00:00.000Z",
+    "title": "마인드 로보틱스, 5억달러 투자 유치…산업용 AI 로봇 본격화 - 디지털투데이",
+    "publishedAt": "2026-03-12T07:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T2",
     "priority": "P2",
@@ -10036,7 +10527,53 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZUWZzZ192ajJkQUxpRThGc21RLU1pQ2oya1Z2b0EwNmtuOWk4dF9abDE1akMwV3gwY1AtNjQxUlEwZ0hOMnE3NTV3MEM5ZVFzOEJqakxR?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zVndycHR0R2ZTRFhaeFVUUlJQZzFwNkRLelVpY016T3lMeHE5bjl1bEl4cFBkb0xKaHJLd0x2ODN4Nm9yN3dIa1NOVmRRWnU0d0hIVFZFWEFmOXRlOENuU25YaW5RcENMZlVLSVFPLU0zblk?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-mhs1wm",
+    "itemType": "news",
+    "title": "포스코홀딩스, 산업용 AI·로봇 인재 발굴 무대 열다 - v.daum.net",
+    "publishedAt": "2025-09-10T07:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Kb2xXX1pGZ29jUkQ0UENuS09nLUtBeGQ0WkZyT0s0VVFhNC1TNXI1VnRHeWpPMTJWYkw5Rl84VkdtZE1NYzcwcDgzaw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-wlyp9w",
+    "itemType": "news",
+    "title": "제조 자동화 수요 확대...머신 비전 기반 지능형 운영 전략 부상 - 지티티코리아",
+    "publishedAt": "2026-03-05T08:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZYXh3WHdkc012YXc0Y01FcGJ3UzRBMmdpb3RYZkRIUktPeVVLSEY4WG8yS1NIVFM5MDVYRUhaSG9MeWZsbHBKU1dOODJvTHRKMGtVYnVzZkJ1MThxSjJyZmxxRXUxS19xNXc?oc=5",
         "kind": "canonical"
       }
     ],
@@ -10067,10 +10604,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-wlyp9w",
+    "id": "google_news_manufacturing-m92761",
     "itemType": "news",
-    "title": "제조 자동화 수요 확대...머신 비전 기반 지능형 운영 전략 부상 - 지티티코리아",
-    "publishedAt": "2026-03-05T08:00:00.000Z",
+    "title": "\"韓 매출 2배 늘었다\"…물류로봇 강자 긱플러스, 제조 자동화 승부수 - 지디넷코리아",
+    "publishedAt": "2026-01-28T08:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T2",
     "priority": "P2",
@@ -10082,7 +10619,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZYXh3WHdkc012YXc0Y01FcGJ3UzRBMmdpb3RYZkRIUktPeVVLSEY4WG8yS1NIVFM5MDVYRUhaSG9MeWZsbHBKU1dOODJvTHRKMGtVYnVzZkJ1MThxSjJyZmxxRXUxS19xNXc?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZUWZzZ192ajJkQUxpRThGc21RLU1pQ2oya1Z2b0EwNmtuOWk4dF9abDE1akMwV3gwY1AtNjQxUlEwZ0hOMnE3NTV3MEM5ZVFzOEJqakxR?oc=5",
         "kind": "canonical"
       }
     ],
@@ -10136,10 +10673,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-vphl8m",
+    "id": "google_news_manufacturing-1124xo",
     "itemType": "news",
-    "title": "한화세미텍, SSPA서 칩마운터 신제품 공개…\"제조 자동화 선도\" - 뉴시스",
-    "publishedAt": "2026-04-02T07:00:00.000Z",
+    "title": "두산로보틱스, 광진그룹과 제조 자동화 협력…로봇 100대 공급 - 아시아경제",
+    "publishedAt": "2026-03-09T07:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T2",
     "priority": "P2",
@@ -10151,30 +10688,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTVjlNY2JPc2twOUJuT1E3Z0xaa1Vjckl1bnNPeGhuZUU5M0NIdFBDS2NIMnJZZjhnZ2oyUWVxaDgxdEMwS1dpSWdiS00zdTVHX2dZZjU0THVpYV9iNHBSSdIBeEFVX3lxTE1SLTlORzJ5ZWFfT29weEVhSjdta0kzeXdTeEZCME9aYkZKYXlnMGhZY1hUck9oODM0bVVFZkI3WXZ5Y19lb1FIVnFnanN4QmlTR0xOQUg5SmFid3pZREdRU29JOGNMdDJmOVRiUDc2azFDWEJHVFZNcg?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-mhs1wm",
-    "itemType": "news",
-    "title": "포스코홀딩스, 산업용 AI·로봇 인재 발굴 무대 열다 - v.daum.net",
-    "publishedAt": "2025-09-10T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T2",
-    "priority": "P2",
-    "score": 20,
-    "matchedKeywords": [
-      "로봇+제조"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Kb2xXX1pGZ29jUkQ0UENuS09nLUtBeGQ0WkZyT0s0VVFhNC1TNXI1VnRHeWpPMTJWYkw5Rl84VkdtZE1NYzcwcDgzaw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00X1BFZV9CQm1PR09hc0hBWURwUDRlWVBTdHdhLU4wSkRrNHEzUGVpX216dW1ZY2N0dUxsbkJkMG84QTNUVE9BemNMSS10UXBVd2VWbzhLR3BxQl9jVlJoUw?oc=5",
         "kind": "canonical"
       }
     ],
@@ -10198,6 +10712,29 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE43LVJ6MmpCRUdKTXdhbER1VjlSM3JWeVhzWFZ4WEJrQ3VUVUJDY1FQLUMtLWJ4VDVuYU44Mm5VZFd2cWJ0M1VCOUZTUjdiUQ?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-kics5",
+    "itemType": "news",
+    "title": "산업용 AI를 활용한 스마트 공장: 로봇 공학부터 스마트 센서, 그리고 완전 자동화 공장까지 - Xpert.Digital - Konrad Wolfenstein",
+    "publishedAt": "2026-01-01T14:15:36.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE43Rl91TTZnMzg3aGFrcVQ2aFpQVFhBeTh2RDNQZ0Q5TjNrU3NwSHVqYV84QmhUQlB0Z01tZFBBSlNqNDlQU05sSkZJTlJyZW1rOVBnTWFKWG9rNHJobjdJME4zMHFIcHc?oc=5",
         "kind": "canonical"
       }
     ],
@@ -10251,10 +10788,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-kics5",
+    "id": "google_news_manufacturing-seuu1d",
     "itemType": "news",
-    "title": "산업용 AI를 활용한 스마트 공장: 로봇 공학부터 스마트 센서, 그리고 완전 자동화 공장까지 - Xpert.Digital - Konrad Wolfenstein",
-    "publishedAt": "2026-01-01T14:15:36.000Z",
+    "title": "디플리, 효성전기에 산업용 AI 음향 분석 솔루션 '리슨 AI’ 공급…자동차 액추에이터 품질 검사 자동화 - 퍼블릭타임스",
+    "publishedAt": "2026-02-10T08:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T2",
     "priority": "P2",
@@ -10266,7 +10803,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE43Rl91TTZnMzg3aGFrcVQ2aFpQVFhBeTh2RDNQZ0Q5TjNrU3NwSHVqYV84QmhUQlB0Z01tZFBBSlNqNDlQU05sSkZJTlJyZW1rOVBnTWFKWG9rNHJobjdJME4zMHFIcHc?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9DZ3VJdUhlSTFwVmcyaUM5ajJROWFZZ0xwQnJjVm90cGMyNGNqV2JNbV9YSk10dkQ1TTRMNHVvVUJ2bzhTWmxjYmlVZE1KdHI2dXpXMmljOWRISHYwTGktUlAzZ2RLTGliRXfSAW5BVV95cUxNWkhON1I5cnpQNTlkamNNQS1yZTdXRy1ISHdFRnVOX3VZZmZ1SGdMbGh5RW1BVE0yS1VoWDgySTFjRlVCcnJjNldPaWVNbjdWS0xKWWtpM1FmWS0wU0RKM0kyLWE3OU1OWllleXozdw?oc=5",
         "kind": "canonical"
       }
     ],
@@ -10274,13 +10811,13 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-76scfc",
+    "id": "google_news_manufacturing-37wfnw",
     "itemType": "news",
-    "title": "헤드램프 조립서 가전까지…레인보우로보틱스, 제조 자동화 확장성 입증 - 지디넷코리아",
-    "publishedAt": "2025-09-22T07:00:00.000Z",
+    "title": "[기업 최전선을 가다-뉴로메카] 협동로봇 제조 명가, 로봇 종합 솔루션 기업으로 거듭나다 - 로봇신문",
+    "publishedAt": "2025-08-11T07:00:00.000Z",
     "sourceName": "google_news_manufacturing",
-    "tier": "T2",
-    "priority": "P2",
+    "tier": "T1",
+    "priority": "P1",
     "score": 20,
     "matchedKeywords": [
       "로봇+제조"
@@ -10289,99 +10826,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kNlRQeFNXYXFoanktR0tzWnhSWVJUWmhhYXV0eW5Xa0R3bU1oUjhwOGw0N2xkb2xjdHhXdXBOdkk1TUVfYnZpWi1UdmpQRy03anFvYm1R?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-1124xo",
-    "itemType": "news",
-    "title": "두산로보틱스, 광진그룹과 제조 자동화 협력…로봇 100대 공급 - 아시아경제",
-    "publishedAt": "2026-03-09T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T2",
-    "priority": "P2",
-    "score": 20,
-    "matchedKeywords": [
-      "로봇+제조"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00X1BFZV9CQm1PR09hc0hBWURwUDRlWVBTdHdhLU4wSkRrNHEzUGVpX216dW1ZY2N0dUxsbkJkMG84QTNUVE9BemNMSS10UXBVd2VWbzhLR3BxQl9jVlJoUw?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-9kcift",
-    "itemType": "news",
-    "title": "美 조지아주 구금 재발, 과학기술로 막는다갈아넣는 노동 이제 그만, AI로봇으로 제조 자동화 - 헬로디디",
-    "publishedAt": "2025-09-15T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T2",
-    "priority": "P2",
-    "score": 20,
-    "matchedKeywords": [
-      "로봇+제조"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IT3FXZE1wakREdG9qWUxiUGRkaTRTU2JXTm5TNGN0SE5VRV9UcTNhdmZ5c3F3WmdfWTlZaHdEeWV1d3J4N0JWcFlsZ0RGb0dfNUViUDV0ck85Z0tSQkgxV2FDM3hWUTYwbEE?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-y5wpz0",
-    "itemType": "news",
-    "title": "포스코홀딩스 ‘산업용 AI-로봇 경진대회’…“청년 전문가 육성” - 문화일보",
-    "publishedAt": "2025-09-10T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T2",
-    "priority": "P2",
-    "score": 20,
-    "matchedKeywords": [
-      "로봇+제조"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pY0M1aHhzWjBPbUh6Z0p1djNjLTZfT0pmaFFxczZlUmRnejFYRTl1ak1YVnY1N3lXMjFxcnpXVnFxVjVXNHB0MEZoQjVpX0tw?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-ezqeu8",
-    "itemType": "news",
-    "title": "포스코홀딩스, 산업용 AI-로봇 경진대회 개최 - 글로벌이코노믹",
-    "publishedAt": "2025-09-10T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T2",
-    "priority": "P2",
-    "score": 20,
-    "matchedKeywords": [
-      "로봇+제조"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQczI3YnpNdkpscVluNTduSkVORkh3WlZiZzZnai1FSWRYYk1oNkU4cjBTQ3R2cVFrOUQ0OXdVOEY2VkIyS3BzT2thQTN3UUZBVDlZUk9GRDFHZDZGak13WnZqQTVnNVNOanZsMDlDaUdqWGVLRWhhSlpCcWxhY2F0Vy1GaFl4dw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uZjF0NTdWRVJ1NlpzS0dVQWRuS1RWTjZnVnlaUWRXc3dVVWc1ejlZd0VYbGZWNC1rSmtGZGNHb1dmZWFVSFJMWndCYzNBeXlkSGtfN1phTUZ6YnpTR0F1NnlyS2pYX3dXLUtTNA?oc=5",
         "kind": "canonical"
       }
     ],
@@ -10392,7 +10837,7 @@
     "id": "irobotnews-fxjhti",
     "itemType": "news",
     "title": "케이스랩, 자율이동조작로봇 공급으로 스마트 팩토리 시장 정조준",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P2",
@@ -10415,7 +10860,7 @@
     "id": "irobotnews-fxjey4",
     "itemType": "news",
     "title": "파워오토로보틱스, SSPA 2026서 ‘AI 자율 제조공장’ 모델 공개",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P2",
@@ -10438,7 +10883,7 @@
     "id": "irobotnews-fxjcln",
     "itemType": "news",
     "title": "[AW 2026] 제조혁신 전시회를 빛낸 로봇기업들",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P2",
@@ -10572,8 +11017,8 @@
     ],
     "relatedArticles": [
       {
-        "title": "류재철 LG전자 CEO \"70년 제조경험이 스마트팩토리 경쟁력\" - v.daum.net",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBaGJLWFBReGk0OFVUeU9oMDlsd0tUcU45ZFQtZExsbk9WbnpOcjFFTWRLM2xMV1BMRHdZTDZWWFRNM2FPdGhHcElGdktwSkU?oc=5",
+        "title": "류재철 LG전자 CEO “70년 제조 경험 자부…스마트팩토리로 ‘제조 혁신’ 가속” - v.daum.net",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5uMm1KN2NncXRoVHpRVXlIY3oza3BibVRCYVkyQnItSzVhRTFVWFhqNGVQclpjeDVxNlVlOEJaTGMzSGN5eTFGUXpUWEprMTF1WG5GUg?oc=5",
         "sourceName": "google_news_physicalai"
       }
     ],
@@ -10627,29 +11072,6 @@
     "starred": false
   },
   {
-    "id": "google_news_physicalai-u30v9x",
-    "itemType": "news",
-    "title": "신세계면세점, LG전자 스마트팩토리와 AI 물류 시스템 구축 - v.daum.net",
-    "publishedAt": "2026-03-20T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P1",
-    "score": 20,
-    "matchedKeywords": [
-      "기업+생산"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XNFhWaUM0ZjBzWmxlU2J0UGFQZmVVY0U4VmVfZndRbk04TDE2X2EwN1NGUDk5US1tV2QtOXp2QnBuWERwLVlhYnZTYk9QaVk?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
     "id": "google_news_physicalai-a48eyz",
     "itemType": "news",
     "title": "'류재철號' LG전자, 500조 스마트팩토리 시장 정조준 - 뉴데일리 경제",
@@ -10696,6 +11118,29 @@
     "starred": false
   },
   {
+    "id": "google_news_manufacturing-oxbp9x",
+    "itemType": "news",
+    "title": "[CES 2026] 삼성전자 \"로봇, 先제조자동화…기술축적 後사업화\" - v.daum.net",
+    "publishedAt": "2026-01-06T08:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GNzFUVE12bFB1SDZvQWRjZVhiMFFNU0VlYjVvZkMwMlI5RGFWS2EyanZrcHYwYUNPQmcxc3BVSVpwQUlaT0p4YktZRzBnaWs?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_manufacturing-qmtcop",
     "itemType": "news",
     "title": "LS티라유텍, 현대차그룹과 모베드 기반 제조 자동화 사업 본격화 - 로봇신문",
@@ -10720,29 +11165,6 @@
         "title": "LS티라유텍, 현대차 '모베드'와 제조 자동화 협력 - 지디넷코리아",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wYjRrQXE5eEJJQ3QzTjdOeUVqVXpMMnR2dUk2QVlBWmtYQ1IybWNIRmxDY1lORDFtX2xxSGMyNjBWSjVDOVp1TmgtY2Z3QnhLYl9jM09n?oc=5",
         "sourceName": "google_news_manufacturing"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-oxbp9x",
-    "itemType": "news",
-    "title": "[CES 2026] 삼성전자 \"로봇, 先제조자동화…기술축적 後사업화\" - v.daum.net",
-    "publishedAt": "2026-01-06T08:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T2",
-    "priority": "P2",
-    "score": 20,
-    "matchedKeywords": [
-      "로봇+제조"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GNzFUVE12bFB1SDZvQWRjZVhiMFFNU0VlYjVvZkMwMlI5RGFWS2EyanZrcHYwYUNPQmcxc3BVSVpwQUlaT0p4YktZRzBnaWs?oc=5",
-        "kind": "canonical"
       }
     ],
     "read": false,
@@ -10795,10 +11217,33 @@
     "starred": false
   },
   {
+    "id": "google_news_manufacturing-vk9j1s",
+    "itemType": "news",
+    "title": "현대차그룹, 휴머노이드 '아틀라스' 상용화 속도…제조 자동화 경쟁 본격화 - 위키리크스한국",
+    "publishedAt": "2026-02-09T08:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T2",
+    "priority": "P2",
+    "score": 20,
+    "matchedKeywords": [
+      "로봇+제조"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PNHlObFpMNzhMakNya0FDS28wZTZyUHZkM2lOWmtxOEFKd3BFZU9mNzNjRHgxdWhSNHRjczFhMVhtcnFfeDBTMDIwd1VzWVZlcFpPSWdBTllzdFEzYkVKdFJlQzN2dlpLd0dOeVVlaw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "irobotnews-fxjclo",
     "itemType": "news",
     "title": "LS티라유텍, 현대차그룹과 모베드 기반 제조 자동화 사업 본격화",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P2",
@@ -11646,10 +12091,10 @@
     "starred": false
   },
   {
-    "id": "google_news_physicalai-v9cp4q",
+    "id": "google_news_physicalai-9vlt0c",
     "itemType": "news",
-    "title": "패션 OEM의 진화 … 스마트팩토리로 다품종·소량 신속대응 - 매일경제",
-    "publishedAt": "2026-02-25T08:00:00.000Z",
+    "title": "(주)이젬코 공동 기획 시즌3-스마트팩토리 구축 성공사례⑨ 한국기능성화장품연구센터 - 코스모닝",
+    "publishedAt": "2025-11-14T08:00:00.000Z",
     "sourceName": "google_news_physicalai",
     "tier": "T1",
     "priority": "P2",
@@ -11661,7 +12106,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzZWtkSnhQSTloSElBZkNlRGxJSnNXekNiRkplaFA3clpiaU5TeFJ0ZEF6R1d5cEcxd0dhOThDWXhrVzRORFRUWnR0M1Nqb0FtNGx5OS1B?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5UTUw1dEYtWGlOeERWZ2ZFRnB0QUV5VldHY2xMZWtwQThlZm4wcFBTek5PaC1YcDV6bjFkNWhxZUxWU2JhX1lQNUkzSU5iZEN2UzF3TWZkeXVqVE5KUzlGQm5jNA?oc=5",
         "kind": "canonical"
       }
     ],
@@ -11672,7 +12117,7 @@
     "id": "irobotnews-fxjhzm",
     "itemType": "news",
     "title": "대구시, 국내 최초 ‘이동형 양팔 로봇’ 제조현장 실증 착수",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T2",
     "priority": "P2",
@@ -15935,7 +16380,7 @@
     "id": "hf_daily_papers-mslw4i",
     "itemType": "trending",
     "title": "Hybrid Policy Distillation for LLMs",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T1",
     "priority": "P2",
@@ -15959,7 +16404,7 @@
     "id": "hf_daily_papers-mt1pni",
     "itemType": "trending",
     "title": "Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T1",
     "priority": "P2",
@@ -15983,7 +16428,7 @@
     "id": "hf_daily_papers-yl8q4q",
     "itemType": "trending",
     "title": "PersonalAI: A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM agents",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T1",
     "priority": "P2",
@@ -17595,27 +18040,6 @@
     "starred": false
   },
   {
-    "id": "naver_news-ymanv7",
-    "itemType": "news",
-    "title": "“하반기 삼전닉스보다 더 뛴다” 전쟁에도 뜬 반도체 K장비주 5",
-    "publishedAt": "2026-04-23T20:00:00.000Z",
-    "sourceName": "naver_news",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://www.joongang.co.kr/article/25422972",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
     "id": "naver_news-1suthy",
     "itemType": "news",
     "title": "[월간유통잇슈] '생존 불씨' 홈플러스, '물류 갈등' BGF",
@@ -17630,6 +18054,27 @@
       {
         "label": "원문",
         "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5014362",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "naver_news-ymanv7",
+    "itemType": "news",
+    "title": "“하반기 삼전닉스보다 더 뛴다” 전쟁에도 뜬 반도체 K장비주 5",
+    "publishedAt": "2026-04-23T20:00:00.000Z",
+    "sourceName": "naver_news",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.joongang.co.kr/article/25422972",
         "kind": "canonical"
       }
     ],
@@ -18174,7 +18619,7 @@
     "id": "google_news_physicalai-6jrsx7",
     "itemType": "news",
     "title": "유유제약, AI 기반 업무혁신 '스마트팩토리' 성큼 - 약사공론",
-    "publishedAt": "2026-04-13T06:23:56.000Z",
+    "publishedAt": "2026-04-13T07:00:00.000Z",
     "sourceName": "google_news_physicalai",
     "tier": "T1",
     "priority": "P2",
@@ -18206,6 +18651,27 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QYlFXSmhVSkZiRXljakpxelh0RWpZVUczWFQ3SE5RaE5kSGhDRkt3VjRibnVyVFhNRE9rWVpkTW1rdXduTFd5cEFrVmVYWnB1VVNLTVI0bENqd05jUnBhNXdkSzI5VEk3TmJMT2EzWGI?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-17spu8",
+    "itemType": "news",
+    "title": "“교육비 무료에 210만원 수당까지”...광양, AI·스마트팩토리 실무 인재 키운다 - AI타임스",
+    "publishedAt": "2026-04-17T04:00:02.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SVU04YzZaSk1KN0dSRlBGbDF5eGJkMjk4TmwyLVctOGY5RC1kVkdpOVFDQ3BIZEFyRG5jTDAzNGswd2ZjcjN0cjNJTFI5RWZCZXExTmV3WFZmTG1NSTdPRWZPNDZrem4xQlE?oc=5",
         "kind": "canonical"
       }
     ],
@@ -18255,6 +18721,27 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-1mey02",
+    "itemType": "news",
+    "title": "삼현 자회사 케이스랩, 스마트팩토리 현장에 AMMR 공급 - 뉴시스",
+    "publishedAt": "2026-04-17T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZLWh1UGFpSUFzcU96MFNESUVwUFJRc3EwOGJzeTRJZU9WN3V3MWxKZ2lZaWE0LUd5RnlxM3VXa1B4VEVuNWN0cnNKWU5KRHkzMklFbURzeGhsMmFUNXN5S9IBeEFVX3lxTE1Qa1BaS0JZQWFVd200Q1hrTE01S3ZHMVhDYWdhSkY3WTUwM01OblEwdG92M1JDTVRWMGVPdGRtNEo4WGhzWnA3bnRuVWtMaFd2c2lYWElKZlp2aXktOHZFRlVjZ2N2ZzFVWWVCY3RxRVNJM0tITTZJcw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-z9basq",
     "itemType": "news",
     "title": "유유제약, 생산·품질 실무에 AI 접목…스마트팩토리 운영 고도화 - 한국경제",
@@ -18297,10 +18784,10 @@
     "starred": false
   },
   {
-    "id": "google_news_physicalai-u4uco4",
+    "id": "google_news_physicalai-og59sj",
     "itemType": "news",
-    "title": "유유제약, AI 기반 업무혁신으로 스마트팩토리 성큼 - v.daum.net",
-    "publishedAt": "2026-04-13T07:00:00.000Z",
+    "title": "\"레이저 활용한 판금기술로 스마트팩토리 수출 이끌 것\" - v.daum.net",
+    "publishedAt": "2026-04-12T07:00:00.000Z",
     "sourceName": "google_news_physicalai",
     "tier": "T1",
     "priority": "P2",
@@ -18310,7 +18797,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52N21CZ1JkRTlyQWVUbEhJaDhLN1VmZkxCa29xOXVvWHUwQlNJR09IU1MwZFRjZlpqRVk2ZkJmd2Z5VzluMWt1bTAyNzRHcmM?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vZEM4ZjRabVFrY1pidFZjTTFHWG50RG9ISzE1WDVvcjE2bURQZnd1X3plN0plclhJcUFFTHlxUmNtM05IX3JRNnFreGphTlk?oc=5",
         "kind": "canonical"
       }
     ],
@@ -18353,6 +18840,27 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xWndPWTVjS2d1UzB2Vml5RmltY05mR0xremJoMW1mUkIyMWZucTVLNHN5RlFWa2dsZ0cxRXNZalltczRrUWFobmM2dEVQZzNrbjlIek15NlhaT28zRzVj?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-ihmyrw",
+    "itemType": "news",
+    "title": "엠아이큐브솔루션, 中 위에다 그룹과 스마트팩토리 현지화 - 지디넷코리아",
+    "publishedAt": "2026-03-30T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZQUF6cU1udUdobjV1QUF6ZnlMbkZzZk9uSmY1WVB3eTM0M3hRaDZFQkdHdGVEeFp2aHI3WlZDWXVzMTlDekxDa3c3RzRiM25XX1pMOEt3?oc=5",
         "kind": "canonical"
       }
     ],
@@ -18444,6 +18952,27 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-cggv6j",
+    "itemType": "news",
+    "title": "Qt-퀄컴, 스마트 팩토리용 AI 기기 개발 맞손 - 지디넷코리아",
+    "publishedAt": "2026-03-12T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xZUc4d0VRb2xMS3k0MEZTSzF0cjBuS0RUeTFWa09iUk1SRXRfN19LYy00RmNsQ1RkaFYzQmtNWlJvNVVGQWdIT0ZCMlpZM3lUSUdjc0VB?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-g18c5x",
     "itemType": "news",
     "title": "[포토] 비젠트로, AI 기반 스마트팩토리·기업 업무 통합 플랫폼 공개 - FA저널",
@@ -18528,6 +19057,27 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-jpnt2o",
+    "itemType": "news",
+    "title": "스마트팩토리 대응력 높인다…오토닉스, 3월 정기교육 모집 - 헬로티",
+    "publishedAt": "2026-02-23T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TY2ctN3ZBdndhTVVaejM4UDlEY0Q5VUlVU2lSN2JtaGJXNmpRaGFkczFVM2xxVVhCczJrQ3Ezb0RFTloyYXdQVWZEMjFzWEJ5RF9NNFBpTDdRTk9sOHB3?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-76ckiw",
     "itemType": "news",
     "title": "AI 발전설비 진단 솔루션으로 스마트팩토리 시장 공략 - 무등일보",
@@ -18563,27 +19113,6 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HZUY1U3RLZTFEVEJ3eTZ5ODVJa0pZenJOOHFkX3ZrRVpxdXFyTzc4STVyM0VVV3VUVGI2YVVJZ3JscUNPWm10SUNnVkxtNDNaSnBFTkVIWFFBUjBQTDF0Vl84ZzR2X2hWdmRBetIBcEFVX3lxTE1ySFNvanM0N29uSFNOeHR2eEx4dm9fVzlSb1Jhd2VjYXdqbThwUHlodGg5NTRzSU4wNU44YmJsVzZVdW9kbHRRSTN6SlgwVjlsTk9lbzRpNnNsRkdUNEZQWV9KRkN1bDRPOVRUek5BLUo?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-t0yrck",
-    "itemType": "news",
-    "title": "현대진행형 EP. 6 | 스마트 팩토리를 진짜 스마트하게 만드는 것 - Hyundai Motor Group",
-    "publishedAt": "2026-02-03T08:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YVGFxakY2Wkc3UkNRYV90bDBGTVNmbjM3b0U0b2gzMUlXYmFNa1NUdjMwdTlVQ2tPZnlBYm9FWnVsekNEX1R5bk54WmFRMWFDLVowMTh1U0hqR2JZT0Y3djIyaGpBSmtDeUZySA?oc=5",
         "kind": "canonical"
       }
     ],
@@ -18675,6 +19204,48 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-3wn7eg",
+    "itemType": "news",
+    "title": "[ZD SW 투데이] 엠아이큐브솔루션, 식품 특화 SaaS 스마트팩토리 솔루션 인증 外 - 지디넷코리아",
+    "publishedAt": "2026-03-26T07:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yWkZpdjg4NHVUNlB2NnFtRTU5clBDRVNDbWRGU1pHRXh3cFVvaFMwWmZjRVhhRzNDblFvd3VLRDBjbE5qTk5iLVBrbk90UHFicTdDY0JR?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-742kw",
+    "itemType": "news",
+    "title": "[AW 2026 프리뷰] 오토닉스, 세이프티·HMI로 스마트 팩토리 완성도 높인다 - 헬로티",
+    "publishedAt": "2026-01-22T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94eGJGSlpicXBjTE9CdjNtc1VkWnJYaVF3Tk5oalRLLXJVUlJaY1ZkUEZ5MUt1S3ZSd19HLWZjek1fWmxQRGlMbkpGNU5idmc1TU5xbllOTW11OFN6dXg0?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-nyyxf5",
     "itemType": "news",
     "title": "대웅제약, 제약업계 최초 '스마트 팩토리 4단계' 인증...미래 제조 혁신 이끌다 - 약업신문",
@@ -18738,6 +19309,27 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-s6gmed",
+    "itemType": "news",
+    "title": "에펠탑부터 스마트팩토리까지, 산업 혁신 이끈 ‘피브’가 제시하는 한국 AI·디지털전환 전략 - 한경매거진&북",
+    "publishedAt": "2026-02-03T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YWGpCZW1aZU1HeDNDd0psdjRMWF9penVOWFNaZUhrcTY1anBQY3ozdGJYN2QyXzhBU3k1cHhyRDh5WXhDSnlqQ3ROMHhpcWp5YXVOQlJHeGMtX2E2MW1LSFR2VFU1SHI1c0RNaw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-prbrha",
     "itemType": "news",
     "title": "AI·스마트팩토리 전환 가속…4대 그룹, 제조 혁신 본격화 - IT조선",
@@ -18780,6 +19372,27 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-1fn5v3",
+    "itemType": "news",
+    "title": "'스마트팩토리 창시자' 쥘케 “AI는 제조 혁신 열쇠…中小역량 강화 위해 협력 필요” - 전자신문",
+    "publishedAt": "2025-11-28T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qaUFMU1JEVE1GVnFYQkJheEdobkwtN2N5SmxlWFVXaU9pdjNIVUJDUlROMmlLNWw3SzhlME9LVzctSEFrVEVTenVrSkJ0QQ?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-t76g9t",
     "itemType": "news",
     "title": "장인화 회장의 AI 승부수···스마트팩토리에서 휴머노이드까지 - 뉴스웨이",
@@ -18794,6 +19407,27 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rSTlEQjBTX014X21MLUFkaHpTRjg4ME4tRzBBLXllXzVYOTNweEtXbDgtNXVBMThyMk1BeDVxS3VIR19OZGZqUjg2VUZxZUR2SmZoUkNNaXFvdWlicmJyZlRkOXhBT3ZBNGc?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-bs9zj5",
+    "itemType": "news",
+    "title": "서보모터에서 PCS까지... 알에스오토메이션, '스마트 팩토리' 혈관 만든다 - 핀포인트뉴스",
+    "publishedAt": "2026-02-09T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pR3NVdjVQaHdNbXVicjRBbGdRRDNEN29vT2tkTVUxNW9FQmlrdnU0TUxnaTZHUkZuTDhnVUhBQVBiV3N4TGtvMl9xeFNBRWtOd2ZtaERaR29fdmlhUnRZRFd5azFPMmliRVN0cWVfYmhnX0HSAXdBVV95cUxPMUp5Zks3bHhLWVBaejJZUk4zR2Q0OFBfcnZ3aDBQdEQ4U1duNTFpZkozakdRR1BYQXY2ZVZmMnBKdFpQeU56WHdtQWI4NjBHdEZFOWFOS1liWGpsZXU3VE1sRGt6RURWRnItZDlsTTJsLUJxQTJ4WQ?oc=5",
         "kind": "canonical"
       }
     ],
@@ -18822,27 +19456,6 @@
     "starred": false
   },
   {
-    "id": "google_news_physicalai-1fn5v3",
-    "itemType": "news",
-    "title": "'스마트팩토리 창시자' 쥘케 “AI는 제조 혁신 열쇠…中小역량 강화 위해 협력 필요” - 전자신문",
-    "publishedAt": "2025-11-28T08:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qaUFMU1JEVE1GVnFYQkJheEdobkwtN2N5SmxlWFVXaU9pdjNIVUJDUlROMmlLNWw3SzhlME9LVzctSEFrVEVTenVrSkJ0QQ?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
     "id": "google_news_physicalai-w6buj9",
     "itemType": "news",
     "title": "알티엠 “브릿지 투자 유치로 자율형 AI 스마트팩토리 가속” - 헬로티",
@@ -18857,6 +19470,27 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPOG9MVzlpY1Bwa2pEYk1mcGdTX2oxTldSNFNMRnpUalNnSDlRbk1JY3JiZXBlcUkyTmFhZXMyaVA0eEFEbk1YbThPUlI0RDJSZ2MxVVBFa1djZThkeGww?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_physicalai-ghj8m0",
+    "itemType": "news",
+    "title": "커버써먼, 에어테크 생산 '스마트팩토리' 설립⋯ 성수동 새 아이콘 될까? - 테크42",
+    "publishedAt": "2026-01-28T08:00:00.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T1",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQVE5JNlFHMFJaOGU5SFdRTnhtOG91Vnc5SjZVQ1ZNbEh2R3NKY3BWeVBlTndJYVBraFl1TXVFQzdmU1RzdDk1UmdjYWZtOWZMMkphOHdQd1JrcndzN2NneHJOeC1qS3FSbWtqXzNVdDBjU2FLUFQxWWkybmNJWnFFUTdQdjNsWGU4eXdIZzBOWkl3dFpoaFJ1Y284N0NNeEpYVGptN1FvUEJXZ3d3T1QyMVlOSktaRzIwaVIteVZ5ZjZlbUdNdEJYSHVKM093TjRkZElMNTdvZnRMdnV1TF9jdU5IUVhpczNRT1dUeTdEd0hUcUJCZjNHNGhmRnFSRzMwdE4xN2ZSMUsyUGhYOHZKZXIyZXZmZXQ5VXBBaWJ0aGtCa3pBaGxZMV9QR0RhRTYtZGNCcWdYaFZPTkdaaXJmdG9B?oc=5",
         "kind": "canonical"
       }
     ],
@@ -18899,27 +19533,6 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwaU1HRVltQ3FodkQ2ajcyYWFEd1VaYnk1TnVPTXJCTUxRbDl2NWNMVDJRTEc3OEFjcEhZelNDeEp3UkpmSk1BaHhyaHVlVE1rRFdvZmpfSnYxeTFta2NhOVlsTnhDUQ?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-n9p3m9",
-    "itemType": "news",
-    "title": "밸류파인더 \"모비스, 스마트팩토리 넘어 핵융합·양자컴퓨팅까지⋯성장 기대\" - 이투데이",
-    "publishedAt": "2026-01-07T08:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1odzdqZ2w3VklPd0NJaExGQXRmVk90SVRLM1JsOFB5UjRnd1dCRU9Ia1dEREVtdUZka1oyQ0hIVVYxMy1vX3pTbWFlUDFYbXZMMlpJNQ?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19011,10 +19624,10 @@
     "starred": false
   },
   {
-    "id": "google_news_physicalai-75qti4",
+    "id": "google_news_physicalai-p7g3tf",
     "itemType": "news",
-    "title": "신비앤텍, 스토커 크레인으로 스마트팩토리 혁신 이끈다 - 한국경제",
-    "publishedAt": "2025-11-07T08:00:00.000Z",
+    "title": "[더벨]서진시스템 베트남 공장, 스마트팩토리 전환 추진 - 머니투데이 - 머니투데이",
+    "publishedAt": "2025-11-19T08:00:00.000Z",
     "sourceName": "google_news_physicalai",
     "tier": "T1",
     "priority": "P2",
@@ -19024,154 +19637,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkUkJRZnMtdFlhdllFcFRHMWFWNDZHSGJPRzFxWEM5Vi1Vc3MzSF9FWEk0TnRUZm53RWdXai1YYUxpOEUtRWdxN1A5NHhHQ0kzLXEwczVsVzJPQdIBVEFVX3lxTE9BSFRhNlpjRi10YzlvbFZsLWVwY2dfYTZsYkdUWmNiS3FiS0RULXVHdU1wTjhaY05KT21vaS03NGpHWjdGXzZTeHc5NzlwcW5YZUJCWg?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-qlv5g",
-    "itemType": "news",
-    "title": "AI가 車산업의 엔진이 되다… 스마트팩토리·자율주행 혁신 이끌어 [미래車혁신①] - IT조선",
-    "publishedAt": "2025-11-01T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kRjVYMUs3S0NLVHFscFpOWjdEa25MQ0hFSzNEbnNPZDRZTWZseWpTeWktRl9uOFAyZW1DY3ZlU1hmZ004UjVsRm1TTmNjdlVUZHhDMHBnc3dEZUstdlRvdTZobmd2N3QxUGlCZFFFN1rSAXRBVV95cUxOdjRPU2tvdWpZQ2VyeEVBYUtVLVoweWtwMGRid0t6MmtqT0czN3NJdllxN0ZfTTZmbkU2a3V5XzdlN2c0LUhyamNfMVdLUDB3LVZKRGt0aVlUdTIyU254ZnByNEZIQ1Y0ZjA5ZWhoVkZETVZITw?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-s263mc",
-    "itemType": "news",
-    "title": "2030년 글로벌 다크팩토리시장 273조 원…국내 스마트팩토리 도입률은 19.5%에 그쳐 - KDI 경제교육·정보센터",
-    "publishedAt": "2025-10-31T14:12:12.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZl9XVnpETnZuNXFwU2ZLZjZ2bE93c1JfTDBXT1NwQVE5dHpZeHNESW55TUpfeWNLUERRdGI5bnFiRG5DVFR0ZDJ2aG9HeVJ0VmR6aUhRWFBrZmNXcVg3VTB6MklzRHB6b29ZWno5RkM5X0txeTA2Yl9tMkxzNEo3aUhHSWxUZ0w3dFhXVEZSUDNiOWFNSTQ3WlpUWUFZMUMyTjRMelVocjh1SHc?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-4vtq5j",
-    "itemType": "news",
-    "title": "LG엔솔, 中 스마트 팩토리 전환, 中 AI기업 손잡았다 - 디일렉",
-    "publishedAt": "2025-09-24T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhNHZidk5LTU5PVHJLeGpia1NnRWlXWERaM0NNNjhRaXBVLUE2LVZXTzlYSTdEQ1VDR19lbFB4UlNwTjNUNF9FQ3EyQWJxR1V0TjNTR2VSWjZ4TUhVY1FFYVlCa0NWQQ?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-bsmlkg",
-    "itemType": "news",
-    "title": "공정이 바뀌어도 불량 잡는다… KAIST, 차세대 스마트팩토리 AI 기술 개발 - 특허뉴스",
-    "publishedAt": "2025-08-27T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Ta21CZ0NyUF9DRnlLLUJGRXpxMzlETWlIbzJaZ0NmcUtpd2E1bVdXb1BhS1A4UjQ0TzNDNGNqQjdLaTA3R2hEMw?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-nk21zw",
-    "itemType": "news",
-    "title": "한국협화, 비료업계 최초 스마트팩토리 구축한다 - 영농자재신문",
-    "publishedAt": "2025-10-27T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGTmNDUGVCZVFUTmxXTzRVY0dnWTB3ZVdibGZfb0lIRXIyYXFzMVE4R1daOV9UN2M0VUZXYUlzdFoyQU9Cdi1zUFF6Ykc5aG5XTUZNNGF0RXRUdHJT?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-txwipk",
-    "itemType": "news",
-    "title": "창원서 '국제스마트팩토리·생산제조기술전' 29∼31일 열려 - 연합뉴스",
-    "publishedAt": "2025-10-27T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XX0VDRzRCWDZldWpnc21GME5NV2wza0JKZlZHYWFqeVNTZWRDNTVxMVY3TG5keGg3SWNrWDhBVDBMV3drdkJjWXc5ZGxlRjhVWElweEJqYjlaS3PSAWBBVV95cUxQUVR4cW9ld3V6RUkwWE1nc1ZsQVBHTlVoem5KeFJOa1ZKUk8zTGRvcnIxcDAyZmQ3a1AxRWRXa0pBbTdPRDBhWHNRZTlwam5sNG55WGluRkJnYV9iNVNRaTY?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-1ybl1o",
-    "itemType": "news",
-    "title": "[글로벌 산업 트렌드] 제조업, AI·스마트팩토리·설비 투자로 구조 재편 - 산업종합저널",
-    "publishedAt": "2025-10-21T07:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WQlJuQU5hQkg5c2tBdVV5X1A4NHM0Z1ZMWnVDSVBHNDl1Zkd6Z0pIVEFRbFhuaTN3czZ6NlNJb0RheFRrdlVkZGZaN0owc2UxVDQ4?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lcGhQc1MtNkQwMXp3a05rMG1vNnM3a2NhaTRmVzgzRTVKd1JzU215c3gzdWh1VlhqZnZZZGxDcGJtVG00STJxVF9lSGpmWGxBeHNaUU90bDUzdEZnNFZ0eVpkT19WRTJq0gFuQVVfeXFMTlBRUE1UUjBGRTRkaWVHMUVvLUxnZm9tbEhJTlBHWWU1YXYwd3FfcVdyb0s1cWJPZk5BeERBY0VFNk9wN3FZcWlwUU9hc0VrakV5YXBpYjhQYS05LVhva0tsQjNqVTcwM0Q0M1hGTFE?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19263,27 +19729,6 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-z3pw1i",
-    "itemType": "news",
-    "title": "지멘스, 제네시스 미션에 산업용 AI 기술 도입해요 - Siemens",
-    "publishedAt": "2026-03-11T22:19:05.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRDlOaDRiOTcyZG9KeTVublRuOGdIVktmMHVqcDhLbmtVY0podXlPOXNPRkkwQ0VrOF9FMkYwWDRfbkFLUWFhX0N6YlEwMjRSeGFYWGhHNkRwa01QaUM4bWk0WjdQclVuczViWHNZUVA2Mk5kYWNfX2w5SWhOQzBmWGl3U1hDMjFfTEZIYlo0OEQxZW1EVkpOTG56dzRxYjBNbnNnMnRxUQ?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
     "id": "google_news_manufacturing-voqh8y",
     "itemType": "news",
     "title": "지멘스, ‘하노버 메세 2026’서 산업용 AI 기반 혁신 기술 공개 - 데이터넷",
@@ -19298,6 +19743,27 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oMFk5UzgyM21TOWNLZm5hZzAydUZyeFRTZkE2TGlwcmtNVHRQS1EweS1MVlFZMENGMmRrSWduNGlQclVHelVod1pDNVRzRFU2dGZMNTVIU2FVbk9ETXREOUt6b2llakF5UzJ2ag?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-z3pw1i",
+    "itemType": "news",
+    "title": "지멘스, 제네시스 미션에 산업용 AI 기술 도입해요 - Siemens",
+    "publishedAt": "2026-03-11T22:19:05.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRDlOaDRiOTcyZG9KeTVublRuOGdIVktmMHVqcDhLbmtVY0podXlPOXNPRkkwQ0VrOF9FMkYwWDRfbkFLUWFhX0N6YlEwMjRSeGFYWGhHNkRwa01QaUM4bWk0WjdQclVuczViWHNZUVA2Mk5kYWNfX2w5SWhOQzBmWGl3U1hDMjFfTEZIYlo0OEQxZW1EVkpOTG56dzRxYjBNbnNnMnRxUQ?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19347,9 +19813,30 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-3dmlcm",
+    "id": "google_news_manufacturing-flstnu",
     "itemType": "news",
-    "title": "한국레노버, 산업용 AI PC '씽크엣지' 2종 공개 - 지디넷코리아",
+    "title": "산업용 AI의 진정한 잠재력 발휘하기 - Siemens",
+    "publishedAt": "2026-02-13T18:10:03.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNXdFRy16ZGdfTnU5Tk5KZWl0SE00TGxYQndOU3psNzZLbGtOTkZDRUo0VTZLc0VjZk5LQ19vUGcyY013XzdQSFM4ZWZQSjNlcXZsNTFBeWRmYVY2QkY2Tmw4OGlfVDJwZXNtN3o0TzVlbU03cTIxcENhVUdOTWVES2NZbFhqbUlLaXNuTkE0TQ?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-ngqckx",
+    "itemType": "news",
+    "title": "레노버, 산업용 AI 엣지 솔루션 ‘씽크엣지’ 2종 출시…현장형 데이터 처리 강화 - e4ds news",
     "publishedAt": "2026-04-06T07:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T3",
@@ -19360,7 +19847,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbncxeU9xeTBuUEFTYVZITW5zb0VEXzVEN3BXRm1mYVhqZ1NGWk9jQS1pV0QwTkV2TVFHRWRPS18zRDM5dGNOZGhGQUJnTXBDS29keUZ3?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vbzkxY044TWxqNmFHV08tUXBTNGlPeHpWdWQ3ckhRRDl1TW1abE9USGVPaFczZUZpVUN1RXRnbWtuejRWV3dGdWRaRE5nbUFKT2RLV09rUlNGV05k?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19389,9 +19876,9 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-ngqckx",
+    "id": "google_news_manufacturing-3dmlcm",
     "itemType": "news",
-    "title": "레노버, 산업용 AI 엣지 솔루션 ‘씽크엣지’ 2종 출시…현장형 데이터 처리 강화 - e4ds news",
+    "title": "한국레노버, 산업용 AI PC '씽크엣지' 2종 공개 - 지디넷코리아",
     "publishedAt": "2026-04-06T07:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T3",
@@ -19402,7 +19889,28 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vbzkxY044TWxqNmFHV08tUXBTNGlPeHpWdWQ3ckhRRDl1TW1abE9USGVPaFczZUZpVUN1RXRnbWtuejRWV3dGdWRaRE5nbUFKT2RLV09rUlNGV05k?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbncxeU9xeTBuUEFTYVZITW5zb0VEXzVEN3BXRm1mYVhqZ1NGWk9jQS1pV0QwTkV2TVFHRWRPS18zRDM5dGNOZGhGQUJnTXBDS29keUZ3?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-u06j98",
+    "itemType": "news",
+    "title": "中 \"산업용 AI 역량 강화 위한 '고품질 데이터셋' 구축 추진\" - 연합뉴스",
+    "publishedAt": "2026-03-25T07:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wRk5NdDBEVEhUU3BGNV9MeXhxc2pSQ2gySU5Rb3F3VGxqTm12VG5CSVNDMU5kYmhvNXpYZm5wREZPNzZHdWUwUXp5cWstTl83dWxEbklzM3A2X0HSAWBBVV95cUxQU3JuT29xVW1lN1paaXpKd2tZNTlibnNrNkE0aTE0QWVUMFpFYURna05jV3ZYNXp1TDl4X2hsLTV3V0hIMlhjSUZ5X0NIdWhMMzJrTmRlYW50c2haWjlIeUY?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19452,27 +19960,6 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-rjgu8b",
-    "itemType": "news",
-    "title": "미디어텍, 지니오 프로 하반기 양산…산업용 AI 칩 시장 공략 - 전자신문",
-    "publishedAt": "2026-03-12T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE00RHpXUVJvSWMzTWJncGdEVGdqZjFVc3lLaDVxbzB6WC1HS0Zyc0Y5ejVUSklROTVoc2NfR0tlS201dFMyNzBXV2NTQzIwdw?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
     "id": "google_news_manufacturing-bfob0v",
     "itemType": "news",
     "title": "[AW 2026 프리뷰 인터뷰] 엣지크로스, 산업용 AI 에이전트 ‘머신GPT’ 전면에 “설비 교체 없이 현장 판단 속도 높인다” - 헬로티",
@@ -19487,69 +19974,6 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xNXZCalR2YjR2bS1yQTRXQUFpMzVZd1pCb3B3R2JlbjB2QlhmTVR0R2h6UDdvQVFiZkhrT3ZpdWVyRW04b1dMSDFlblZHWVBXWUtyMXU1Q0FscmJhSURF?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-9jt7m3",
-    "itemType": "news",
-    "title": "\"AI는 물·전기 같은 인프라\" 젠슨 황, 산업용 AI로 확장 - v.daum.net",
-    "publishedAt": "2026-02-04T08:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PWWZUTzZ2N0Q3cTh5YVctVXFxT1pPaW9RS3owYVJBTm1hZ05sc2dhOU1rLUdPUkh5RzdkcUFVNG5lRUVORTNVNmxGdmRmWmc?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-u06j98",
-    "itemType": "news",
-    "title": "中 \"산업용 AI 역량 강화 위한 '고품질 데이터셋' 구축 추진\" - 연합뉴스",
-    "publishedAt": "2026-03-25T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wRk5NdDBEVEhUU3BGNV9MeXhxc2pSQ2gySU5Rb3F3VGxqTm12VG5CSVNDMU5kYmhvNXpYZm5wREZPNzZHdWUwUXp5cWstTl83dWxEbklzM3A2X0HSAWBBVV95cUxQU3JuT29xVW1lN1paaXpKd2tZNTlibnNrNkE0aTE0QWVUMFpFYURna05jV3ZYNXp1TDl4X2hsLTV3V0hIMlhjSUZ5X0NIdWhMMzJrTmRlYW50c2haWjlIeUY?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-m6w2i6",
-    "itemType": "news",
-    "title": "엘로이랩, AI 초분광 SOTA 달성 및 연산량 9배 절감…‘산업용 AI 초분광 표준’ 기틀 마련 - 바이오타임즈",
-    "publishedAt": "2026-04-07T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yUUVFZ050TVc4WXljQURJeFkwMWIxQWdBTlpGX2xfTU5pUDJCZHlETlpfZFJsNjNmLVFMS3Fla19tOTBFU2U4a0plTnNlMGx3c1hKelUzNlVZeWg0Y0tjZnlQTHhCR2FQaFh2Sg?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19578,10 +20002,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-xg1k4r",
+    "id": "google_news_manufacturing-9jt7m3",
     "itemType": "news",
-    "title": "다쏘시스템, 회장으로 달로즈 CEO 선임...산업용 AI 리더십 강화 - 지디넷코리아",
-    "publishedAt": "2026-03-06T08:00:00.000Z",
+    "title": "\"AI는 물·전기 같은 인프라\" 젠슨 황, 산업용 AI로 확장 - v.daum.net",
+    "publishedAt": "2026-02-04T08:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T3",
     "priority": "P2",
@@ -19591,7 +20015,91 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXeDhRQ04td2JmMWNyU1RSQ3lzenYwMk5UMVNvRHpLSWlaVmhkemprZXBrT1dleWFPSHo0TUJOaDFfUHNhRmEtbmxna05ITEtaTWlvREVB?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PWWZUTzZ2N0Q3cTh5YVctVXFxT1pPaW9RS3owYVJBTm1hZ05sc2dhOU1rLUdPUkh5RzdkcUFVNG5lRUVORTNVNmxGdmRmWmc?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-rjgu8b",
+    "itemType": "news",
+    "title": "미디어텍, 지니오 프로 하반기 양산…산업용 AI 칩 시장 공략 - 전자신문",
+    "publishedAt": "2026-03-12T07:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE00RHpXUVJvSWMzTWJncGdEVGdqZjFVc3lLaDVxbzB6WC1HS0Zyc0Y5ejVUSklROTVoc2NfR0tlS201dFMyNzBXV2NTQzIwdw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-p0jwk5",
+    "itemType": "news",
+    "title": "지멘스, 산업용 AI 운영체제 강화... 베이징서 디지털 혁신 가속화 전략 공개 - 캐드앤그래픽스",
+    "publishedAt": "2026-03-31T01:42:49.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOY05jOWsxX0k3Mlh0VXhidHFsOVBGREkzeDZBeEVzeUVsRnZ4UFFjWjczM0t2TEh5bUNTQVFwTXNBRThiMDVVWm95VWNjUlFadzNnbUpUNW5tWkxmWHFjM196dF9DcVNTVVpDSTlSUEtwOXc2aVpJaHhFSEVXcG5DSEQ3Y2hZMWFyTlo4TWRR?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-m6w2i6",
+    "itemType": "news",
+    "title": "엘로이랩, AI 초분광 SOTA 달성 및 연산량 9배 절감…‘산업용 AI 초분광 표준’ 기틀 마련 - 바이오타임즈",
+    "publishedAt": "2026-04-07T07:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yUUVFZ050TVc4WXljQURJeFkwMWIxQWdBTlpGX2xfTU5pUDJCZHlETlpfZFJsNjNmLVFMS3Fla19tOTBFU2U4a0plTnNlMGx3c1hKelUzNlVZeWg0Y0tjZnlQTHhCR2FQaFh2Sg?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-7frqqi",
+    "itemType": "news",
+    "title": "디플리, 효성전기에 산업용 AI 음향 분석 솔루션 '리슨AI’ 공급 - AI타임스",
+    "publishedAt": "2026-02-10T08:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ma2IzZG51VlJFb1pNc0xzWkJ0X3dId0dta0hvTEZ1UTZLb3UxaXIxbGxWeTlYRzhhS1I4WDN4Yk55NE1XallOcTNndXBhaU5VSWczRFZPMlBWYTBGOFVvaE9tUkJGTEd6U0E?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19627,10 +20135,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-7frqqi",
+    "id": "google_news_manufacturing-ec0hyo",
     "itemType": "news",
-    "title": "디플리, 효성전기에 산업용 AI 음향 분석 솔루션 '리슨AI’ 공급 - AI타임스",
-    "publishedAt": "2026-02-10T08:00:00.000Z",
+    "title": "디플리, 산업용 AI 음향 분석 솔루션 '리슨 AI’ 효성전기에 공급 - FA저널",
+    "publishedAt": "2026-02-11T08:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T3",
     "priority": "P2",
@@ -19640,28 +20148,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ma2IzZG51VlJFb1pNc0xzWkJ0X3dId0dta0hvTEZ1UTZLb3UxaXIxbGxWeTlYRzhhS1I4WDN4Yk55NE1XallOcTNndXBhaU5VSWczRFZPMlBWYTBGOFVvaE9tUkJGTEd6U0E?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-5kj0b0",
-    "itemType": "news",
-    "title": "Qt 그룹, 퀄컴 Dragonwing IQ 기반 산업용 AI 기기 개발 지원 - 글로벌이코노믹",
-    "publishedAt": "2026-03-16T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFE2WmtmemhLaFZodmZwR1h3SEp0QXNRY05kTHpWYTdRdlViaFVFYmw3MnExeUV1dk11WWRjZkw2SGY5QjJDdjNyVVFmeVJNQmkzaFlXeXRoSnZVdTJyZTFOVUwzaHFkLXlQcTJHVjlGdkNvWWNjcU1sZWNVb2FSSjRnamR5c0s1?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zZHU0dmhySnE1eTNHU240ZElrWlA2ckc5dUNhWDk3dW41M2xfelRtWF9XaWlNT2V0WjFueGJpZ3dBTm1QalNBb0c0VmNPLXBKZXp1aXZuaGxtZVJHQUFQZVJEMG5yamFuSHVr?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19690,10 +20177,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-h0jt28",
+    "id": "google_news_manufacturing-xg1k4r",
     "itemType": "news",
-    "title": "“모든 것은 가상 트윈으로 표현될 것”... 젠슨 황, 산업용 AI의 미래 비전 제시 - 인공지능신문",
-    "publishedAt": "2026-02-04T08:00:00.000Z",
+    "title": "다쏘시스템, 회장으로 달로즈 CEO 선임...산업용 AI 리더십 강화 - 지디넷코리아",
+    "publishedAt": "2026-03-06T08:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T3",
     "priority": "P2",
@@ -19703,133 +20190,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TbU5vRlNFQ1FreFd4dUZXbUFLZ1hSNGhmSU5QWUpXcU13T2VMaHNjUDFaSFhsY05vRzBqTGRPMmJ2N3RjTHFJTDVNN0dXNjMwZ01rTkZoY2VxbjFOeXlES1VLZE01cDA?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-ec0hyo",
-    "itemType": "news",
-    "title": "디플리, 산업용 AI 음향 분석 솔루션 '리슨 AI’ 효성전기에 공급 - FA저널",
-    "publishedAt": "2026-02-11T08:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zZHU0dmhySnE1eTNHU240ZElrWlA2ckc5dUNhWDk3dW41M2xfelRtWF9XaWlNT2V0WjFueGJpZ3dBTm1QalNBb0c0VmNPLXBKZXp1aXZuaGxtZVJHQUFQZVJEMG5yamFuSHVr?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-comv8c",
-    "itemType": "news",
-    "title": "[GTC 2026] 다쏘시스템, ‘버추얼 삼남매’로 산업용 AI 청사진 제시 - 더에이아이",
-    "publishedAt": "2026-03-17T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KYXZYNFhSOG9PY1VlUlZnUk50REFKQ3ViaVB5R1BRaVFsRE5FTi1qT2MtcmtqcTdlb2Z1LWFUQXNtbURhNW5pd2lTMUpOV2dhOG1La3RYWXJqSGFOTzM3YlJRRm1Va0gtbUE?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-7hqbxo",
-    "itemType": "news",
-    "title": "한국레노버, 산업용 AI 엣지 시장 공략…‘씽크엣지’ 2종 출시 - 매일경제",
-    "publishedAt": "2026-04-06T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OT2tucVIzaXlreUQyalNBWHdSRmNKN2JCT01rWTc5RzRmQ2REbGlNRkZqTER4U01PSUxkVDFJa1J1ZU4wY25oM2pPR00wZw?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-h4rl9b",
-    "itemType": "news",
-    "title": "퀄컴, 산업용 AI 프로세서 '드래곤 윙 IQ-X' 출시 - 전자신문",
-    "publishedAt": "2025-11-13T08:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1xN3R4R05lX21lY0hiTng0bHdzaWJFOG9KQ1daQ1dKVGU1SlFnajdhT052X2E2RmFqOHRveUJSTjZvXy1KbklncldDeEdoQQ?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-d8ovg6",
-    "itemType": "news",
-    "title": "Qt그룹, 퀄컴과 미래형 공장 위한 산업용 AI 기기 개발 가속 - IT조선",
-    "publishedAt": "2026-03-13T07:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00SFdTamJsQ1JsRGdsNFE3QlFBUjZiWnZZLXpWclByMm5DdEE3ZjYtZTFlZ2tTM2V6LUVHMHU0OFJlaHlUbzJTM0RmdS1ZeWx1NWNGbU5iSDE1NzF4RVZzeG1EMmRPQVAzcEhlQk5rcmjSAXRBVV95cUxQMVZ1dEVqQWF2ZDVsbjJDSG9ubVFhYkxzOURwcm1hajhENlU3SmNEM2oyaGxPVkdaOEFpYlUyaU5rOWdYc0JPN3BNenJ3VElHbHVGLW9fQ1NkVVVNMnlMNXJHOGVHVjlkRE0wMWgycmVpRVBVRw?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_manufacturing-r7bg2k",
-    "itemType": "news",
-    "title": "산업용 AI 성패 가르는 'AI-Ready Data'…누비슨 데이터레이크 주목 - 아시아경제",
-    "publishedAt": "2026-02-06T08:00:00.000Z",
-    "sourceName": "google_news_manufacturing",
-    "tier": "T3",
-    "priority": "P2",
-    "score": 0,
-    "matchedKeywords": [],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjTTFoTGt1TW5STzI0dWo5UGdUOHBSZ2VpTG1oY0VEYWxUYTllS1Q5Nm1HVGxvSFpGclJEaUpLSnlpUy1rUmZEd2tBbEJhSWF2R2ZqLW5WRW5saG1SZFhBMHlB?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXeDhRQ04td2JmMWNyU1RSQ3lzenYwMk5UMVNvRHpLSWlaVmhkemprZXBrT1dleWFPSHo0TUJOaDFfUHNhRmEtbmxna05ITEtaTWlvREVB?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19858,10 +20219,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-na9n23",
+    "id": "google_news_manufacturing-h0jt28",
     "itemType": "news",
-    "title": "어드밴텍, Core Ultra 프로세서 적용 서버 보드로 산업용 AI 수요 공략 - 헬로티",
-    "publishedAt": "2025-12-15T08:00:00.000Z",
+    "title": "“모든 것은 가상 트윈으로 표현될 것”... 젠슨 황, 산업용 AI의 미래 비전 제시 - 인공지능신문",
+    "publishedAt": "2026-02-04T08:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T3",
     "priority": "P2",
@@ -19871,7 +20232,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TNzJtREdzMW5fX09wZkg4ZXFfMk1fNEtJempxS21NdW1obUt5b0ZEbk9Id0VxWm14RldCS2g5aVdQRXdhTDkyWVdna1hOLWlyQnJTMDZIRzFvdk5DX25z?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TbU5vRlNFQ1FreFd4dUZXbUFLZ1hSNGhmSU5QWUpXcU13T2VMaHNjUDFaSFhsY05vRzBqTGRPMmJ2N3RjTHFJTDVNN0dXNjMwZ01rTkZoY2VxbjFOeXlES1VLZE01cDA?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19879,10 +20240,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-dmqbz9",
+    "id": "google_news_manufacturing-h4rl9b",
     "itemType": "news",
-    "title": "[CES 2026 기획 시리즈 ④] 산업용 AI 혁명과 현장의 지능화 - 캐어유 뉴스",
-    "publishedAt": "2026-01-14T08:00:00.000Z",
+    "title": "퀄컴, 산업용 AI 프로세서 '드래곤 윙 IQ-X' 출시 - 전자신문",
+    "publishedAt": "2025-11-13T08:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T3",
     "priority": "P2",
@@ -19892,7 +20253,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlQmRJNWpqcWlodF9JQmxEVnRjR1JHcG5SWTBITmp5WWNHZm9VUmNxV0xiQ080Rk5HdlRjcm1FX0NGZGpja1RDTVZYaDZEeXVIWHlaV3N6cGhQQXpMN19mQ0dHZ29RUHpiZm1rQw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1xN3R4R05lX21lY0hiTng0bHdzaWJFOG9KQ1daQ1dKVGU1SlFnajdhT052X2E2RmFqOHRveUJSTjZvXy1KbklncldDeEdoQQ?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19900,10 +20261,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-qlyr8l",
+    "id": "google_news_manufacturing-7hqbxo",
     "itemType": "news",
-    "title": "中 “산업용 AI 역량 강화 위한 ‘고품질 데이터셋’ 구축 착수” - 헤럴드경제",
-    "publishedAt": "2026-03-25T07:00:00.000Z",
+    "title": "한국레노버, 산업용 AI 엣지 시장 공략…‘씽크엣지’ 2종 출시 - 매일경제",
+    "publishedAt": "2026-04-06T07:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T3",
     "priority": "P2",
@@ -19913,7 +20274,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11enpLRENhb3pBSGFmMG9aMUh0UzMtcVRwbk9HaU10TjZPS1l2eG9maVdlbTM5aFNyVkcxanV0bFJTVkhXWWt3SVg1Vkx3UTh6a1hPb25R?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OT2tucVIzaXlreUQyalNBWHdSRmNKN2JCT01rWTc5RzRmQ2REbGlNRkZqTER4U01PSUxkVDFJa1J1ZU4wY25oM2pPR00wZw?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19921,9 +20282,30 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-9npl3o",
+    "id": "google_news_manufacturing-5kj0b0",
     "itemType": "news",
-    "title": "Qt 그룹, 미래형 공장을 위한 산업용 AI 기기 개발 박차 가해 - elec4",
+    "title": "Qt 그룹, 퀄컴 Dragonwing IQ 기반 산업용 AI 기기 개발 지원 - 글로벌이코노믹",
+    "publishedAt": "2026-03-16T07:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFE2WmtmemhLaFZodmZwR1h3SEp0QXNRY05kTHpWYTdRdlViaFVFYmw3MnExeUV1dk11WWRjZkw2SGY5QjJDdjNyVVFmeVJNQmkzaFlXeXRoSnZVdTJyZTFOVUwzaHFkLXlQcTJHVjlGdkNvWWNjcU1sZWNVb2FSSjRnamR5c0s1?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-d8ovg6",
+    "itemType": "news",
+    "title": "Qt그룹, 퀄컴과 미래형 공장 위한 산업용 AI 기기 개발 가속 - IT조선",
     "publishedAt": "2026-03-13T07:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T3",
@@ -19934,7 +20316,28 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XSjFud3U1c3BveUItbGxOREFuOFR2Tlc5WWRIeTlrbTFPcWZSeFl0T0szc29YWGU5NWxwZEN0OVdRR05VYmhtWXdxd0xKc0Y2bDdqRDBWemR1X0tpd3hNRmdGdzFRbHZzWXV1TjhR?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00SFdTamJsQ1JsRGdsNFE3QlFBUjZiWnZZLXpWclByMm5DdEE3ZjYtZTFlZ2tTM2V6LUVHMHU0OFJlaHlUbzJTM0RmdS1ZeWx1NWNGbU5iSDE1NzF4RVZzeG1EMmRPQVAzcEhlQk5rcmjSAXRBVV95cUxQMVZ1dEVqQWF2ZDVsbjJDSG9ubVFhYkxzOURwcm1hajhENlU3SmNEM2oyaGxPVkdaOEFpYlUyaU5rOWdYc0JPN3BNenJ3VElHbHVGLW9fQ1NkVVVNMnlMNXJHOGVHVjlkRE0wMWgycmVpRVBVRw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-comv8c",
+    "itemType": "news",
+    "title": "[GTC 2026] 다쏘시스템, ‘버추얼 삼남매’로 산업용 AI 청사진 제시 - 더에이아이",
+    "publishedAt": "2026-03-17T07:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KYXZYNFhSOG9PY1VlUlZnUk50REFKQ3ViaVB5R1BRaVFsRE5FTi1qT2MtcmtqcTdlb2Z1LWFUQXNtbURhNW5pd2lTMUpOV2dhOG1La3RYWXJqSGFOTzM3YlJRRm1Va0gtbUE?oc=5",
         "kind": "canonical"
       }
     ],
@@ -19963,10 +20366,10 @@
     "starred": false
   },
   {
-    "id": "google_news_manufacturing-g4vakf",
+    "id": "google_news_manufacturing-dmqbz9",
     "itemType": "news",
-    "title": "한국레노버, 산업용 AI 엣지 시장 공략…‘씽크엣지’ 2종 출시 - 매일경제TV",
-    "publishedAt": "2026-04-06T07:00:00.000Z",
+    "title": "[CES 2026 기획 시리즈 ④] 산업용 AI 혁명과 현장의 지능화 - 캐어유 뉴스",
+    "publishedAt": "2026-01-14T08:00:00.000Z",
     "sourceName": "google_news_manufacturing",
     "tier": "T3",
     "priority": "P2",
@@ -19976,7 +20379,49 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfc3lvYk8xdlhFTEtUVFhZRkVkUk1PV2xlXzBQVC1MbUF3X3VoUHRteGFKZUhta1c5aFN2Wk5YeVFLUXBKM043Q2JyUURmYWxSaXNPX1BjdzYtM29qMmtyLXgycDFRalZa?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlQmRJNWpqcWlodF9JQmxEVnRjR1JHcG5SWTBITmp5WWNHZm9VUmNxV0xiQ080Rk5HdlRjcm1FX0NGZGpja1RDTVZYaDZEeXVIWHlaV3N6cGhQQXpMN19mQ0dHZ29RUHpiZm1rQw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-r7bg2k",
+    "itemType": "news",
+    "title": "산업용 AI 성패 가르는 'AI-Ready Data'…누비슨 데이터레이크 주목 - 아시아경제",
+    "publishedAt": "2026-02-06T08:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjTTFoTGt1TW5STzI0dWo5UGdUOHBSZ2VpTG1oY0VEYWxUYTllS1Q5Nm1HVGxvSFpGclJEaUpLSnlpUy1rUmZEd2tBbEJhSWF2R2ZqLW5WRW5saG1SZFhBMHlB?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "google_news_manufacturing-na9n23",
+    "itemType": "news",
+    "title": "어드밴텍, Core Ultra 프로세서 적용 서버 보드로 산업용 AI 수요 공략 - 헬로티",
+    "publishedAt": "2025-12-15T08:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TNzJtREdzMW5fX09wZkg4ZXFfMk1fNEtJempxS21NdW1obUt5b0ZEbk9Id0VxWm14RldCS2g5aVdQRXdhTDkyWVdna1hOLWlyQnJTMDZIRzFvdk5DX25z?oc=5",
         "kind": "canonical"
       }
     ],
@@ -20047,10 +20492,31 @@
     "starred": false
   },
   {
+    "id": "google_news_manufacturing-9npl3o",
+    "itemType": "news",
+    "title": "Qt 그룹, 미래형 공장을 위한 산업용 AI 기기 개발 박차 가해 - elec4",
+    "publishedAt": "2026-03-13T07:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XSjFud3U1c3BveUItbGxOREFuOFR2Tlc5WWRIeTlrbTFPcWZSeFl0T0szc29YWGU5NWxwZEN0OVdRR05VYmhtWXdxd0xKc0Y2bDdqRDBWemR1X0tpd3hNRmdGdzFRbHZzWXV1TjhR?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "irobotnews-fxjya1",
     "itemType": "news",
     "title": "“국내 로봇산업 원팀으로 뭉치자”…제15회 로봇인 등산대회 성료",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20071,7 +20537,7 @@
     "id": "irobotnews-fxjy6m",
     "itemType": "news",
     "title": "강서구, 커피 배달부터 공원 순찰까지...로봇이 일상이 되는 도시 만든다",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20092,7 +20558,7 @@
     "id": "irobotnews-fxjy6k",
     "itemType": "news",
     "title": "에스트래픽, 원주시 ‘AI 특화 시범도시’ 컨소시엄 선정…모빌리티 시장 선점 가속",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20113,7 +20579,7 @@
     "id": "irobotnews-fxjy6j",
     "itemType": "news",
     "title": "루닛, 유상증자 구주주 청약률 104.7%…성공적 자본조달 마무리",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20134,7 +20600,7 @@
     "id": "irobotnews-fxjy6f",
     "itemType": "news",
     "title": "HD현대, 미국 무인함정 시장 선점 새 이정표",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20155,7 +20621,7 @@
     "id": "irobotnews-fxjy6e",
     "itemType": "news",
     "title": "고영테크놀러지, 올해 1분기 매출 727억원으로 사상 최대 기록",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20176,7 +20642,7 @@
     "id": "irobotnews-fxjy5n",
     "itemType": "news",
     "title": "佛 엑소텍, CJ올리브네트웍스와 파트너십...국내 기업 물류경쟁력 높인다",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20197,7 +20663,7 @@
     "id": "irobotnews-fxjy4w",
     "itemType": "news",
     "title": "소니 AI, 엘리트 선수와 경쟁 가능한 탁구 로봇 '에이스' 공개",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20218,7 +20684,7 @@
     "id": "irobotnews-fxjy5k",
     "itemType": "news",
     "title": "대동기어, 로봇 부품·전기차 사업 위한 유·무상증자 추진",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20239,7 +20705,7 @@
     "id": "irobotnews-fxjy4t",
     "itemType": "news",
     "title": "2026년 기계·로봇산업(로봇분야) 발전유공 포상’  접수 5월 1일까지 연장",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20260,7 +20726,7 @@
     "id": "irobotnews-fxjy4q",
     "itemType": "news",
     "title": "“로봇과 일상의 조화”...KIST 곽소나 박사, HCI 특별공로상",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20281,7 +20747,7 @@
     "id": "irobotnews-fxjh1z",
     "itemType": "news",
     "title": "“휴머노이드 로봇 훈련 위한 '긱 이코노미' 전 세계 확산일로”",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20302,7 +20768,7 @@
     "id": "irobotnews-fxjh8y",
     "itemType": "news",
     "title": "에이딘로보틱스, 레인보우로보틱스 휴머노이드 ‘RB-Y1’ 1호 대리점 계약",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20323,7 +20789,7 @@
     "id": "irobotnews-fxjh72",
     "itemType": "news",
     "title": "발길 이어지는 ‘SIMTOS 2026’…제조의 미래 ‘한눈에’",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20344,7 +20810,7 @@
     "id": "irobotnews-fxjh6d",
     "itemType": "news",
     "title": "창립 50주년 기계연…K-휴머노이드 ‘카이로스’ 첫 공개",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20365,7 +20831,7 @@
     "id": "irobotnews-fxjhsj",
     "itemType": "news",
     "title": "서울대 연구진, 감각·움직임 함께 구현한 ‘지능형 인공근육’ 세계 첫 개발",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20386,7 +20852,7 @@
     "id": "irobotnews-fxjy4n",
     "itemType": "news",
     "title": "인하대, 로보티즈AI와 손잡고 '자율주행 로봇 스마트캠퍼스' 구축",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20407,7 +20873,7 @@
     "id": "irobotnews-fxjhyk",
     "itemType": "news",
     "title": "코스모로보틱스, 전 연령 웨어러블 로봇으로 글로벌 리딩 기업 도약",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20428,7 +20894,7 @@
     "id": "irobotnews-fxjy8a",
     "itemType": "news",
     "title": "에이블랩스, 신제품 'SUITABLE' 바이오 코리아 2026서 첫 공개",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20449,7 +20915,7 @@
     "id": "irobotnews-fxjy7f",
     "itemType": "news",
     "title": "세나, 클로봇과 MOU…'메시 네트워크'로 로봇-작업자 간 통신 혁신 이끈다",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20470,7 +20936,7 @@
     "id": "irobotnews-fxjy7a",
     "itemType": "news",
     "title": "리브스메드, KSERS 2026서 수술 혁신의 현재와 미래 그린다",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20491,7 +20957,7 @@
     "id": "irobotnews-fxjy78",
     "itemType": "news",
     "title": "와트, 시리즈 A 투자 라운드…日 야마토홀딩스 전략적 투자 참여",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20512,7 +20978,7 @@
     "id": "irobotnews-fxjy6h",
     "itemType": "news",
     "title": "셰플러, 베트남 빈다이나믹스와 휴머노이드 액추에이터 개발 협력",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20533,7 +20999,7 @@
     "id": "irobotnews-fxjy6d",
     "itemType": "news",
     "title": "中-태국 원격 수술 로봇으로 '담낭 절제술'",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20554,7 +21020,7 @@
     "id": "irobotnews-fxjy5q",
     "itemType": "news",
     "title": "中 갤봇 휴머노이드 'G1' 편의점 정식 직원 됐다",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20575,7 +21041,7 @@
     "id": "irobotnews-fxjy3z",
     "itemType": "news",
     "title": "경남TP, 2026 하노버 산업박람회서 제조 AI 성과 선보여",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T0",
     "priority": "P2",
@@ -20599,7 +21065,7 @@
     "id": "irobotnews-fxji0e",
     "itemType": "news",
     "title": "獨 법원, 유니버설 로봇 SW 저작권 침해로 '엘리트로봇'에 판매 금지 명령",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20620,7 +21086,7 @@
     "id": "irobotnews-fxji0d",
     "itemType": "news",
     "title": "자율비행 시스템 스타트업 릴라이어블 로보틱스, 1억6000만달러 투자 유치",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20641,7 +21107,7 @@
     "id": "irobotnews-fxji09",
     "itemType": "news",
     "title": "2026년, 중국 휴머노이드 로봇 기업 리스트 및 분석",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20662,7 +21128,7 @@
     "id": "irobotnews-fxjhzn",
     "itemType": "news",
     "title": "테솔로, 대성하이텍과 로봇 핸드 양산 품질 확보 손잡았다",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20683,7 +21149,7 @@
     "id": "irobotnews-fxjhym",
     "itemType": "news",
     "title": "케이엔에스, 108억원 규모 북미향 46파이 배터리 설비 수주",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20704,7 +21170,7 @@
     "id": "irobotnews-fxjhwy",
     "itemType": "news",
     "title": "중국 닝보, '스마트 제조' 중심지로 전환 가속",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20725,7 +21191,7 @@
     "id": "irobotnews-fxjhwu",
     "itemType": "news",
     "title": "토로, '모덱스 2026'서 모듈형 자율주행 플랫폼 공개",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20746,7 +21212,7 @@
     "id": "irobotnews-fxjhwt",
     "itemType": "news",
     "title": "中 차이냐오, 모덱스 2026서 창고용 등반 로봇 ‘지봇’ 공개",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20767,7 +21233,7 @@
     "id": "irobotnews-fxjy5m",
     "itemType": "news",
     "title": "서울대 안성훈 교수팀, 드론·로봇 팔 등 3차원 구조물 구현 초경량 복합재 개발",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20788,7 +21254,7 @@
     "id": "irobotnews-fxji0i",
     "itemType": "news",
     "title": "로브로스, 김승연 CTO·임대규 CAIO 체제 출범",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20809,7 +21275,7 @@
     "id": "irobotnews-fxjhzg",
     "itemType": "news",
     "title": "우크라이나 국방부, 올 상반기 지상 로봇 2만5000대 조달 추진",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20830,7 +21296,7 @@
     "id": "irobotnews-fxjhyr",
     "itemType": "news",
     "title": "롤랜드 버거 \"휴머노이드 시장, 2050년 최대 4조달러…자동차 산업과 어깨\"",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20851,7 +21317,7 @@
     "id": "irobotnews-fxjfo3",
     "itemType": "news",
     "title": "‘2026 스마트 SMT&PCB 어셈블리’ 전시회 1일 개막…부스 살펴보니",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20872,7 +21338,7 @@
     "id": "irobotnews-fxjdk4",
     "itemType": "news",
     "title": "티로보틱스, 일본 화낙과 로봇 자동화 기술 협력",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20893,7 +21359,7 @@
     "id": "irobotnews-fxjc13",
     "itemType": "news",
     "title": "티로보틱스, 자체 개발 휴머노이드 ‘TR-WORKS’ 첫 공개",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20914,7 +21380,7 @@
     "id": "irobotnews-fxjbvy",
     "itemType": "news",
     "title": "AI 혁신 시대, 생존을 가르는 것은 ‘기술’ 아닌 ‘기업가 정신’",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20935,7 +21401,7 @@
     "id": "irobotnews-fxjbb8",
     "itemType": "news",
     "title": "티로보틱스, 자체 개발 휴머노이드 내달 공개한다",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20956,7 +21422,7 @@
     "id": "irobotnews-fxiu42",
     "itemType": "news",
     "title": "[2026 새해 새 설계] 티엑스알로보틱스 엄인섭 대표",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20977,7 +21443,7 @@
     "id": "irobotnews-fxiu2c",
     "itemType": "news",
     "title": "[KRoC 2026] 기조강연 2 - “Agentic AI, 디지털을 넘어 물리 세계로” … LG AI연구원, EXAONE·K-EXAONE 기반 에이전트 로드맵 제시",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -20998,7 +21464,7 @@
     "id": "irobotnews-fxith0",
     "itemType": "news",
     "title": "대동기어, 올해 EV 부품 양산 돌입…로봇 新사업도 '시동'",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -21019,7 +21485,7 @@
     "id": "irobotnews-fxithn",
     "itemType": "news",
     "title": "“로봇 도입 초기 투자 부담 낮추자”…폴라리스쓰리디-한국렌탈 ‘의기투합’",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -21040,7 +21506,7 @@
     "id": "jangup-k6tg1a",
     "itemType": "news",
     "title": "처음처음",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21061,7 +21527,7 @@
     "id": "jangup-31epot",
     "itemType": "news",
     "title": "2",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21082,7 +21548,7 @@
     "id": "jangup-e400no",
     "itemType": "news",
     "title": "3",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21103,7 +21569,7 @@
     "id": "jangup-v9er05",
     "itemType": "news",
     "title": "4",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21124,7 +21590,7 @@
     "id": "jangup-mmakmi",
     "itemType": "news",
     "title": "5",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21145,7 +21611,7 @@
     "id": "jangup-5gvua1",
     "itemType": "news",
     "title": "6",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21166,7 +21632,7 @@
     "id": "jangup-boiw2g",
     "itemType": "news",
     "title": "7",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21187,7 +21653,7 @@
     "id": "jangup-stxmex",
     "itemType": "news",
     "title": "8",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21208,7 +21674,7 @@
     "id": "jangup-p1rp7q",
     "itemType": "news",
     "title": "9",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21229,7 +21695,7 @@
     "id": "jangup-mmgeb2",
     "itemType": "news",
     "title": "10",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21250,7 +21716,7 @@
     "id": "jangup-5h1nyl",
     "itemType": "news",
     "title": "다음",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21271,7 +21737,7 @@
     "id": "jangup-un402c",
     "itemType": "news",
     "title": "끝끝",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "jangup",
     "tier": "T3",
     "priority": "P2",
@@ -21289,7 +21755,51 @@
     "starred": false
   },
   {
-    "id": "smtech-v04n7o",
+    "id": "kiat-eobccj",
+    "itemType": "gov",
+    "title": "2026년 산업기술국제협력(양자-체코) 접수 안내",
+    "publishedAt": "2026-04-22T00:00:00.000Z",
+    "deadlineAt": "2026-06-24",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=1e54f14a32194edb8286d101c5a96007",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "kiat-6uszql",
+    "itemType": "gov",
+    "title": "2026년 유레카 글로벌이노베이션서밋 참가기업(바이오헬스 분야) 모집",
+    "publishedAt": "2026-04-01T00:00:00.000Z",
+    "deadlineAt": "2026-04-09",
+    "sourceName": "kiat",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.kiat.or.kr/front/board/boardContentsView.do?board_id=90&contents_id=2baf97f997bb4a0db3ec874ddd0c289e",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
+    "id": "smtech-j2jg05",
     "itemType": "gov",
     "title": "2026년 DCP(생태계혁신형) 민간전문가 배심원단 모집 안내",
     "publishedAt": "2026-04-21T00:00:00.000Z",
@@ -21302,7 +21812,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=ceAzXo5PlW2NJPhn2M60xujK5gjGT99TWyBYsqFoRmdHLgWAtIhZw7wiXafdbT7c.smwas3_servlet_engine4?buclYy=&ancmId=S02858&buclCd=S9C03&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+        "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do;jsessionid=Kah91f1ObKYdk74i2Rtx2OQJ1L7UTI9VW7V8Gx1Db6ZkxboUtrY96ZCawVQ7FZ1V.smwas3_servlet_engine4?buclYy=&ancmId=S02858&buclCd=S9C03&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
         "kind": "canonical"
       }
     ],
@@ -24092,7 +24602,7 @@
     "id": "hf_daily_papers-mt17ou",
     "itemType": "trending",
     "title": "LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24114,7 +24624,7 @@
     "id": "hf_daily_papers-msl62p",
     "itemType": "trending",
     "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24136,7 +24646,7 @@
     "id": "hf_daily_papers-msl62m",
     "itemType": "trending",
     "title": "StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24158,7 +24668,7 @@
     "id": "hf_daily_papers-msl3zx",
     "itemType": "trending",
     "title": "Context Unrolling in Omni Models",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24180,7 +24690,7 @@
     "id": "hf_daily_papers-mt5oo1",
     "itemType": "trending",
     "title": "EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24202,7 +24712,7 @@
     "id": "hf_daily_papers-msl40o",
     "itemType": "trending",
     "title": "Vista4D: Video Reshooting with 4D Point Clouds",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24224,7 +24734,7 @@
     "id": "hf_daily_papers-msl41k",
     "itemType": "trending",
     "title": "UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24246,7 +24756,7 @@
     "id": "hf_daily_papers-mslwua",
     "itemType": "trending",
     "title": "Temporally Extended Mixture-of-Experts Models",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24268,7 +24778,7 @@
     "id": "hf_daily_papers-mslv9e",
     "itemType": "trending",
     "title": "WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24290,7 +24800,7 @@
     "id": "hf_daily_papers-msl8hu",
     "itemType": "trending",
     "title": "Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24312,7 +24822,7 @@
     "id": "hf_daily_papers-mt167j",
     "itemType": "trending",
     "title": "Coevolving Representations in Joint Image-Feature Diffusion",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24334,7 +24844,7 @@
     "id": "hf_daily_papers-msl64d",
     "itemType": "trending",
     "title": "Encoder-Free Human Motion Understanding via Structured Motion Descriptions",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24356,7 +24866,7 @@
     "id": "hf_daily_papers-j2qmts",
     "itemType": "trending",
     "title": "Previous",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "hf_daily_papers",
     "tier": "T3",
     "priority": "P2",
@@ -24476,10 +24986,10 @@
     "starred": false
   },
   {
-    "id": "google_news_physicalai-jk4ckh",
+    "id": "google_news_physicalai-qksfea",
     "itemType": "news",
-    "title": "\"스마트 팩토리 기술 확대\"…현대차·기아 테크데이, 벌써 6회차 - 한국경제",
-    "publishedAt": "2025-11-06T08:00:00.000Z",
+    "title": "제조 현장을 바꾸는 현대자동차그룹의 스마트 팩토리 주요 기술 5가지 | 현대자동차그룹 - Hyundai Motor Group",
+    "publishedAt": "2025-11-25T08:00:00.000Z",
     "sourceName": "google_news_physicalai",
     "tier": "T3",
     "priority": "P2",
@@ -24489,7 +24999,7 @@
     "links": [
       {
         "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnbTUxbzNVTTE2Nmxpc1h5ckZuMmJqN0FxeGh3VjNzc0JGcVYwXzNCYWNOR1g2a2VaWnI0R01qa0V3ZGk3aVhUNDB4Ui14bXc2Vi14aWV5ejlyUdIBVEFVX3lxTE82NTY0UEFwRUtPVHRseGkxUUxpS3pzbUVsZUZIbXNGZVR3X1NaTV83Yy1lTGN0Y191WVFPeHJxeXAzeVpxZU5qb3FKSXNvandxNG90RQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FVFRXbE9DTWU3aFo3dzFyYkxpOW1pdlRuWlltODlBN2Y3RklHZU5SbVF2aTJybklndG9SR0R6dURVcS1ULVhyVFYzNktjVTVCVGhlcUhNdGRqdThoYjZKUXBUVEhTSmhlSTdKbA?oc=5",
         "kind": "canonical"
       }
     ],
@@ -24635,6 +25145,27 @@
     "starred": false
   },
   {
+    "id": "google_news_manufacturing-u89e0t",
+    "itemType": "news",
+    "title": "네이버, 엔비디아 손 잡고 ‘산업용 AI’ 확대 나선다 - 한겨레",
+    "publishedAt": "2025-10-31T07:00:00.000Z",
+    "sourceName": "google_news_manufacturing",
+    "tier": "T3",
+    "priority": "P2",
+    "score": 0,
+    "matchedKeywords": [],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0ZlNMS0FYSjAzQndvdkxwSmNKSEFRS2Y4NmVuY0VfMEdCYWJlaWtvbVlqTFpaV3VhY1JQN25JczdITXl5WldaeDhRNDBSU1FmenctTnJ3UW16T0pVbnNpTw?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_manufacturing-ugkazi",
     "itemType": "news",
     "title": "다쏘시스템, 엔비디아와 손잡고 산업용 AI 미래 제시한다 - elec4",
@@ -24673,6 +25204,13 @@
         "kind": "canonical"
       }
     ],
+    "relatedArticles": [
+      {
+        "title": "엔비디아-지멘스, 산업용 AI 운영체제 구축 속도 낸다 - 캐드앤그래픽스",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd05FaUZGSktXVjJ0OTB4NVJvVGZWa190MWFUQ1M0d1VuMlRiNkVVbE1Cb0ZlbTVXWGJkVG1XbGdNblIxaE1Rc0NHNjVwbUdVNnFKYWd5d2hNVjUxY1dLZUFuUjB3SW5Sa2VBOVhHRTAxSmJKRDlJci1YVXNBUko4SFdIQ3o3X3lud1BSYzBB?oc=5",
+        "sourceName": "google_news_manufacturing"
+      }
+    ],
     "read": false,
     "starred": false
   },
@@ -24701,7 +25239,7 @@
     "id": "irobotnews-fxjy86",
     "itemType": "news",
     "title": "테슬라, 옵티머스 올해 7~8월 양산 시작한다",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -24722,7 +25260,7 @@
     "id": "irobotnews-fxjgfk",
     "itemType": "news",
     "title": "LG전자, 로봇 사업 본격화…밸류에이션 재평가 기대감 높아",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -25414,7 +25952,7 @@
     "id": "irobotnews-fxjy41",
     "itemType": "news",
     "title": "경북도,  로봇플래그십 거점 개소…반도체 공정 로봇 실증한다",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -25812,7 +26350,7 @@
     "id": "irobotnews-fxjex9",
     "itemType": "news",
     "title": "폴라리스쓰리디, 국제물류산업대전서 제조물류로봇 ‘SMAR-M3’ 공개",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -26045,7 +26583,7 @@
     "id": "irobotnews-fxjy87",
     "itemType": "news",
     "title": "빅웨이브로보틱스, 코스닥 예심 통과…상장 ‘파란불’",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -26068,7 +26606,7 @@
     "id": "irobotnews-fxjy84",
     "itemType": "news",
     "title": "주간 로봇 기업 주가 동향(04/20~04/24)",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -26091,7 +26629,7 @@
     "id": "irobotnews-fxjy83",
     "itemType": "news",
     "title": "오늘의 로봇 기업 주식 시세(2026-04-24)",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -26114,7 +26652,7 @@
     "id": "irobotnews-fxjy5r",
     "itemType": "news",
     "title": "오늘의 로봇 기업 주식 시세(2026-04-23)",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -26404,6 +26942,29 @@
     "starred": false
   },
   {
+    "id": "google_news_physicalai-u31lc8",
+    "itemType": "news",
+    "title": "㈜하림, 삼기부화장 리모델링 완공… ‘스마트 팩토리’로 전환 - 전북도민일보",
+    "publishedAt": "2026-04-19T04:44:09.000Z",
+    "sourceName": "google_news_physicalai",
+    "tier": "T3",
+    "priority": "P2",
+    "score": -30,
+    "matchedKeywords": [
+      "비관련지역(감점)"
+    ],
+    "matchedCompanies": [],
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ERW80TGdoSEg1TE5UOVBIY1NpRGlFejBJR1J4ODJUUWYxeEt4Vm9PQXlER2dyWWtxTkFkWWZSblNuTDllVnZNcnRCbmR5a2h0RWVObTNmNDl6NE5sQ3A3YlJRelVFRm5Rb3c?oc=5",
+        "kind": "canonical"
+      }
+    ],
+    "read": false,
+    "starred": false
+  },
+  {
     "id": "google_news_physicalai-i67wmv",
     "itemType": "news",
     "title": "강원도, 'AI 곤충 스마트팩토리' 국가 연구과제 최종 선정 - 연합뉴스",
@@ -26420,52 +26981,6 @@
       {
         "label": "원문",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wb0hEb3BpTVhnTlB4Nm1BVGo2aDJzNG5SX2VZVHVTcjUzSTAxdjJIdWxWMmVmUXdQYWRLS2pZSUQ4c2draWhvd2xTTVZHaVRqMWtKbHVxbWxqNG_SAWBBVV95cUxQUzVRd290TUNCaW55enQxVWxaYjNVem5pM1g2QXJZS2d4bUduMGpzUWtvY0FReDM2Y29CUTNVdzBJdUVBZVR6cXlQU1Y5QVdZaG1rMjlpTjRzTWhBX1hWbnY?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-pu753q",
-    "itemType": "news",
-    "title": "울산에 고용량 변압기 제조 스마트 팩토리 들어선다 - 울산매일",
-    "publishedAt": "2026-02-19T08:00:00.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T3",
-    "priority": "P2",
-    "score": -30,
-    "matchedKeywords": [
-      "비관련지역(감점)"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DZUM5UWJIbDdkUkhTRE5fQkxiT0FzX0R1MjItcXVpZFFTSjZlVGFhQ2s1Y1lna0trU3EtWVA4Tzk1bGhOUnVVejllb3c1dmg0bWxkV2VMNjJIcmhaRkhNdWdPLWk2bDkwdHfSAW5BVV95cUxNUUdxeWhNUy1OajIxRTV2Q0oyM0U5WGRZUmRaYllSMEgzV0xNZVN0S2VUdEViYkdZWWd1ZlF6Qjd0OVFTTFNoN050QlpCakNMSkNfZk9CZUJGQmVaUEROTk9XTWxmaEJZRzB5ZGtYUQ?oc=5",
-        "kind": "canonical"
-      }
-    ],
-    "read": false,
-    "starred": false
-  },
-  {
-    "id": "google_news_physicalai-t0zwgo",
-    "itemType": "news",
-    "title": "[AI 스마트팩토리] 인공지능, 데이터 장착한 스마트 공장 ‘산업 대전환’ 이끈다 - elec4",
-    "publishedAt": "2025-12-30T00:16:27.000Z",
-    "sourceName": "google_news_physicalai",
-    "tier": "T1",
-    "priority": "P2",
-    "score": -30,
-    "matchedKeywords": [
-      "비관련지역(감점)"
-    ],
-    "matchedCompanies": [],
-    "links": [
-      {
-        "label": "원문",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpYW5tbmltLVVuOHUwM25UQ3U3cl9ReTBXUGlnSWlpMUFRUVdXVERQS1p5RVlmNGxIX0lmYms3amUxWnlIN0ZUZFc1dlJhUXdXdkJoTGRubFlvQWEwNkpaNmpUZUNOdFUtbG5Tczd3?oc=5",
         "kind": "canonical"
       }
     ],
@@ -26499,7 +27014,7 @@
     "id": "irobotnews-fxjy4u",
     "itemType": "news",
     "title": "한국로봇융합硏, 경북형 로봇 플래그십 거점 개소식 개최",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
@@ -26522,7 +27037,7 @@
     "id": "irobotnews-fxjhzl",
     "itemType": "news",
     "title": "울산 바다 쓰레기 수거에 ‘쉐코’ 해양정화 로봇 쓰인다",
-    "publishedAt": "2026-04-25T14:40:10.695Z",
+    "publishedAt": "2026-04-25T14:42:29.576Z",
     "sourceName": "irobotnews",
     "tier": "T3",
     "priority": "P2",
