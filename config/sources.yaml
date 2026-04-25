@@ -442,7 +442,7 @@
   group: F
   authority: canonical
   phase: fast
-  url: http://export.arxiv.org/rss/cs.AI
+  url: https://rss.arxiv.org/rss/cs.AI
   schedule: "0 9 * * *"
   enabled: true
 
@@ -452,7 +452,7 @@
   group: F
   authority: canonical
   phase: fast
-  url: http://export.arxiv.org/rss/cs.RO
+  url: https://rss.arxiv.org/rss/cs.RO
   schedule: "0 9 * * *"
   enabled: true
 
@@ -462,7 +462,7 @@
   group: F
   authority: canonical
   phase: fast
-  url: http://export.arxiv.org/rss/cs.LG
+  url: https://rss.arxiv.org/rss/cs.LG
   schedule: "0 9 * * *"
   enabled: true
 
