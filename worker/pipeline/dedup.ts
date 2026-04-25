@@ -33,10 +33,15 @@ export function dedup(items: ScoredItem[]): ScoredItem[] {
   const afterSimilar = groupSimilarArticles(afterExact);
 
   // 3단계: URL 중복 제거 (relatedArticles 보존)
+  // 도메인-only URL(파서가 ID 추출에 실패한 케이스)은 제목으로 키를 분리해
+  // 멀쩡한 항목들이 한 건으로 압축되는 사고를 방지한다.
   const urlMap = new Map<string, ScoredItem>();
   for (const item of afterSimilar) {
     const nUrl = normalizeUrl(item.url);
-    const existing = urlMap.get(nUrl);
+    const key = isDomainOnlyUrl(nUrl)
+      ? `${nUrl}#${normalizeTitle(item.title)}`
+      : nUrl;
+    const existing = urlMap.get(key);
     if (!existing || item.score > existing.score) {
       if (existing && item.score > existing.score && existing.relatedArticles?.length) {
         item.relatedArticles = item.relatedArticles ?? [];
@@ -46,11 +51,20 @@ export function dedup(items: ScoredItem[]): ScoredItem[] {
           }
         }
       }
-      urlMap.set(nUrl, item);
+      urlMap.set(key, item);
     }
   }
 
   return Array.from(urlMap.values());
+}
+
+function isDomainOnlyUrl(url: string): boolean {
+  try {
+    const u = new URL(url);
+    return (u.pathname === "/" || u.pathname === "") && !u.search;
+  } catch {
+    return false;
+  }
 }
 
 /**

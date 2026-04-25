@@ -157,9 +157,9 @@ const siteSpecificParsers: Record<string, SiteParser> = {
       const title = $a.text().trim();
       if (!title) return;
 
-      // onclick="fn_update('650')" 등에서 ID 추출
-      const onclick = $a.attr("onclick") ?? "";
-      const idMatch = onclick.match(/['"](\d+)['"]/);
+      // href="javascript:fn_update('IBUS_000000000001246')" 또는 onclick 동일 형태에서 ID 추출
+      const linkAttr = $a.attr("href") ?? $a.attr("onclick") ?? "";
+      const idMatch = linkAttr.match(/['"]([A-Za-z0-9_-]+)['"]/);
       const url = idMatch
         ? `${baseUrl}/portal/info/portalInfoBusinessDetail.do?busiSeq=${idMatch[1]}`
         : baseUrl;
@@ -205,9 +205,14 @@ const siteSpecificParsers: Record<string, SiteParser> = {
       }
       if (!title || title.length < 5) return;
 
-      // onclick에서 contents_id 추출
-      const onclick = $a.attr("onclick") ?? cells.eq(1).find("a").attr("onclick") ?? "";
-      const idMatch = onclick.match(/['"](\d+)['"]/);
+      // href 또는 onclick 에서 contents_id 추출 (알파뉴메릭 허용)
+      const linkAttr =
+        $a.attr("href") ??
+        $a.attr("onclick") ??
+        cells.eq(1).find("a").attr("href") ??
+        cells.eq(1).find("a").attr("onclick") ??
+        "";
+      const idMatch = linkAttr.match(/['"]([A-Za-z0-9_-]+)['"]/);
       const url = idMatch
         ? `${baseUrl}/front/board/boardContentsView.do?board_id=90&contents_id=${idMatch[1]}`
         : baseUrl;
