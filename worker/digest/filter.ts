@@ -135,20 +135,62 @@ export function filterTodayNews(items: Item[], now: Date): Item[] {
     .slice(0, 20);
 }
 
+const TRENDING_LIMIT = 10;
+const TRENDING_MIN_PER_BUCKET = 1;
+
+/** 소스 ID → 버킷 매핑 (Substack digest의 다양성 보장용) */
+function trendingBucket(sourceId: string): string {
+  if (sourceId.startsWith("reddit_")) return "reddit";
+  if (sourceId.startsWith("arxiv_")) return "arxiv";
+  if (sourceId === "hackernews") return "hn";
+  if (sourceId === "hf_daily_papers") return "hf";
+  return "industry"; // robot_report, ieee_spectrum_robotics 등
+}
+
 /**
  * 섹션 4: 해외 트렌딩
- * trending, 최근 72시간, 인기순(points), 최대 7개
+ * trending, 최근 72시간. 5개 버킷에서 각 최소 N개 보장 후 나머지는 인기순.
  */
 export function filterTrending(items: Item[], now: Date): Item[] {
   const nowMs = now.getTime();
-  return items
+  const candidates = items
     .filter(
       (item) =>
         item.itemType === "trending" &&
         nowMs - new Date(item.publishedAt).getTime() < HOURS_72,
     )
+    .sort((a, b) => (b.points ?? 0) - (a.points ?? 0));
+
+  // 1) 각 버킷에서 상위 N개를 우선 선점
+  const byBucket = new Map<string, Item[]>();
+  for (const item of candidates) {
+    const b = trendingBucket(item.sourceName);
+    const list = byBucket.get(b) ?? [];
+    list.push(item);
+    byBucket.set(b, list);
+  }
+
+  const picked: Item[] = [];
+  const pickedIds = new Set<string>();
+  for (const list of byBucket.values()) {
+    for (const item of list.slice(0, TRENDING_MIN_PER_BUCKET)) {
+      picked.push(item);
+      pickedIds.add(item.id);
+    }
+  }
+
+  // 2) 남은 자리는 인기순으로 채움
+  for (const item of candidates) {
+    if (picked.length >= TRENDING_LIMIT) break;
+    if (pickedIds.has(item.id)) continue;
+    picked.push(item);
+    pickedIds.add(item.id);
+  }
+
+  // 3) 최종 정렬: 인기순 (버킷 우선 픽이라도 표시 순서는 점수 기준)
+  return picked
     .sort((a, b) => (b.points ?? 0) - (a.points ?? 0))
-    .slice(0, 7);
+    .slice(0, TRENDING_LIMIT);
 }
 
 /**

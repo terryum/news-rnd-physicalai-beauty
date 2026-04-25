@@ -60,16 +60,52 @@ function filterNews(items: Item[], now: Date): Item[] {
 }
 
 const HOURS_72_TRENDING = 72 * 60 * 60 * 1000;
+const TRENDING_LIMIT = 10;
+const TRENDING_MIN_PER_BUCKET = 1;
+
+function trendingBucket(sourceId: string): string {
+  if (sourceId.startsWith("reddit_")) return "reddit";
+  if (sourceId.startsWith("arxiv_")) return "arxiv";
+  if (sourceId === "hackernews") return "hn";
+  if (sourceId === "hf_daily_papers") return "hf";
+  return "industry";
+}
+
 function filterTrending(items: Item[], now: Date): Item[] {
   const nowMs = now.getTime();
-  return items
+  const candidates = items
     .filter(
       (i) =>
         i.itemType === "trending" &&
         nowMs - new Date(i.publishedAt).getTime() < HOURS_72_TRENDING,
     )
+    .sort((a, b) => (b.points ?? 0) - (a.points ?? 0));
+
+  const byBucket = new Map<string, Item[]>();
+  for (const it of candidates) {
+    const b = trendingBucket(it.sourceName);
+    const list = byBucket.get(b) ?? [];
+    list.push(it);
+    byBucket.set(b, list);
+  }
+
+  const picked: Item[] = [];
+  const pickedIds = new Set<string>();
+  for (const list of byBucket.values()) {
+    for (const it of list.slice(0, TRENDING_MIN_PER_BUCKET)) {
+      picked.push(it);
+      pickedIds.add(it.id);
+    }
+  }
+  for (const it of candidates) {
+    if (picked.length >= TRENDING_LIMIT) break;
+    if (pickedIds.has(it.id)) continue;
+    picked.push(it);
+    pickedIds.add(it.id);
+  }
+  return picked
     .sort((a, b) => (b.points ?? 0) - (a.points ?? 0))
-    .slice(0, 7);
+    .slice(0, TRENDING_LIMIT);
 }
 
 // --- Date helpers ---
