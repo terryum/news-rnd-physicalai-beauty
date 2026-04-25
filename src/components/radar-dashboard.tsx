@@ -102,6 +102,15 @@ export function RadarDashboard({
           if (!matched) return false;
         }
 
+        if (
+          filters.sortBy === "deadline" &&
+          !filters.includeExpired &&
+          item.deadlineAt &&
+          new Date(item.deadlineAt).getTime() < now.getTime()
+        ) {
+          return false;
+        }
+
         if (filters.search) {
           const q = filters.search.toLowerCase();
           const searchable = [

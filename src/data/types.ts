@@ -49,6 +49,7 @@ export interface Filters {
   search: string;
   sortBy: SortBy;
   companies: CompanyFilter[];
+  includeExpired: boolean;
 }
 
 export const DEFAULT_FILTERS: Filters = {
@@ -59,4 +60,5 @@ export const DEFAULT_FILTERS: Filters = {
   search: "",
   sortBy: "latest",
   companies: [],
+  includeExpired: false,
 };

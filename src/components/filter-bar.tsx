@@ -100,6 +100,19 @@ export function FilterBar({ filters, onChange, counts }: FilterBarProps) {
         >
           마감일순
         </Chip>
+        {filters.sortBy === "deadline" && (
+          <label className="inline-flex cursor-pointer items-center gap-1.5 px-1 text-xs text-muted-foreground hover:text-foreground">
+            <input
+              type="checkbox"
+              checked={filters.includeExpired}
+              onChange={(e) =>
+                onChange({ ...filters, includeExpired: e.target.checked })
+              }
+              className="h-3.5 w-3.5 cursor-pointer accent-primary"
+            />
+            마감 포함
+          </label>
+        )}
 
         <Input
           placeholder="검색..."
