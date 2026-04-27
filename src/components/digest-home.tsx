@@ -8,6 +8,7 @@ import { TrendingThumb } from "@/components/trending-thumb";
 import { TrendingHelp } from "@/components/trending-help";
 
 const HOURS_72 = 72 * 60 * 60 * 1000;
+const DAYS_7 = 7 * 24 * 60 * 60 * 1000;
 const DAYS_14 = 14 * 24 * 60 * 60 * 1000;
 
 const COSMAX_KEYWORDS = [
@@ -58,20 +59,21 @@ function filterNews(items: Item[], now: Date): Item[] {
         i.itemType === "news" &&
         (i.priority === "P0" || i.priority === "P1") &&
         pubMs <= nowMs &&
-        nowMs - pubMs < HOURS_72
+        nowMs - pubMs < DAYS_7
       );
     })
     .sort((a, b) => {
-      // P0 먼저, 그 다음 score 내림차순
+      // P0 먼저, 그 다음 score 내림차순, 그 다음 최신순
       if (a.priority !== b.priority) return a.priority === "P0" ? -1 : 1;
-      return b.score - a.score;
+      if (a.score !== b.score) return b.score - a.score;
+      return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
     })
-    .slice(0, 20);
+    .slice(0, 10);
 }
 
 const HOURS_72_TRENDING = 72 * 60 * 60 * 1000;
-const TRENDING_LIMIT = 10;
-const TRENDING_MIN_PER_BUCKET = 1;
+const TRENDING_LIMIT = 20;
+const TRENDING_MIN_PER_BUCKET = 2;
 
 function trendingBucket(sourceId: string): string {
   if (sourceId.startsWith("reddit_")) return "reddit";

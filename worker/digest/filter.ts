@@ -2,6 +2,7 @@ import type { Item } from "../../src/data/types";
 import type { DigestSection } from "./types";
 
 const HOURS_72 = 72 * 60 * 60 * 1000;
+const DAYS_7 = 7 * 24 * 60 * 60 * 1000;
 const DAYS_14 = 14 * 24 * 60 * 60 * 1000;
 
 const COSMAX_TITLE_KEYWORDS = [
@@ -119,7 +120,7 @@ export function filterDeadlineApproaching(
 
 /**
  * 섹션 3: 오늘의 주요 뉴스
- * news, P0+P1, 최근 72시간, 최대 20개. P0 우선 정렬.
+ * news, P0+P1, 최근 7일, 최대 10개. P0 우선 → score → 최신순.
  */
 export function filterTodayNews(items: Item[], now: Date): Item[] {
   const nowMs = now.getTime();
@@ -128,17 +129,18 @@ export function filterTodayNews(items: Item[], now: Date): Item[] {
       (item) =>
         item.itemType === "news" &&
         (item.priority === "P0" || item.priority === "P1") &&
-        nowMs - new Date(item.publishedAt).getTime() < HOURS_72,
+        nowMs - new Date(item.publishedAt).getTime() < DAYS_7,
     )
     .sort((a, b) => {
       if (a.priority !== b.priority) return a.priority === "P0" ? -1 : 1;
-      return b.score - a.score;
+      if (a.score !== b.score) return b.score - a.score;
+      return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
     })
-    .slice(0, 20);
+    .slice(0, 10);
 }
 
-const TRENDING_LIMIT = 10;
-const TRENDING_MIN_PER_BUCKET = 1;
+const TRENDING_LIMIT = 20;
+const TRENDING_MIN_PER_BUCKET = 2;
 
 /** 소스 ID → 버킷 매핑 (Substack digest의 다양성 보장용) */
 function trendingBucket(sourceId: string): string {
