@@ -31,4 +31,6 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx wrangler@latest pages deploy out --project-name=physical-ai-news --branch=main --commit-dirty=true
+        # --commit-message 을 SHA 로 명시: wrangler 가 git log 에서 한국어 커밋 메시지를
+        # 자동 추출할 때 일부 byte 가 Cloudflare API UTF-8 검증을 통과 못 하는 이슈 우회.
+        run: npx wrangler@latest pages deploy out --project-name=physical-ai-news --branch=main --commit-dirty=true --commit-hash=${{ github.sha }} --commit-message=${{ github.sha }}
