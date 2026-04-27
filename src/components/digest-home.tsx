@@ -5,8 +5,6 @@ import Link from "next/link";
 import type { Item } from "@/data/types";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 
-// --- Digest filter logic (mirrors worker/digest/filter.ts) ---
-
 const HOURS_72 = 72 * 60 * 60 * 1000;
 const HOURS_48 = 48 * 60 * 60 * 1000;
 const DAYS_14 = 14 * 24 * 60 * 60 * 1000;
@@ -25,17 +23,15 @@ function isCosmaxRelated(item: Item): boolean {
 function filterNewGov(items: Item[], now: Date): Item[] {
   const nowMs = now.getTime();
   return items
-    .filter(
-      (i) => {
-        const pubMs = new Date(i.publishedAt).getTime();
-        return (
-          i.itemType === "gov" &&
-          pubMs <= nowMs &&
-          nowMs - pubMs < HOURS_72 &&
-          isCosmaxRelated(i)
-        );
-      },
-    )
+    .filter((i) => {
+      const pubMs = new Date(i.publishedAt).getTime();
+      return (
+        i.itemType === "gov" &&
+        pubMs <= nowMs &&
+        nowMs - pubMs < HOURS_72 &&
+        isCosmaxRelated(i)
+      );
+    })
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, 5);
 }
@@ -55,17 +51,15 @@ function filterDeadline(items: Item[], now: Date): Item[] {
 function filterNews(items: Item[], now: Date): Item[] {
   const nowMs = now.getTime();
   return items
-    .filter(
-      (i) => {
-        const pubMs = new Date(i.publishedAt).getTime();
-        return (
-          i.itemType === "news" &&
-          i.priority === "P0" &&
-          pubMs <= nowMs &&
-          nowMs - pubMs < HOURS_48
-        );
-      },
-    )
+    .filter((i) => {
+      const pubMs = new Date(i.publishedAt).getTime();
+      return (
+        i.itemType === "news" &&
+        i.priority === "P0" &&
+        pubMs <= nowMs &&
+        nowMs - pubMs < HOURS_48
+      );
+    })
     .sort((a, b) => b.score - a.score)
     .slice(0, 20);
 }
@@ -85,16 +79,14 @@ function trendingBucket(sourceId: string): string {
 function filterTrending(items: Item[], now: Date): Item[] {
   const nowMs = now.getTime();
   const candidates = items
-    .filter(
-      (i) => {
-        const pubMs = new Date(i.publishedAt).getTime();
-        return (
-          i.itemType === "trending" &&
-          pubMs <= nowMs &&
-          nowMs - pubMs < HOURS_72_TRENDING
-        );
-      },
-    )
+    .filter((i) => {
+      const pubMs = new Date(i.publishedAt).getTime();
+      return (
+        i.itemType === "trending" &&
+        pubMs <= nowMs &&
+        nowMs - pubMs < HOURS_72_TRENDING
+      );
+    })
     .sort((a, b) => (b.points ?? 0) - (a.points ?? 0));
 
   const byBucket = new Map<string, Item[]>();
@@ -124,8 +116,6 @@ function filterTrending(items: Item[], now: Date): Item[] {
     .slice(0, TRENDING_LIMIT);
 }
 
-// --- Date helpers ---
-
 const DAYS_KO = ["일", "월", "화", "수", "목", "금", "토"] as const;
 
 function formatDate(iso: string) {
@@ -142,11 +132,11 @@ function dDay(deadlineAt: string, now: Date): string {
   return `D+${Math.abs(diff)}`;
 }
 
-// --- Components ---
+type SectionKind = "newgov" | "deadline" | "news" | "trending";
 
 interface DigestSection {
+  kind: SectionKind;
   title: string;
-  color: string;
   items: Item[];
   linkHref: string;
   linkLabel: string;
@@ -154,22 +144,18 @@ interface DigestSection {
 
 function SectionHeader({
   title,
-  color,
   count,
   rightSlot,
 }: {
   title: string;
-  color: string;
   count: number;
   rightSlot?: React.ReactNode;
 }) {
   return (
-    <div
-      className="flex items-center gap-2 rounded-t-lg px-4 py-2.5"
-      style={{ borderLeft: `4px solid ${color}`, background: "var(--color-muted)" }}
-    >
-      <span className="font-semibold text-sm">{title}</span>
-      <span className="text-xs text-muted-foreground">({count})</span>
+    <div className="flex items-center gap-2 px-4 py-2.5 border-b border-line-default">
+      <span className="inline-block w-1.5 h-1.5 rounded-full bg-accent" />
+      <h2 className="text-sm font-semibold text-text-primary">{title}</h2>
+      <span className="text-xs text-text-muted">({count})</span>
       {rightSlot && <div className="ml-auto">{rightSlot}</div>}
     </div>
   );
@@ -183,12 +169,14 @@ function LangToggle({
   onChange: (l: "ko" | "en") => void;
 }) {
   return (
-    <div className="flex items-center gap-0.5 rounded-md border bg-card p-0.5 text-[11px]">
+    <div className="flex items-center gap-0.5 rounded-full border border-line-default bg-bg-base p-0.5 text-[11px]">
       <button
         type="button"
         onClick={() => onChange("ko")}
-        className={`px-1.5 py-0.5 rounded cursor-pointer transition-colors ${
-          lang === "ko" ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground"
+        className={`px-2 py-0.5 rounded-full cursor-pointer transition-colors ${
+          lang === "ko"
+            ? "bg-accent text-white"
+            : "text-text-muted hover:text-accent"
         }`}
       >
         한국어
@@ -196,8 +184,10 @@ function LangToggle({
       <button
         type="button"
         onClick={() => onChange("en")}
-        className={`px-1.5 py-0.5 rounded cursor-pointer transition-colors ${
-          lang === "en" ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground"
+        className={`px-2 py-0.5 rounded-full cursor-pointer transition-colors ${
+          lang === "en"
+            ? "bg-accent text-white"
+            : "text-text-muted hover:text-accent"
         }`}
       >
         EN
@@ -209,22 +199,22 @@ function LangToggle({
 function GovRow({ item }: { item: Item }) {
   const url = item.links?.[0]?.url ?? "#";
   return (
-    <div className="px-4 py-2.5 border-b border-border/50 last:border-b-0 hover:bg-accent/30 transition-colors">
+    <div className="px-4 py-2.5 border-b border-line-default last:border-b-0 transition-colors hover:bg-bg-base/50">
       <a
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sm font-medium text-foreground hover:text-blue-600 dark:hover:text-blue-400 hover:underline underline-offset-2"
+        className="text-sm font-medium text-text-primary hover:text-accent transition-colors"
       >
         {item.title}
       </a>
-      <div className="mt-1 flex items-center gap-2 text-xs text-muted-foreground">
+      <div className="mt-1 flex items-center gap-x-2 gap-y-0.5 flex-wrap text-xs text-text-muted">
         <span>{item.sourceName}</span>
-        <span>|</span>
+        <span>·</span>
         <span>{formatDate(item.publishedAt)}</span>
         {item.budgetKrwOk && (
           <>
-            <span>|</span>
+            <span>·</span>
             <span>{item.budgetKrwOk}억원</span>
           </>
         )}
@@ -239,13 +229,17 @@ function DeadlineRow({ item, now }: { item: Item; now: Date }) {
   const dNum = item.deadlineAt
     ? Math.ceil((new Date(item.deadlineAt).getTime() - now.getTime()) / (1000 * 60 * 60 * 24))
     : 99;
+  const urgent = dNum <= 3;
 
   return (
-    <div className="px-4 py-2.5 border-b border-border/50 last:border-b-0 hover:bg-accent/30 transition-colors">
+    <div className="px-4 py-2.5 border-b border-line-default last:border-b-0 transition-colors hover:bg-bg-base/50">
       <div className="flex items-center gap-2">
         <span
-          className="shrink-0 inline-block rounded text-[11px] font-bold px-1.5 py-0.5 text-white"
-          style={{ background: dNum <= 3 ? "#dc2626" : "#f59e0b" }}
+          className={`shrink-0 inline-flex items-center justify-center rounded-full text-[11px] font-semibold px-2 py-0.5 border ${
+            urgent
+              ? "bg-accent text-white border-accent"
+              : "bg-bg-base text-accent border-accent/40"
+          }`}
         >
           {badge}
         </span>
@@ -253,12 +247,12 @@ function DeadlineRow({ item, now }: { item: Item; now: Date }) {
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm font-medium text-foreground hover:text-blue-600 dark:hover:text-blue-400 hover:underline underline-offset-2 truncate"
+          className="text-sm font-medium text-text-primary hover:text-accent transition-colors truncate"
         >
           {item.title}
         </a>
       </div>
-      <div className="mt-1 text-xs text-muted-foreground pl-[42px]">
+      <div className="mt-1 text-xs text-text-muted pl-[52px]">
         마감: {item.deadlineAt ? formatDate(item.deadlineAt) : ""}
       </div>
     </div>
@@ -270,24 +264,24 @@ function TrendingRow({ item, idx, lang }: { item: Item; idx: number; lang: "ko" 
   const showKo = lang === "ko" && item.titleKo;
   const displayTitle = showKo ? item.titleKo! : item.title;
   return (
-    <div className="px-4 py-2 border-b border-border/50 last:border-b-0 hover:bg-accent/30 transition-colors">
+    <div className="px-4 py-2 border-b border-line-default last:border-b-0 transition-colors hover:bg-bg-base/50">
       <div className="flex items-baseline gap-2">
-        <span className="shrink-0 text-xs text-muted-foreground w-5 text-right">{idx + 1}.</span>
+        <span className="shrink-0 text-xs text-text-muted w-5 text-right">{idx + 1}.</span>
         <a
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm text-foreground hover:text-blue-600 dark:hover:text-blue-400 hover:underline underline-offset-2"
+          className="text-sm text-text-primary hover:text-accent transition-colors"
         >
           {displayTitle}
         </a>
       </div>
       {showKo && (
-        <div className="mt-0.5 pl-7 text-[11px] text-muted-foreground/70 truncate" title={item.title}>
+        <div className="mt-0.5 pl-7 text-[11px] text-text-muted truncate" title={item.title}>
           {item.title}
         </div>
       )}
-      <div className="mt-0.5 flex items-center gap-2 text-xs text-muted-foreground pl-7">
+      <div className="mt-0.5 flex items-center gap-2 text-xs text-text-muted pl-7">
         <span>{item.sourceName}</span>
         {item.points ? <span>▲ {item.points}</span> : null}
         {item.commentCount ? <span>💬 {item.commentCount}</span> : null}
@@ -299,31 +293,28 @@ function TrendingRow({ item, idx, lang }: { item: Item; idx: number; lang: "ko" 
 function NewsRow({ item, idx }: { item: Item; idx: number }) {
   const url = item.links?.[0]?.url ?? "#";
   return (
-    <div className="px-4 py-2 border-b border-border/50 last:border-b-0 hover:bg-accent/30 transition-colors">
+    <div className="px-4 py-2 border-b border-line-default last:border-b-0 transition-colors hover:bg-bg-base/50">
       <div className="flex items-baseline gap-2">
-        <span className="shrink-0 text-xs text-muted-foreground w-5 text-right">{idx + 1}.</span>
+        <span className="shrink-0 text-xs text-text-muted w-5 text-right">{idx + 1}.</span>
         <a
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm text-foreground hover:text-blue-600 dark:hover:text-blue-400 hover:underline underline-offset-2"
+          className="text-sm text-text-primary hover:text-accent transition-colors"
         >
           {item.title}
         </a>
       </div>
-      <div className="mt-0.5 text-xs text-muted-foreground pl-7">
-        {item.sourceName}
-      </div>
+      <div className="mt-0.5 text-xs text-text-muted pl-7">{item.sourceName}</div>
       {item.relatedArticles && item.relatedArticles.length > 0 && (
         <div className="mt-0.5 pl-7 space-y-0.5">
           {item.relatedArticles.map((ra, i) => (
             <div key={i} className="flex items-baseline gap-1">
-              <span className="text-[10px] text-muted-foreground">{"\u2514"}</span>
               <a
                 href={ra.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs text-muted-foreground hover:text-blue-600 dark:hover:text-blue-400 hover:underline underline-offset-2 truncate"
+                className="text-xs text-text-muted hover:text-accent transition-colors truncate"
               >
                 {ra.title}
               </a>
@@ -348,15 +339,14 @@ function DigestSectionCard({
 }) {
   if (section.items.length === 0) return null;
 
-  const isDeadline = section.color === "#dc2626";
-  const isNews = section.color === "#16a34a";
-  const isTrending = section.color === "#7c3aed";
+  const isDeadline = section.kind === "deadline";
+  const isNews = section.kind === "news";
+  const isTrending = section.kind === "trending";
 
   return (
-    <div className="rounded-lg border bg-card overflow-hidden">
+    <div className="rounded-xl border border-line-default bg-bg-surface overflow-hidden">
       <SectionHeader
         title={section.title}
-        color={section.color}
         count={section.items.length}
         rightSlot={
           isTrending ? (
@@ -377,10 +367,10 @@ function DigestSectionCard({
           ),
         )}
       </div>
-      <div className="px-4 py-2 bg-muted/30 border-t border-border/50">
+      <div className="px-4 py-2 border-t border-line-default">
         <Link
           href={section.linkHref}
-          className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+          className="text-xs text-text-muted hover:text-accent transition-colors"
         >
           {section.linkLabel} →
         </Link>
@@ -388,8 +378,6 @@ function DigestSectionCard({
     </div>
   );
 }
-
-// --- Main ---
 
 interface DigestHomeProps {
   items: Item[];
@@ -430,7 +418,6 @@ export function DigestHome({ items, lastUpdated }: DigestHomeProps) {
     useLocalStorage<"ko" | "en">("radar-trending-lang", "ko");
   const trendingLang = trendingLangHydrated ? trendingLangStored : "ko";
 
-  // 필터에 전달할 "now"는 선택된 날짜의 23:59 — 그 날 발행된 모든 항목 포함
   const filterNow = useMemo(() => endOfDay(selectedDate), [selectedDate]);
 
   const dateStr = `${selectedDate.getFullYear()}.${String(selectedDate.getMonth() + 1).padStart(2, "0")}.${String(selectedDate.getDate()).padStart(2, "0")}`;
@@ -440,29 +427,29 @@ export function DigestHome({ items, lastUpdated }: DigestHomeProps) {
   const sections: DigestSection[] = useMemo(
     () => [
       {
+        kind: "newgov",
         title: "새로 등록된 코스맥스 관련 사업공고",
-        color: "#2563eb",
         items: filterNewGov(items, filterNow),
         linkHref: "/gov",
         linkLabel: "전체 공고 보기",
       },
       {
+        kind: "deadline",
         title: "마감 임박 코스맥스 관련 사업공고",
-        color: "#dc2626",
         items: filterDeadline(items, filterNow),
         linkHref: "/gov",
         linkLabel: "전체 공고 보기",
       },
       {
+        kind: "news",
         title: "오늘의 주요 뉴스",
-        color: "#16a34a",
         items: filterNews(items, filterNow),
         linkHref: "/news",
         linkLabel: "전체 뉴스 보기",
       },
       {
-        title: "🌍 해외 트렌딩",
-        color: "#7c3aed",
+        kind: "trending",
+        title: "해외 트렌딩",
         items: filterTrending(items, filterNow),
         linkHref: "/trending",
         linkLabel: "전체 트렌딩 보기",
@@ -473,27 +460,29 @@ export function DigestHome({ items, lastUpdated }: DigestHomeProps) {
 
   const allEmpty = sections.every((s) => s.items.length === 0);
 
+  const navButton =
+    "inline-flex items-center justify-center w-8 h-8 rounded-full border border-line-default bg-bg-surface text-sm text-text-secondary hover:text-accent hover:border-accent/40 transition-colors cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed";
+
   return (
-    <div className="space-y-5">
-      {/* Date navigation header */}
-      <div className="flex items-center justify-between gap-3">
+    <div className="space-y-6">
+      <div className="flex items-center justify-between gap-3 flex-wrap">
         <div className="flex items-center gap-2 flex-wrap">
           <button
             type="button"
             onClick={() => setSelectedDate((d) => addDays(d, -1))}
-            className="inline-flex h-7 w-7 items-center justify-center rounded-md border bg-card text-sm hover:bg-accent transition-colors cursor-pointer"
+            className={navButton}
             aria-label="하루 전"
           >
             ‹
           </button>
-          <p className="text-lg font-semibold">
+          <p className="text-2xl font-bold tracking-tight text-text-primary">
             {dateStr} ({dayOfWeek}) {headerLabel}
           </p>
           <button
             type="button"
             onClick={() => setSelectedDate((d) => addDays(d, 1))}
             disabled={isToday}
-            className="inline-flex h-7 w-7 items-center justify-center rounded-md border bg-card text-sm hover:bg-accent transition-colors cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed"
+            className={navButton}
             aria-label="하루 후"
           >
             ›
@@ -502,26 +491,25 @@ export function DigestHome({ items, lastUpdated }: DigestHomeProps) {
             <button
               type="button"
               onClick={() => setSelectedDate(today)}
-              className="ml-1 inline-flex h-7 items-center rounded-md border bg-card px-2 text-xs hover:bg-accent transition-colors cursor-pointer"
+              className="ml-1 inline-flex items-center rounded-full border border-line-default bg-bg-surface px-3 h-8 text-xs text-text-secondary hover:text-accent hover:border-accent/40 transition-colors cursor-pointer"
             >
               오늘로
             </button>
           )}
         </div>
         {lastUpdated && (
-          <p className="text-xs text-muted-foreground shrink-0">
+          <p className="text-xs text-text-muted shrink-0">
             {formatLastUpdated(lastUpdated)}
           </p>
         )}
       </div>
 
-      <p className="text-xs text-muted-foreground -mt-3">
+      <p className="text-xs text-text-muted -mt-3">
         매일 오전 8시 Substack으로 발행되는 뉴스레터와 동일한 내용입니다
       </p>
 
-      {/* Sections */}
       {allEmpty ? (
-        <div className="rounded-lg border bg-card py-16 text-center text-muted-foreground">
+        <div className="rounded-xl border border-line-default bg-bg-surface py-16 text-center text-text-muted">
           {isToday ? "오늘은 주요 항목이 없습니다." : "이 날짜에는 항목이 없습니다."}
         </div>
       ) : (

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { SubstackSubscribe } from "@/components/substack-subscribe";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const NAV_ITEMS = [
   { href: "/", label: "오늘의 클리핑" },
@@ -15,30 +16,36 @@ export function NavHeader() {
   const pathname = usePathname();
 
   return (
-    <header className="border-b bg-card">
-      <div className="mx-auto max-w-4xl px-4">
-        <div className="flex items-center justify-between py-4 gap-3">
-          <Link href="/" className="flex items-baseline gap-2 min-w-0">
-            <h1 className="text-lg font-bold tracking-tight truncate">
+    <header className="border-b border-line-default">
+      <div className="mx-auto max-w-4xl px-4 md:px-6 lg:px-8">
+        <div className="flex items-center justify-between gap-3 h-14">
+          <Link
+            href="/"
+            className="flex items-baseline gap-2 min-w-0 group"
+          >
+            <h1 className="text-base font-semibold tracking-tight text-text-primary group-hover:text-accent transition-colors truncate">
               Physical AI News
             </h1>
-            <span className="text-xs text-muted-foreground hidden md:inline">
+            <span className="text-xs text-text-muted hidden md:inline truncate">
               제조 피지컬AI 정부과제 · 뉴스
             </span>
           </Link>
-          <SubstackSubscribe variant="header" />
+          <div className="flex items-center gap-2 shrink-0">
+            <SubstackSubscribe variant="header" />
+            <ThemeToggle />
+          </div>
         </div>
-        <nav className="flex gap-1 -mb-px">
+        <nav className="flex gap-4 -mb-px overflow-x-auto scrollbar-hide">
           {NAV_ITEMS.map(({ href, label }) => {
             const isActive = pathname === href;
             return (
               <Link
                 key={href}
                 href={href}
-                className={`px-3 py-2 text-sm font-medium border-b-2 transition-colors ${
+                className={`shrink-0 py-2 text-sm transition-colors border-b-2 ${
                   isActive
-                    ? "border-primary text-foreground"
-                    : "border-transparent text-muted-foreground hover:text-foreground hover:border-muted-foreground/30"
+                    ? "text-accent border-accent"
+                    : "text-text-secondary border-transparent hover:text-accent"
                 }`}
               >
                 {label}

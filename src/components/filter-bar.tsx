@@ -1,7 +1,6 @@
 "use client";
 
-import { Input } from "@/components/ui/input";
-import type { Filters, SourceType, Priority, Tier, SortBy, CompanyFilter } from "@/data/types";
+import type { Filters, Priority, Tier, CompanyFilter } from "@/data/types";
 import { COMPANY_FILTERS } from "@/data/types";
 
 const priorityLabel: Record<string, string> = {
@@ -38,10 +37,10 @@ function Chip({
     <button
       type="button"
       onClick={onClick}
-      className={`inline-flex items-center justify-center rounded-md px-3 py-1 text-xs font-medium transition-colors cursor-pointer ${
+      className={`inline-flex items-center justify-center rounded-full px-3 py-1 text-xs font-medium transition-colors cursor-pointer border ${
         selected
-          ? "bg-primary text-primary-foreground shadow-sm"
-          : "bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground"
+          ? "bg-accent/10 text-accent border-accent"
+          : "bg-bg-surface text-text-secondary border-line-default hover:text-accent hover:border-accent/40"
       }`}
     >
       {children}
@@ -78,8 +77,7 @@ export function FilterBar({
   };
 
   return (
-    <div className="space-y-3 rounded-lg border bg-card p-4">
-      {/* Row 1: Type + Sort + Search */}
+    <div className="space-y-3 rounded-xl border border-line-default bg-bg-surface p-4">
       <div className="flex flex-wrap items-center gap-2">
         <Chip
           selected={filters.itemType === "gov"}
@@ -100,7 +98,7 @@ export function FilterBar({
           해외 트렌딩 ({counts.trending})
         </Chip>
 
-        <span className="w-px h-5 bg-border mx-1" />
+        <span className="w-px h-5 bg-line-default mx-1" />
 
         <Chip
           selected={filters.sortBy === "latest"}
@@ -126,17 +124,11 @@ export function FilterBar({
             </Chip>
             {onTrendingLangChange && (
               <>
-                <span className="w-px h-5 bg-border mx-1" />
-                <Chip
-                  selected={trendingLang === "ko"}
-                  onClick={() => onTrendingLangChange("ko")}
-                >
+                <span className="w-px h-5 bg-line-default mx-1" />
+                <Chip selected={trendingLang === "ko"} onClick={() => onTrendingLangChange("ko")}>
                   한국어
                 </Chip>
-                <Chip
-                  selected={trendingLang === "en"}
-                  onClick={() => onTrendingLangChange("en")}
-                >
+                <Chip selected={trendingLang === "en"} onClick={() => onTrendingLangChange("en")}>
                   English
                 </Chip>
               </>
@@ -144,30 +136,30 @@ export function FilterBar({
           </>
         )}
         {filters.itemType === "gov" && filters.sortBy === "deadline" && (
-          <label className="inline-flex cursor-pointer items-center gap-1.5 px-1 text-xs text-muted-foreground hover:text-foreground">
+          <label className="inline-flex cursor-pointer items-center gap-1.5 px-1 text-xs text-text-muted hover:text-accent transition-colors">
             <input
               type="checkbox"
               checked={filters.includeExpired}
               onChange={(e) =>
                 onChange({ ...filters, includeExpired: e.target.checked })
               }
-              className="h-3.5 w-3.5 cursor-pointer accent-primary"
+              className="h-3.5 w-3.5 cursor-pointer accent-accent"
             />
             마감 포함
           </label>
         )}
 
-        <Input
+        <input
+          type="text"
           placeholder="검색..."
           value={filters.search}
           onChange={(e) => onChange({ ...filters, search: e.target.value })}
-          className="h-7 w-36 text-xs md:w-48 ml-auto"
+          className="ml-auto h-8 w-36 md:w-48 rounded-full border border-line-default bg-bg-base px-3 text-xs text-text-primary placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent transition-colors"
         />
       </div>
 
-      {/* Row 2: Priority + Topic + Date */}
       <div className="flex flex-wrap items-center gap-2">
-        <span className="text-xs text-muted-foreground shrink-0">중요도</span>
+        <span className="text-xs text-text-muted shrink-0">중요도</span>
         {(["P0", "P1", "P2"] as Priority[]).map((p) => (
           <Chip
             key={p}
@@ -178,9 +170,9 @@ export function FilterBar({
           </Chip>
         ))}
 
-        <span className="w-px h-5 bg-border mx-1" />
+        <span className="w-px h-5 bg-line-default mx-1" />
 
-        <span className="text-xs text-muted-foreground shrink-0">주제</span>
+        <span className="text-xs text-text-muted shrink-0">주제</span>
         {(["T0", "T1", "T2", "T3"] as Tier[]).map((t) => (
           <Chip
             key={t}
@@ -190,13 +182,11 @@ export function FilterBar({
             {tierLabel[t]}
           </Chip>
         ))}
-
       </div>
 
-      {/* Row 3: Company filter (뉴스일 때만) */}
       {filters.itemType === "news" && (
         <div className="flex flex-wrap items-center gap-2">
-          <span className="text-xs text-muted-foreground shrink-0">기업</span>
+          <span className="text-xs text-text-muted shrink-0">기업</span>
           {COMPANY_FILTERS.map((c) => (
             <Chip
               key={c}

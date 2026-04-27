@@ -1,17 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import { NavHeader } from "@/components/nav-header";
 import { SubstackSubscribe } from "@/components/substack-subscribe";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -19,23 +15,33 @@ export const metadata: Metadata = {
   description: "제조 피지컬AI 정부과제·뉴스 자동 수집 대시보드",
 };
 
+const themeInitScript = `
+(function() {
+  try {
+    var t = localStorage.getItem('theme');
+    if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', t);
+  } catch(e) {}
+})();
+`;
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="ko"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">
+    <html lang="ko" suppressHydrationWarning className={`${inter.variable} h-full`}>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
+      <body className="min-h-full flex flex-col font-sans leading-relaxed antialiased">
         <NavHeader />
-        <main className="mx-auto w-full max-w-4xl px-4 py-6 flex-1">
+        <main className="mx-auto w-full max-w-4xl px-4 md:px-6 lg:px-8 py-10 flex-1">
           {children}
         </main>
-        <footer className="border-t bg-card">
-          <div className="mx-auto max-w-4xl px-4 py-4">
+        <footer className="border-t border-line-default">
+          <div className="mx-auto max-w-4xl px-4 md:px-6 lg:px-8 py-8">
             <SubstackSubscribe variant="footer" />
           </div>
         </footer>

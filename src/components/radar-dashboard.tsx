@@ -3,7 +3,6 @@
 import { useState, useMemo } from "react";
 import { FilterBar } from "./filter-bar";
 import { ItemRow } from "./item-row";
-import { Button } from "@/components/ui/button";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 import type { Filters, Item } from "@/data/types";
 import { DEFAULT_FILTERS } from "@/data/types";
@@ -190,14 +189,14 @@ export function RadarDashboard({
 
   if (!readHydrated || !starHydrated) {
     return (
-      <div className="flex items-center justify-center h-64 text-muted-foreground">
+      <div className="flex items-center justify-center h-64 text-text-muted">
         Loading...
       </div>
     );
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       <FilterBar
         filters={filters}
         onChange={handleFilterChange}
@@ -207,17 +206,17 @@ export function RadarDashboard({
       />
 
       <div className="flex items-center justify-between px-1">
-        <p className="text-sm text-muted-foreground">
+        <p className="text-sm text-text-secondary">
           {visibleItems.length}건 표시 / 큐레이션 {filteredItems.length}건
         </p>
-        <p className="text-xs text-muted-foreground">
+        <p className="text-xs text-text-muted">
           {formatLastUpdated(lastUpdated, dataSource)}
         </p>
       </div>
 
       <div className="space-y-2">
         {visibleItems.length === 0 ? (
-          <div className="py-12 text-center text-muted-foreground">
+          <div className="py-12 text-center text-text-muted">
             필터 조건에 맞는 항목이 없습니다.
           </div>
         ) : (
@@ -233,17 +232,17 @@ export function RadarDashboard({
             ))}
             {hasMore && (
               <div className="flex justify-center pt-2">
-                <Button
-                  variant="outline"
-                  size="sm"
+                <button
+                  type="button"
                   onClick={() =>
                     setVisibleCount((prev) =>
                       Math.min(prev + PAGE_SIZE, MAX_DISPLAY)
                     )
                   }
+                  className="inline-flex items-center justify-center rounded-full border border-line-default bg-bg-surface px-4 py-1.5 text-sm text-text-secondary hover:text-accent hover:border-accent/40 transition-colors cursor-pointer"
                 >
                   더보기 ({filteredItems.length - visibleCount}건 남음)
-                </Button>
+                </button>
               </div>
             )}
           </>
