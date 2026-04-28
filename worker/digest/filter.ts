@@ -1,8 +1,8 @@
 import type { Item } from "../../src/data/types";
 import type { DigestSection } from "./types";
 
+const HOURS_24 = 24 * 60 * 60 * 1000;
 const HOURS_72 = 72 * 60 * 60 * 1000;
-const DAYS_7 = 7 * 24 * 60 * 60 * 1000;
 const DAYS_14 = 14 * 24 * 60 * 60 * 1000;
 
 const COSMAX_TITLE_KEYWORDS = [
@@ -118,25 +118,37 @@ export function filterDeadlineApproaching(
   return dedup(candidates, lastSentIds, 7, 7);
 }
 
-/**
- * 섹션 3: 오늘의 주요 뉴스
- * news, P0+P1, 최근 7일, 최대 10개. P0 우선 → score → 최신순.
- */
-export function filterTodayNews(items: Item[], now: Date): Item[] {
+function pickNewsWithinWindow(
+  items: Item[],
+  now: Date,
+  windowMs: number,
+): Item[] {
   const nowMs = now.getTime();
   return items
     .filter(
       (item) =>
         item.itemType === "news" &&
         (item.priority === "P0" || item.priority === "P1") &&
-        nowMs - new Date(item.publishedAt).getTime() < DAYS_7,
+        nowMs - new Date(item.publishedAt).getTime() < windowMs,
     )
     .sort((a, b) => {
       if (a.priority !== b.priority) return a.priority === "P0" ? -1 : 1;
       if (a.score !== b.score) return b.score - a.score;
       return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
-    })
-    .slice(0, 10);
+    });
+}
+
+/**
+ * 섹션 3: 오늘의 주요 뉴스
+ * news, P0+P1. 기본 24h, 5건 미만이면 72h 까지만 확장. 최대 10개.
+ * P0 우선 → score → 최신순.
+ */
+export function filterTodayNews(items: Item[], now: Date): Item[] {
+  const limit = 10;
+  const minFresh = 5;
+  const within24h = pickNewsWithinWindow(items, now, HOURS_24);
+  if (within24h.length >= minFresh) return within24h.slice(0, limit);
+  return pickNewsWithinWindow(items, now, HOURS_72).slice(0, limit);
 }
 
 const TRENDING_LIMIT = 20;

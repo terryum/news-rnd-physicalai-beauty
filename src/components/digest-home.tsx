@@ -7,8 +7,8 @@ import { useLocalStorage } from "@/hooks/use-local-storage";
 import { TrendingThumb } from "@/components/trending-thumb";
 import { TrendingHelp } from "@/components/trending-help";
 
+const HOURS_24 = 24 * 60 * 60 * 1000;
 const HOURS_72 = 72 * 60 * 60 * 1000;
-const DAYS_7 = 7 * 24 * 60 * 60 * 1000;
 const DAYS_14 = 14 * 24 * 60 * 60 * 1000;
 
 const COSMAX_KEYWORDS = [
@@ -50,7 +50,7 @@ function filterDeadline(items: Item[], now: Date): Item[] {
     .slice(0, 7);
 }
 
-function filterNews(items: Item[], now: Date): Item[] {
+function pickNewsWithinWindow(items: Item[], now: Date, windowMs: number): Item[] {
   const nowMs = now.getTime();
   return items
     .filter((i) => {
@@ -59,7 +59,7 @@ function filterNews(items: Item[], now: Date): Item[] {
         i.itemType === "news" &&
         (i.priority === "P0" || i.priority === "P1") &&
         pubMs <= nowMs &&
-        nowMs - pubMs < DAYS_7
+        nowMs - pubMs < windowMs
       );
     })
     .sort((a, b) => {
@@ -67,8 +67,16 @@ function filterNews(items: Item[], now: Date): Item[] {
       if (a.priority !== b.priority) return a.priority === "P0" ? -1 : 1;
       if (a.score !== b.score) return b.score - a.score;
       return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
-    })
-    .slice(0, 10);
+    });
+}
+
+// 기본 24h, 5건 미만이면 72h 까지만 확장. 최대 10개.
+function filterNews(items: Item[], now: Date): Item[] {
+  const limit = 10;
+  const minFresh = 5;
+  const within24h = pickNewsWithinWindow(items, now, HOURS_24);
+  if (within24h.length >= minFresh) return within24h.slice(0, limit);
+  return pickNewsWithinWindow(items, now, HOURS_72).slice(0, limit);
 }
 
 const HOURS_72_TRENDING = 72 * 60 * 60 * 1000;
